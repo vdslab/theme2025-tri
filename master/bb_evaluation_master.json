@@ -1,0 +1,40 @@
+{
+    "play_features": {
+        "hit_event": {
+            "single": 1.0,
+            "double": 1.2,
+            "triple": 1.4,
+            "home_run": 1.6
+        },
+        "rbi_impact": {
+            "regular_rbi": 1.0,
+            "tie_rbi": 1.3,
+            "go_ahead_rbi": 1.4,
+            "sayonara_rbi": 1.6
+        }
+    },
+    "situation_features": {
+        "runner_status": {
+            "none": 1.0,
+            "first_only": 1.05,
+            "second_or_third_only": 1.1,
+            "second_and_third": 1.15,
+            "bases_loaded": 1.2
+        },
+        "is_goahead_runner_on_base": {
+            "true": 1.0,
+            "false": 1.2
+        },
+        "score_difference": {
+            "tie": 1.3,
+            "plus_minus_1": 1.2,
+            "plus_minus_2": 1.1,
+            "plus_minus_3_or_more": 1.0
+        },
+        "inning_phase": {
+            "early": 1.0,
+            "middle": 1.1,
+            "late": 1.2
+        }
+    }
+}
