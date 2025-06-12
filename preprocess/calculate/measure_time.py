@@ -7,5 +7,5 @@ def calc_time_diff(start_time,end_time):
     end_dt = datetime.fromisoformat(end_time.replace("Z", "+00:00"))
 
     duration = end_dt - start_dt
-
-    print("Duration (seconds):", duration.total_seconds())
+    
+    return duration.total_seconds()

@@ -8,16 +8,15 @@ from calculate.measure_time import calc_time_diff
 with open("data/raw/game/777708.json", encoding="utf-8") as f:
     data = json.load(f)
 
-
 all_plays = data["liveData"]["plays"]["allPlays"]
 
 durations = []
 sec = 0
 
 for play in all_plays:
-    # NOTE:rue:表,False:裏
+    # NOTE:True:表,False:裏
     if  play["about"]["isTopInning"] == True:
-        print("name : " + play["matchup"]["batter"]["fullName"])
+        # print("name : " + play["matchup"]["batter"]["fullName"])
         events = play["playEvents"]
 
         for event in events:
@@ -29,7 +28,13 @@ for play in all_plays:
             durations.append(d)
             if d <= 0:
                 continue
+            # print("Duration (seconds):", calc_time_diff(event["startTime"] ,event["endTime"]))
+            # try:
+            #     print(event["details"]["description"])
                 
+            # # NOTE:keyがない:KeyError,eventが辞書でない等:TypeError
+            # except (KeyError, TypeError) as e:
+            #     logging.warning("description 取得失敗 (%s): %s", e, event)
 
 bins = [d/sec for d in durations]
 pos = []
