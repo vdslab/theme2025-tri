@@ -10,12 +10,8 @@ with open("data/raw/game/777708.json", encoding="utf-8") as f:
 
 all_plays = data["liveData"]["plays"]["allPlays"]
 
-# NOTE:タグ確認用
-# keys = set()
-# for play in all_plays:
-#     keys.update(play.keys())
-    
-# print(keys)
+durations = []
+sec = 0
 
 for play in all_plays:
     # NOTE:rue:表,False:裏
@@ -27,12 +23,22 @@ for play in all_plays:
             # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
             if event["type"] == "action":
                 continue
-            
-            calc_time_diff(event["startTime"] ,event["endTime"])
-            try:
-                print(event["details"]["description"])
+            d = calc_time_diff(event["startTime"] ,event["endTime"])
+            sec += d
+            durations.append(d)
+            if d <= 0:
+                continue
                 
-            # NOTE:keyがない:KeyError,eventが辞書でない等:TypeError
-            except (KeyError, TypeError) as e:
-                logging.warning("description 取得失敗 (%s): %s", e, event)
-                
+
+bins = [d/sec for d in durations]
+pos = []
+cur = 0
+# TODO:要素数はbinの個数に一致させる　
+# 評価値を正規化して(若しくは正規化された評価値を使用して)ヒートマップに反映する
+# 評価値を取得できるようになったら書き直すこと
+# scores = [i for i in range(len(bins))]
+scores = [idx for idx, _ in enumerate(bins)]
+
+for bin_p in bins:
+    pos.append((cur,bin_p))
+    cur += bin_p
