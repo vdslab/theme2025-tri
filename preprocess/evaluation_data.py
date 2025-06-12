@@ -1,5 +1,6 @@
 import json
 import logging
+import matplotlib.pyplot as plt
 logging.basicConfig(level=logging.WARNING)
 
 from calculate.measure_time import calc_time_diff
@@ -42,3 +43,19 @@ scores = [idx for idx, _ in enumerate(bins)]
 for bin_p in bins:
     pos.append((cur,bin_p))
     cur += bin_p
+
+cmap = plt.cm.get_cmap("viridis")
+normed = [(s - min(scores)) / (max(scores) - min(scores) + 1e-6) for s in scores]
+colors = [cmap(n) for n in normed]
+
+plt.figure(figsize=(10, 2))
+for (start, width), color in zip(pos, colors):
+    plt.barh(0, width, left=start, color=color, edgecolor='black')
+
+plt.xlabel("Proportional Timeline (Top Innings Only)")
+plt.yticks([])
+plt.title("Top Inning Events Colored by Duration Proportion")
+plt.xlim(0, 1)
+plt.margins(x=0)
+plt.tight_layout()
+plt.show()
