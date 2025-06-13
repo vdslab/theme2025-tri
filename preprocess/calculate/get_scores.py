@@ -81,6 +81,7 @@ def func_score_diff(score_diff):
     
     return diff_score
 
+def get_play_event_score(event,play,isLast):
     score = 0
     result = play["result"]
     eventType = result.get("eventType")
@@ -111,20 +112,21 @@ def func_score_diff(score_diff):
         
     return score
 
-def get_score(event, a=0.5, b=0.5):
-    return play_event_score(event) * (a * get_before_situation_score(play) + b * get_after_situation_score(play))
+def get_scores():
+    scores = []
+    for play in all_plays:
+        # NOTE:True:表,False:裏
+        if  play["about"]["isTopInning"] == False:
+            events = play["playEvents"]
 
-for play in all_plays:
-    # NOTE:True:表,False:裏
-    if  play["about"]["isTopInning"] == False:
-        events = play["playEvents"]
-
-        for idx,event in enumerate(events):
-            # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
-            if event["type"] == "action":
-                continue
-            isLast = len(events)-1
-            # TODO:消すこと
-            # print(play_event_score(event,play,isLast))
-            
-    
+            for idx,event in enumerate(events):
+                score = 0
+                # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
+                if event["type"] == "action":
+                    continue
+                
+                isLast = idx == len(events)-1
+                
+                score = get_play_event_score(event,play,isLast) + get_situation_score(event,play,isLast,a = 0.5,b = 0.5)
+                scores.append(score)
+    return scores
