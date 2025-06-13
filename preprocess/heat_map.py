@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 logging.basicConfig(level=logging.WARNING)
 
 from calculate.measure_time import calc_time_diff
+from calculate.get_scores import get_scores
 
 with open("data/raw/game/777708.json", encoding="utf-8") as f:
     data = json.load(f)
@@ -43,7 +44,9 @@ cur = 0
 # 評価値を正規化して(若しくは正規化された評価値を使用して)ヒートマップに反映する
 # 評価値を取得できるようになったら書き直すこと
 # scores = [i for i in range(len(bins))]
-scores = [idx for idx, _ in enumerate(bins)]
+# scores = [idx for idx, _ in enumerate(bins)]
+
+scores = get_scores()
 
 for bin_p in bins:
     pos.append((cur,bin_p))
