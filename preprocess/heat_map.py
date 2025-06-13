@@ -17,7 +17,6 @@ sec = 0
 for play in all_plays:
     # NOTE:True:表,False:裏
     if  play["about"]["isTopInning"] == True:
-        # print("name : " + play["matchup"]["batter"]["fullName"])
         events = play["playEvents"]
 
         for event in events:
@@ -29,7 +28,8 @@ for play in all_plays:
             durations.append(d)
             if d <= 0:
                 continue
-            # print("Duration (seconds):", calc_time_diff(event["startTime"] ,event["endTime"]))
+            
+            # NOTE:logの出し方忘れないように残しとく
             # try:
             #     print(event["details"]["description"])
                 
