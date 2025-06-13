@@ -27,10 +27,13 @@
             "false": 1.2
         },
         "score_difference": {
-            "tie": 1.3,
-            "plus_minus_1": 1.2,
-            "plus_minus_2": 1.1,
-            "plus_minus_3_or_more": 1.0
+            "minus_less_3": 0.5,
+            "minus_2": 0.8,
+            "minus_1": 0.9,
+            "tie": 1.2,
+            "plus_1": 1.3,
+            "plus_2": 1.4,
+            "plus_more_3": 1.5
         },
         "inning_phase": {
             "early": 1.0,
