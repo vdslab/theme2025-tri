@@ -11,18 +11,76 @@ situation_features = evaluation_master["situation_features"]
 
 all_plays = game_data["liveData"]["plays"]["allPlays"]
 
-def get_situation_score(event):
-    return (
+def get_situation_score(event,play,isLast,a,b):
+    
+    inning = play["about"].get("inning",{})
+    
+    # inning_scoreを算出
+    inning_score = 0
+    if inning <= 3:
+        inning_score = situation_features["inning_phase"]["early"]
+    elif inning <= 6:
+        inning_score = situation_features["inning_phase"]["middle"]
+    else:
+        inning_score = situation_features["inning_phase"]["late"]
+    
+    a_score = play["result"].get("awayScore",{})
+    h_score = play["result"].get("awayScore",{})
+    
+    isTopInning = play["about"].get("isTopInning",{})
+    
+    rbi = play["result"].get("awayScore",{})
+    
+    # 相対的な得点差
+    # pre_diff_score,diff_scoreを算出
+    pre_diff_score = 0
+    diff_score = 0
+    
+    if isLast:
+        if isTopInning:
+            pre_a_score = a_score - rbi
+            pre_diff_score = func_score_diff(pre_a_score - h_score)
+            diff_score = func_score_diff(a_score - h_score)
+        else:
+            pre_h_score = h_score - rbi
+            pre_diff_score = func_score_diff(pre_h_score - a_score)
+            diff_score = func_score_diff(h_score - a_score)
+    
+    else:
+        if isTopInning:
+            pre_diff_score = func_score_diff(a_score - h_score)
+            diff_score = func_score_diff(a_score - h_score)
+        else:
+            pre_diff_score = func_score_diff(a_score - h_score)
+            diff_score = func_score_diff(a_score - h_score)
+            
+    # 逆転のランナーがいるか
+    # 負けている時に限る
+    # 点差よりランナー数が多いならtrue
+    
+    # ランナー状況
+    
+    return a * (inning_score + pre_diff_score) + b * (inning_score + diff_score)
 
-    )
+def func_score_diff(score_diff):
+    diff_score = 0
+    if score_diff <= -3:
+        diff_score = situation_features["score_difference"]["minus_less_3"]   
+    elif  score_diff == -2:
+        diff_score = situation_features["score_difference"]["minus_2"]
+    elif  score_diff == -1:
+        diff_score = situation_features["score_difference"]["minus_1"]
+    elif  score_diff == 0:
+        diff_score = situation_features["score_difference"]["tie"]
+    elif  score_diff == 1:
+        diff_score = situation_features["score_difference"]["plus_1"] 
+    elif  score_diff == 2:
+        diff_score = situation_features["score_difference"]["plus_2"] 
+    elif  score_diff >= 3:
+        diff_score = situation_features["score_difference"]["plus_more_3"] 
+    
+    return diff_score
 
-def get_before_situation_score(play):
-    return get_situation_score("first_only", "true", "tie", "early")
-
-def get_after_situation_score(play):
-    return get_situation_score("bases_loaded", "false", "plus_minus_3_or_more", "late")
-
-def play_event_score(event,play,isLast):
     score = 0
     result = play["result"]
     eventType = result.get("eventType")
