@@ -1,0 +1,18 @@
+name: prevent-non-develop-to-main
+
+on:
+  pull_request: # すべての PR を監視するが、チェックは `main` だけに適用する
+    branches:
+      - main
+
+jobs:
+  prevent-non-develop-to-main:
+    runs-on: ubuntu-latest
+    if: github.base_ref == 'main' # main に対する PR の場合のみ実行
+    steps:
+      - name: Check if the source branch is not develop
+        run: |
+          if [[ "${{ github.head_ref }}" != "develop" ]]; then
+            echo "❌ Error: Only 'develop' can be merged into 'main'."
+            exit 1
+          fi
