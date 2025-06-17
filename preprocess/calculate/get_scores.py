@@ -110,7 +110,40 @@ def get_play_event_score(event,play,isLast):
     if isLast:
         score = unique_score
         
-    return score
+    # 打点の特徴に対する評価
+    # NOTE:負けているときdiff_scoreは負
+    
+    rbi = result.get("rbi")
+    a_score = result.get("awayScore",{})
+    h_score = result.get("awayScore",{})
+
+    isTopInning = play["about"].get("isTopInning",{})
+    if isTopInning:
+        pre_a_score = a_score-rbi
+        diff_score = pre_a_score-h_score
+    else:
+        pre_h_score = h_score-rbi
+        diff_score = pre_h_score-a_score
+    
+    rbi_score = 0
+    unique_rbi_score = 0
+    if diff_score == 0:
+        if rbi > 0:
+            unique_rbi_score = play_features["rbi_impact"]["go_ahead_rbi"]
+    elif diff_score < 0:
+        if rbi == diff_score*(-1):
+            unique_rbi_score = play_features["rbi_impact"]["tie_rbi"]
+        elif rbi > diff_score*(-1):
+            unique_rbi_score = play_features["rbi_impact"]["sayonara_rbi"]
+    else:
+        if rbi > 0:
+            unique_rbi_score = play_features["rbi_impact"]["regular_rbi"]
+        
+    # NOTE:最終要素の場合のみユニークスコアに変換
+    if isLast:
+        rbi_score = unique_rbi_score
+        
+    return score + rbi_score
 
 def get_scores():
     scores = []
