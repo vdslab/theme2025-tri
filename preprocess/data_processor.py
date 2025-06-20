@@ -1,4 +1,5 @@
 import json
+from calculate.measure_time import calc_time_diff
 
 def data_download():
     with open("data/raw/game/777490.json", encoding="utf-8") as f:
@@ -149,6 +150,12 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     # is_last_inning    
     is_last_inning =  is_away == False and inning == last_inning
     
+    # time
+    time = {}
+    start_time = event["startTime"]
+    end_time = event["endTime"]
+    diff_time = calc_time_diff(start_time,end_time)
+    
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
     processed_event["inning"] = inning
@@ -172,6 +179,10 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     processed_event["team_score"] = team_score
     processed_event["rbi"] = rbi
     processed_event["is_last_inning"] = is_last_inning
+    processed_event["time"] = time
+    time["start_time"] = start_time
+    time["end_time"] = end_time
+    time["diff_time"] = diff_time
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 

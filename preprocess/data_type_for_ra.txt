@@ -41,5 +41,10 @@
                 "late": bool
             }
         }
+        "time": {
+            "start_time": ISO 8601フォーマット
+            "end_time": ISO 8601フォーマット
+            "diff_time": float // イベントの秒数
+        }
     }
 }

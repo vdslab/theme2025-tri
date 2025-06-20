@@ -39,6 +39,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-16T22:29:23.267Z",
+                "end_time": "2025-06-17T01:40:58.291Z",
+                "diff_time": 11495.024
             }
         },
         "1": {
@@ -80,6 +85,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T01:40:58.291Z",
+                "end_time": "2025-06-17T02:08:43.274Z",
+                "diff_time": 1664.983
             }
         },
         "2": {
@@ -121,6 +131,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:08:43.274Z",
+                "end_time": "2025-06-17T02:10:22.667Z",
+                "diff_time": 99.393
             }
         },
         "3": {
@@ -162,6 +177,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:10:22.667Z",
+                "end_time": "2025-06-17T02:10:26.185Z",
+                "diff_time": 3.518
             }
         },
         "4": {
@@ -203,6 +223,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:10:38.864Z",
+                "end_time": "2025-06-17T02:10:43.011Z",
+                "diff_time": 4.147
             }
         },
         "5": {
@@ -244,6 +269,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:10:55.883Z",
+                "end_time": "2025-06-17T02:10:59.886Z",
+                "diff_time": 4.003
             }
         },
         "6": {
@@ -285,6 +315,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:11:12.857Z",
+                "end_time": "2025-06-17T02:11:16.140Z",
+                "diff_time": 3.283
             }
         },
         "7": {
@@ -326,6 +361,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:11:33.924Z",
+                "end_time": "2025-06-17T02:11:37.530Z",
+                "diff_time": 3.606
             }
         },
         "8": {
@@ -367,6 +407,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:11:49.955Z",
+                "end_time": "2025-06-17T02:12:01.464Z",
+                "diff_time": 11.509
             }
         }
     },
@@ -410,6 +455,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:12:27.387Z",
+                "end_time": "2025-06-17T02:12:32.177Z",
+                "diff_time": 4.79
             }
         },
         "1": {
@@ -451,6 +501,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:12:41.702Z",
+                "end_time": "2025-06-17T02:13:07.851Z",
+                "diff_time": 26.149
             }
         },
         "2": {
@@ -492,6 +547,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:13:07.851Z",
+                "end_time": "2025-06-17T02:13:11.340Z",
+                "diff_time": 3.489
             }
         },
         "3": {
@@ -533,6 +593,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:13:27.575Z",
+                "end_time": "2025-06-17T02:13:31.009Z",
+                "diff_time": 3.434
             }
         },
         "4": {
@@ -574,6 +639,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:13:37.094Z",
+                "end_time": "2025-06-17T02:13:47.615Z",
+                "diff_time": 10.521
             }
         },
         "5": {
@@ -615,6 +685,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:13:47.615Z",
+                "end_time": "2025-06-17T02:13:50.862Z",
+                "diff_time": 3.247
             }
         },
         "6": {
@@ -656,6 +731,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:14:04.993Z",
+                "end_time": "2025-06-17T02:14:08.331Z",
+                "diff_time": 3.338
             }
         },
         "7": {
@@ -697,6 +777,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:14:28.487Z",
+                "end_time": "2025-06-17T02:14:38.447Z",
+                "diff_time": 9.96
             }
         }
     },
@@ -740,6 +825,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:15:17.130Z",
+                "end_time": "2025-06-17T02:15:23.246Z",
+                "diff_time": 6.116
             }
         },
         "1": {
@@ -781,6 +871,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:15:49.012Z",
+                "end_time": "2025-06-17T02:15:53.028Z",
+                "diff_time": 4.016
             }
         },
         "2": {
@@ -822,6 +917,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:16:08.054Z",
+                "end_time": "2025-06-17T02:16:12.327Z",
+                "diff_time": 4.273
             }
         },
         "3": {
@@ -863,6 +963,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:16:31.242Z",
+                "end_time": "2025-06-17T02:16:36.513Z",
+                "diff_time": 5.271
             }
         },
         "4": {
@@ -904,6 +1009,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:16:58.490Z",
+                "end_time": "2025-06-17T02:17:16.964Z",
+                "diff_time": 18.474
             }
         },
         "5": {
@@ -945,6 +1055,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:17:16.964Z",
+                "end_time": "2025-06-17T02:17:21.091Z",
+                "diff_time": 4.127
             }
         },
         "6": {
@@ -986,6 +1101,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:17:37.388Z",
+                "end_time": "2025-06-17T02:17:48.897Z",
+                "diff_time": 11.509
             }
         }
     },
@@ -1029,6 +1149,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:18:31.090Z",
+                "end_time": "2025-06-17T02:18:34.419Z",
+                "diff_time": 3.329
             }
         },
         "1": {
@@ -1070,6 +1195,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:18:48.105Z",
+                "end_time": "2025-06-17T02:18:52.340Z",
+                "diff_time": 4.235
             }
         },
         "2": {
@@ -1111,6 +1241,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:19:06.221Z",
+                "end_time": "2025-06-17T02:19:09.459Z",
+                "diff_time": 3.238
             }
         },
         "3": {
@@ -1152,6 +1287,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:19:26.155Z",
+                "end_time": "2025-06-17T02:19:29.847Z",
+                "diff_time": 3.692
             }
         },
         "4": {
@@ -1193,6 +1333,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:19:49.643Z",
+                "end_time": "2025-06-17T02:19:53.099Z",
+                "diff_time": 3.456
             }
         },
         "5": {
@@ -1234,6 +1379,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:20:09.293Z",
+                "end_time": "2025-06-17T02:20:12.674Z",
+                "diff_time": 3.381
             }
         },
         "6": {
@@ -1275,6 +1425,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:20:33.184Z",
+                "end_time": "2025-06-17T02:20:41.696Z",
+                "diff_time": 8.512
             }
         }
     },
@@ -1318,6 +1473,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:21:17.835Z",
+                "end_time": "2025-06-17T02:21:21.548Z",
+                "diff_time": 3.713
             }
         },
         "1": {
@@ -1359,6 +1519,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:21:34.103Z",
+                "end_time": "2025-06-17T02:21:37.944Z",
+                "diff_time": 3.841
             }
         },
         "2": {
@@ -1400,6 +1565,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:21:53.932Z",
+                "end_time": "2025-06-17T02:22:02.631Z",
+                "diff_time": 8.699
             }
         }
     },
@@ -1435,6 +1605,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:24:25.716Z",
+                "end_time": "2025-06-17T02:24:29.150Z",
+                "diff_time": 3.434
             }
         },
         "1": {
@@ -1468,6 +1643,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:24:40.497Z",
+                "end_time": "2025-06-17T02:24:44.019Z",
+                "diff_time": 3.522
             }
         },
         "2": {
@@ -1501,6 +1681,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:24:55.548Z",
+                "end_time": "2025-06-17T02:24:59.294Z",
+                "diff_time": 3.746
             }
         },
         "3": {
@@ -1534,6 +1719,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:25:03.752Z",
+                "end_time": "2025-06-17T02:25:20.017Z",
+                "diff_time": 16.265
             }
         },
         "4": {
@@ -1567,6 +1757,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:25:20.017Z",
+                "end_time": "2025-06-17T02:25:23.643Z",
+                "diff_time": 3.626
             }
         },
         "5": {
@@ -1600,6 +1795,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:25:53.933Z",
+                "end_time": "2025-06-17T02:25:57.252Z",
+                "diff_time": 3.319
             }
         },
         "6": {
@@ -1633,6 +1833,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:26:16.502Z",
+                "end_time": "2025-06-17T02:26:20.012Z",
+                "diff_time": 3.51
             }
         },
         "7": {
@@ -1666,6 +1871,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:26:40.362Z",
+                "end_time": "2025-06-17T02:26:44.129Z",
+                "diff_time": 3.767
             }
         }
     },
@@ -1701,6 +1911,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:27:12.571Z",
+                "end_time": "2025-06-17T02:27:16.244Z",
+                "diff_time": 3.673
             }
         },
         "1": {
@@ -1734,6 +1949,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:27:26.904Z",
+                "end_time": "2025-06-17T02:27:30.094Z",
+                "diff_time": 3.19
             }
         },
         "2": {
@@ -1767,6 +1987,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:27:48.103Z",
+                "end_time": "2025-06-17T02:27:51.527Z",
+                "diff_time": 3.424
             }
         },
         "3": {
@@ -1800,6 +2025,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:28:10.827Z",
+                "end_time": "2025-06-17T02:28:15.268Z",
+                "diff_time": 4.441
             }
         },
         "4": {
@@ -1833,6 +2063,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:28:34.033Z",
+                "end_time": "2025-06-17T02:28:38.634Z",
+                "diff_time": 4.601
             }
         },
         "5": {
@@ -1866,6 +2101,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:28:56.241Z",
+                "end_time": "2025-06-17T02:28:59.662Z",
+                "diff_time": 3.421
             }
         }
     },
@@ -1901,6 +2141,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:29:27.825Z",
+                "end_time": "2025-06-17T02:29:30.943Z",
+                "diff_time": 3.118
             }
         },
         "1": {
@@ -1934,6 +2179,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:29:44.221Z",
+                "end_time": "2025-06-17T02:29:47.482Z",
+                "diff_time": 3.261
             }
         },
         "2": {
@@ -1967,6 +2217,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:30:04.832Z",
+                "end_time": "2025-06-17T02:30:08.127Z",
+                "diff_time": 3.295
             }
         },
         "3": {
@@ -2000,6 +2255,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:30:29.634Z",
+                "end_time": "2025-06-17T02:30:33.346Z",
+                "diff_time": 3.712
             }
         },
         "4": {
@@ -2033,6 +2293,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:30:51.754Z",
+                "end_time": "2025-06-17T02:30:55.630Z",
+                "diff_time": 3.876
             }
         }
     },
@@ -2076,6 +2341,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:31:59.837Z",
+                "end_time": "2025-06-17T02:31:59.850Z",
+                "diff_time": 0.013
             }
         },
         "1": {
@@ -2117,6 +2387,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:31:59.850Z",
+                "end_time": "2025-06-17T02:33:03.341Z",
+                "diff_time": 63.491
             }
         },
         "2": {
@@ -2158,6 +2433,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:33:03.341Z",
+                "end_time": "2025-06-17T02:33:18.442Z",
+                "diff_time": 15.101
             }
         },
         "3": {
@@ -2199,6 +2479,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:33:18.442Z",
+                "end_time": "2025-06-17T02:33:21.842Z",
+                "diff_time": 3.4
             }
         },
         "4": {
@@ -2240,6 +2525,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:33:38.117Z",
+                "end_time": "2025-06-17T02:33:41.648Z",
+                "diff_time": 3.531
             }
         },
         "5": {
@@ -2281,6 +2571,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:33:54.496Z",
+                "end_time": "2025-06-17T02:33:58.132Z",
+                "diff_time": 3.636
             }
         },
         "6": {
@@ -2322,6 +2617,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:34:11.296Z",
+                "end_time": "2025-06-17T02:34:14.680Z",
+                "diff_time": 3.384
             }
         },
         "7": {
@@ -2363,6 +2663,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:34:30.635Z",
+                "end_time": "2025-06-17T02:34:33.883Z",
+                "diff_time": 3.248
             }
         },
         "8": {
@@ -2404,6 +2709,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:34:51.192Z",
+                "end_time": "2025-06-17T02:34:54.332Z",
+                "diff_time": 3.14
             }
         },
         "9": {
@@ -2445,6 +2755,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:35:12.188Z",
+                "end_time": "2025-06-17T02:35:15.582Z",
+                "diff_time": 3.394
             }
         },
         "10": {
@@ -2486,6 +2801,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:35:35.471Z",
+                "end_time": "2025-06-17T02:35:39.552Z",
+                "diff_time": 4.081
             }
         }
     },
@@ -2529,6 +2849,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:36:03.633Z",
+                "end_time": "2025-06-17T02:36:06.967Z",
+                "diff_time": 3.334
             }
         },
         "1": {
@@ -2570,6 +2895,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:36:21.712Z",
+                "end_time": "2025-06-17T02:36:24.924Z",
+                "diff_time": 3.212
             }
         },
         "2": {
@@ -2611,6 +2941,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:36:41.068Z",
+                "end_time": "2025-06-17T02:36:46.698Z",
+                "diff_time": 5.63
             }
         },
         "3": {
@@ -2652,6 +2987,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:37:00.092Z",
+                "end_time": "2025-06-17T02:37:03.336Z",
+                "diff_time": 3.244
             }
         },
         "4": {
@@ -2693,6 +3033,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:37:12.227Z",
+                "end_time": "2025-06-17T02:37:28.275Z",
+                "diff_time": 16.048
             }
         },
         "5": {
@@ -2734,6 +3079,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:37:28.275Z",
+                "end_time": "2025-06-17T02:37:31.804Z",
+                "diff_time": 3.529
             }
         }
     },
@@ -2777,6 +3127,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:37:57.333Z",
+                "end_time": "2025-06-17T02:38:00.815Z",
+                "diff_time": 3.482
             }
         },
         "1": {
@@ -2818,6 +3173,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:38:16.230Z",
+                "end_time": "2025-06-17T02:38:19.697Z",
+                "diff_time": 3.467
             }
         },
         "2": {
@@ -2859,6 +3219,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:38:32.127Z",
+                "end_time": "2025-06-17T02:38:36.544Z",
+                "diff_time": 4.417
             }
         },
         "3": {
@@ -2900,6 +3265,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:38:49.137Z",
+                "end_time": "2025-06-17T02:38:53.974Z",
+                "diff_time": 4.837
             }
         },
         "4": {
@@ -2941,6 +3311,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:39:17.003Z",
+                "end_time": "2025-06-17T02:39:20.356Z",
+                "diff_time": 3.353
             }
         },
         "5": {
@@ -2982,6 +3357,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:39:35.563Z",
+                "end_time": "2025-06-17T02:39:38.826Z",
+                "diff_time": 3.263
             }
         },
         "6": {
@@ -3023,6 +3403,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:40:03.996Z",
+                "end_time": "2025-06-17T02:40:07.808Z",
+                "diff_time": 3.812
             }
         },
         "7": {
@@ -3064,6 +3449,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:40:22.251Z",
+                "end_time": "2025-06-17T02:40:25.742Z",
+                "diff_time": 3.491
             }
         }
     },
@@ -3107,6 +3497,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:40:43.078Z",
+                "end_time": "2025-06-17T02:41:16.887Z",
+                "diff_time": 33.809
             }
         },
         "1": {
@@ -3148,6 +3543,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:41:16.887Z",
+                "end_time": "2025-06-17T02:43:10.416Z",
+                "diff_time": 113.529
             }
         },
         "2": {
@@ -3189,6 +3589,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:43:10.416Z",
+                "end_time": "2025-06-17T02:43:13.687Z",
+                "diff_time": 3.271
             }
         },
         "3": {
@@ -3230,6 +3635,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:43:26.462Z",
+                "end_time": "2025-06-17T02:43:30.101Z",
+                "diff_time": 3.639
             }
         },
         "4": {
@@ -3271,6 +3681,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:43:45.032Z",
+                "end_time": "2025-06-17T02:43:48.599Z",
+                "diff_time": 3.567
             }
         },
         "5": {
@@ -3312,6 +3727,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:44:05.000Z",
+                "end_time": "2025-06-17T02:44:08.370Z",
+                "diff_time": 3.37
             }
         },
         "6": {
@@ -3353,6 +3773,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:44:14.236Z",
+                "end_time": "2025-06-17T02:44:32.373Z",
+                "diff_time": 18.137
             }
         },
         "7": {
@@ -3394,6 +3819,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:44:32.373Z",
+                "end_time": "2025-06-17T02:44:38.938Z",
+                "diff_time": 6.565
             }
         },
         "8": {
@@ -3435,6 +3865,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:45:05.208Z",
+                "end_time": "2025-06-17T02:45:08.606Z",
+                "diff_time": 3.398
             }
         },
         "9": {
@@ -3476,6 +3911,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:45:28.294Z",
+                "end_time": "2025-06-17T02:45:37.516Z",
+                "diff_time": 9.222
             }
         }
     },
@@ -3511,6 +3951,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:48:00.312Z",
+                "end_time": "2025-06-17T02:48:03.611Z",
+                "diff_time": 3.299
             }
         },
         "1": {
@@ -3544,6 +3989,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:48:13.570Z",
+                "end_time": "2025-06-17T02:48:17.170Z",
+                "diff_time": 3.6
             }
         },
         "2": {
@@ -3577,6 +4027,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:48:30.003Z",
+                "end_time": "2025-06-17T02:48:33.497Z",
+                "diff_time": 3.494
             }
         },
         "3": {
@@ -3610,6 +4065,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:48:41.708Z",
+                "end_time": "2025-06-17T02:48:57.854Z",
+                "diff_time": 16.146
             }
         },
         "4": {
@@ -3643,6 +4103,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:48:57.854Z",
+                "end_time": "2025-06-17T02:49:01.142Z",
+                "diff_time": 3.288
             }
         }
     },
@@ -3678,6 +4143,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:49:28.040Z",
+                "end_time": "2025-06-17T02:49:31.512Z",
+                "diff_time": 3.472
             }
         },
         "1": {
@@ -3711,6 +4181,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:49:47.031Z",
+                "end_time": "2025-06-17T02:49:52.977Z",
+                "diff_time": 5.946
             }
         },
         "2": {
@@ -3744,6 +4219,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:50:08.774Z",
+                "end_time": "2025-06-17T02:50:12.459Z",
+                "diff_time": 3.685
             }
         },
         "3": {
@@ -3777,6 +4257,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:50:21.686Z",
+                "end_time": "2025-06-17T02:50:42.470Z",
+                "diff_time": 20.784
             }
         },
         "4": {
@@ -3810,6 +4295,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:50:42.470Z",
+                "end_time": "2025-06-17T02:50:46.094Z",
+                "diff_time": 3.624
             }
         }
     },
@@ -3845,6 +4335,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:51:12.036Z",
+                "end_time": "2025-06-17T02:51:15.667Z",
+                "diff_time": 3.631
             }
         },
         "1": {
@@ -3878,6 +4373,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:51:27.463Z",
+                "end_time": "2025-06-17T02:51:31.295Z",
+                "diff_time": 3.832
             }
         },
         "2": {
@@ -3911,6 +4411,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:51:43.290Z",
+                "end_time": "2025-06-17T02:51:46.951Z",
+                "diff_time": 3.661
             }
         },
         "3": {
@@ -3944,6 +4449,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:52:03.815Z",
+                "end_time": "2025-06-17T02:52:07.136Z",
+                "diff_time": 3.321
             }
         },
         "4": {
@@ -3977,6 +4487,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:52:21.267Z",
+                "end_time": "2025-06-17T02:52:28.979Z",
+                "diff_time": 7.712
             }
         }
     },
@@ -4020,6 +4535,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:54:38.497Z",
+                "end_time": "2025-06-17T02:54:42.165Z",
+                "diff_time": 3.668
             }
         },
         "1": {
@@ -4061,6 +4581,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:54:53.095Z",
+                "end_time": "2025-06-17T02:54:56.299Z",
+                "diff_time": 3.204
             }
         },
         "2": {
@@ -4102,6 +4627,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:55:06.756Z",
+                "end_time": "2025-06-17T02:55:10.647Z",
+                "diff_time": 3.891
             }
         },
         "3": {
@@ -4143,6 +4673,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:55:22.514Z",
+                "end_time": "2025-06-17T02:55:25.875Z",
+                "diff_time": 3.361
             }
         },
         "4": {
@@ -4184,6 +4719,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:55:35.187Z",
+                "end_time": "2025-06-17T02:55:38.571Z",
+                "diff_time": 3.384
             }
         },
         "5": {
@@ -4225,6 +4765,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:55:45.046Z",
+                "end_time": "2025-06-17T02:55:56.282Z",
+                "diff_time": 11.236
             }
         },
         "6": {
@@ -4266,6 +4811,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:55:56.282Z",
+                "end_time": "2025-06-17T02:56:00.119Z",
+                "diff_time": 3.837
             }
         },
         "7": {
@@ -4307,6 +4857,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:56:20.992Z",
+                "end_time": "2025-06-17T02:56:28.658Z",
+                "diff_time": 7.666
             }
         }
     },
@@ -4350,6 +4905,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:56:51.713Z",
+                "end_time": "2025-06-17T02:56:59.765Z",
+                "diff_time": 8.052
             }
         }
     },
@@ -4393,6 +4953,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:57:24.771Z",
+                "end_time": "2025-06-17T02:57:27.824Z",
+                "diff_time": 3.053
             }
         },
         "1": {
@@ -4434,6 +4999,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:57:37.642Z",
+                "end_time": "2025-06-17T02:57:40.703Z",
+                "diff_time": 3.061
             }
         },
         "2": {
@@ -4475,6 +5045,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:57:55.116Z",
+                "end_time": "2025-06-17T02:57:58.550Z",
+                "diff_time": 3.434
             }
         },
         "3": {
@@ -4516,6 +5091,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:58:09.525Z",
+                "end_time": "2025-06-17T02:58:12.799Z",
+                "diff_time": 3.274
             }
         },
         "4": {
@@ -4557,6 +5137,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:58:25.882Z",
+                "end_time": "2025-06-17T02:58:29.083Z",
+                "diff_time": 3.201
             }
         },
         "5": {
@@ -4598,6 +5183,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:58:43.892Z",
+                "end_time": "2025-06-17T02:58:48.124Z",
+                "diff_time": 4.232
             }
         },
         "6": {
@@ -4639,6 +5229,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:59:07.459Z",
+                "end_time": "2025-06-17T02:59:11.067Z",
+                "diff_time": 3.608
             }
         },
         "7": {
@@ -4680,6 +5275,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T02:59:31.425Z",
+                "end_time": "2025-06-17T02:59:40.415Z",
+                "diff_time": 8.99
             }
         }
     },
@@ -4715,6 +5315,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:01:49.927Z",
+                "end_time": "2025-06-17T03:02:02.132Z",
+                "diff_time": 12.205
             }
         },
         "1": {
@@ -4748,6 +5353,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:02:02.132Z",
+                "end_time": "2025-06-17T03:02:05.552Z",
+                "diff_time": 3.42
             }
         },
         "2": {
@@ -4781,6 +5391,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:02:16.735Z",
+                "end_time": "2025-06-17T03:02:30.265Z",
+                "diff_time": 13.53
             }
         }
     },
@@ -4816,6 +5431,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:03:08.128Z",
+                "end_time": "2025-06-17T03:03:11.401Z",
+                "diff_time": 3.273
             }
         },
         "1": {
@@ -4849,6 +5469,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:03:29.194Z",
+                "end_time": "2025-06-17T03:03:32.297Z",
+                "diff_time": 3.103
             }
         },
         "2": {
@@ -4882,6 +5507,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:03:49.148Z",
+                "end_time": "2025-06-17T03:03:52.310Z",
+                "diff_time": 3.162
             }
         },
         "3": {
@@ -4915,6 +5545,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:04:12.611Z",
+                "end_time": "2025-06-17T03:04:16.176Z",
+                "diff_time": 3.565
             }
         },
         "4": {
@@ -4948,6 +5583,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:04:25.953Z",
+                "end_time": "2025-06-17T03:04:43.894Z",
+                "diff_time": 17.941
             }
         },
         "5": {
@@ -4981,6 +5621,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:04:43.894Z",
+                "end_time": "2025-06-17T03:04:47.159Z",
+                "diff_time": 3.265
             }
         }
     },
@@ -5016,6 +5661,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:05:13.123Z",
+                "end_time": "2025-06-17T03:05:18.123Z",
+                "diff_time": 5.0
             }
         },
         "1": {
@@ -5049,6 +5699,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:05:27.481Z",
+                "end_time": "2025-06-17T03:05:30.980Z",
+                "diff_time": 3.499
             }
         },
         "2": {
@@ -5082,6 +5737,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:05:48.701Z",
+                "end_time": "2025-06-17T03:05:51.987Z",
+                "diff_time": 3.286
             }
         },
         "3": {
@@ -5115,6 +5775,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:06:10.323Z",
+                "end_time": "2025-06-17T03:06:13.551Z",
+                "diff_time": 3.228
             }
         },
         "4": {
@@ -5148,6 +5813,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:06:35.761Z",
+                "end_time": "2025-06-17T03:06:38.938Z",
+                "diff_time": 3.177
             }
         },
         "5": {
@@ -5181,6 +5851,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:06:50.005Z",
+                "end_time": "2025-06-17T03:07:09.399Z",
+                "diff_time": 19.394
             }
         },
         "6": {
@@ -5214,6 +5889,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:07:09.399Z",
+                "end_time": "2025-06-17T03:07:17.904Z",
+                "diff_time": 8.505
             }
         }
     },
@@ -5249,6 +5929,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:07:47.754Z",
+                "end_time": "2025-06-17T03:07:51.701Z",
+                "diff_time": 3.947
             }
         },
         "1": {
@@ -5282,6 +5967,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:08:14.347Z",
+                "end_time": "2025-06-17T03:08:27.867Z",
+                "diff_time": 13.52
             }
         }
     },
@@ -5317,6 +6007,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:08:59.542Z",
+                "end_time": "2025-06-17T03:09:03.053Z",
+                "diff_time": 3.511
             }
         },
         "1": {
@@ -5350,6 +6045,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:09:23.127Z",
+                "end_time": "2025-06-17T03:09:33.139Z",
+                "diff_time": 10.012
             }
         }
     },
@@ -5393,6 +6093,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:11:44.889Z",
+                "end_time": "2025-06-17T03:11:48.715Z",
+                "diff_time": 3.826
             }
         },
         "1": {
@@ -5434,6 +6139,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:11:57.715Z",
+                "end_time": "2025-06-17T03:12:02.963Z",
+                "diff_time": 5.248
             }
         },
         "2": {
@@ -5475,6 +6185,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:12:18.387Z",
+                "end_time": "2025-06-17T03:12:21.612Z",
+                "diff_time": 3.225
             }
         },
         "3": {
@@ -5516,6 +6231,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:12:33.845Z",
+                "end_time": "2025-06-17T03:12:39.247Z",
+                "diff_time": 5.402
             }
         },
         "4": {
@@ -5557,6 +6277,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:12:39.247Z",
+                "end_time": "2025-06-17T03:12:42.868Z",
+                "diff_time": 3.621
             }
         },
         "5": {
@@ -5598,6 +6323,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:12:53.765Z",
+                "end_time": "2025-06-17T03:12:57.375Z",
+                "diff_time": 3.61
             }
         },
         "6": {
@@ -5639,6 +6369,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:13:11.196Z",
+                "end_time": "2025-06-17T03:13:14.585Z",
+                "diff_time": 3.389
             }
         },
         "7": {
@@ -5680,6 +6415,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:13:25.757Z",
+                "end_time": "2025-06-17T03:13:29.800Z",
+                "diff_time": 4.043
             }
         }
     },
@@ -5723,6 +6463,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:13:58.523Z",
+                "end_time": "2025-06-17T03:14:01.631Z",
+                "diff_time": 3.108
             }
         },
         "1": {
@@ -5764,6 +6509,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:14:17.155Z",
+                "end_time": "2025-06-17T03:14:31.065Z",
+                "diff_time": 13.91
             }
         }
     },
@@ -5807,6 +6557,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:15:09.969Z",
+                "end_time": "2025-06-17T03:15:18.991Z",
+                "diff_time": 9.022
             }
         }
     },
@@ -5850,6 +6605,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:15:46.677Z",
+                "end_time": "2025-06-17T03:15:50.246Z",
+                "diff_time": 3.569
             }
         },
         "1": {
@@ -5891,6 +6651,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:16:04.891Z",
+                "end_time": "2025-06-17T03:16:09.876Z",
+                "diff_time": 4.985
             }
         },
         "2": {
@@ -5932,6 +6697,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:16:28.235Z",
+                "end_time": "2025-06-17T03:16:31.806Z",
+                "diff_time": 3.571
             }
         },
         "3": {
@@ -5973,6 +6743,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:16:48.187Z",
+                "end_time": "2025-06-17T03:16:52.030Z",
+                "diff_time": 3.843
             }
         },
         "4": {
@@ -6014,6 +6789,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:17:08.463Z",
+                "end_time": "2025-06-17T03:17:11.989Z",
+                "diff_time": 3.526
             }
         },
         "5": {
@@ -6055,6 +6835,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:17:37.585Z",
+                "end_time": "2025-06-17T03:17:41.371Z",
+                "diff_time": 3.786
             }
         }
     },
@@ -6098,6 +6883,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:18:07.048Z",
+                "end_time": "2025-06-17T03:18:15.577Z",
+                "diff_time": 8.529
             }
         }
     },
@@ -6133,6 +6923,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:20:39.620Z",
+                "end_time": "2025-06-17T03:20:43.092Z",
+                "diff_time": 3.472
             }
         },
         "1": {
@@ -6166,6 +6961,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:20:54.605Z",
+                "end_time": "2025-06-17T03:20:58.096Z",
+                "diff_time": 3.491
             }
         },
         "2": {
@@ -6199,6 +6999,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:21:14.452Z",
+                "end_time": "2025-06-17T03:21:17.808Z",
+                "diff_time": 3.356
             }
         },
         "3": {
@@ -6232,6 +7037,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:21:33.681Z",
+                "end_time": "2025-06-17T03:21:39.311Z",
+                "diff_time": 5.63
             }
         }
     },
@@ -6267,6 +7077,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:22:03.604Z",
+                "end_time": "2025-06-17T03:22:07.054Z",
+                "diff_time": 3.45
             }
         },
         "1": {
@@ -6300,6 +7115,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:22:16.570Z",
+                "end_time": "2025-06-17T03:22:20.495Z",
+                "diff_time": 3.925
             }
         },
         "2": {
@@ -6333,6 +7153,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:22:34.858Z",
+                "end_time": "2025-06-17T03:22:43.369Z",
+                "diff_time": 8.511
             }
         }
     },
@@ -6368,6 +7193,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:23:23.601Z",
+                "end_time": "2025-06-17T03:23:26.757Z",
+                "diff_time": 3.156
             }
         },
         "1": {
@@ -6401,6 +7231,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:23:45.696Z",
+                "end_time": "2025-06-17T03:23:49.360Z",
+                "diff_time": 3.664
             }
         },
         "2": {
@@ -6434,6 +7269,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:24:07.809Z",
+                "end_time": "2025-06-17T03:24:11.468Z",
+                "diff_time": 3.659
             }
         },
         "3": {
@@ -6467,6 +7307,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:24:31.710Z",
+                "end_time": "2025-06-17T03:24:34.877Z",
+                "diff_time": 3.167
             }
         },
         "4": {
@@ -6500,6 +7345,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:24:54.797Z",
+                "end_time": "2025-06-17T03:25:07.834Z",
+                "diff_time": 13.037
             }
         }
     },
@@ -6535,6 +7385,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:25:33.415Z",
+                "end_time": "2025-06-17T03:26:51.551Z",
+                "diff_time": 78.136
             }
         },
         "1": {
@@ -6568,6 +7423,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:26:51.551Z",
+                "end_time": "2025-06-17T03:26:55.115Z",
+                "diff_time": 3.564
             }
         },
         "2": {
@@ -6601,6 +7461,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:27:13.693Z",
+                "end_time": "2025-06-17T03:27:25.196Z",
+                "diff_time": 11.503
             }
         }
     },
@@ -6636,6 +7501,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:28:07.456Z",
+                "end_time": "2025-06-17T03:28:11.372Z",
+                "diff_time": 3.916
             }
         },
         "1": {
@@ -6669,6 +7539,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:28:23.087Z",
+                "end_time": "2025-06-17T03:28:43.497Z",
+                "diff_time": 20.41
             }
         },
         "2": {
@@ -6702,6 +7577,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:28:43.497Z",
+                "end_time": "2025-06-17T03:28:48.530Z",
+                "diff_time": 5.033
             }
         }
     },
@@ -6737,6 +7617,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:29:02.414Z",
+                "end_time": "2025-06-17T03:30:16.592Z",
+                "diff_time": 74.178
             }
         },
         "1": {
@@ -6770,6 +7655,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:30:16.592Z",
+                "end_time": "2025-06-17T03:30:20.023Z",
+                "diff_time": 3.431
             }
         },
         "2": {
@@ -6803,6 +7693,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:30:35.495Z",
+                "end_time": "2025-06-17T03:30:38.651Z",
+                "diff_time": 3.156
             }
         },
         "3": {
@@ -6836,6 +7731,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:30:59.913Z",
+                "end_time": "2025-06-17T03:31:03.099Z",
+                "diff_time": 3.186
             }
         },
         "4": {
@@ -6869,6 +7769,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:31:19.444Z",
+                "end_time": "2025-06-17T03:31:22.880Z",
+                "diff_time": 3.436
             }
         }
     },
@@ -6904,6 +7809,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:31:49.819Z",
+                "end_time": "2025-06-17T03:31:54.203Z",
+                "diff_time": 4.384
             }
         },
         "1": {
@@ -6937,6 +7847,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:32:11.286Z",
+                "end_time": "2025-06-17T03:32:22.298Z",
+                "diff_time": 11.012
             }
         }
     },
@@ -6972,6 +7887,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:33:06.812Z",
+                "end_time": "2025-06-17T03:33:10.179Z",
+                "diff_time": 3.367
             }
         },
         "1": {
@@ -7005,6 +7925,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:33:28.977Z",
+                "end_time": "2025-06-17T03:33:40.033Z",
+                "diff_time": 11.056
             }
         }
     },
@@ -7040,6 +7965,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:34:25.248Z",
+                "end_time": "2025-06-17T03:34:28.490Z",
+                "diff_time": 3.242
             }
         },
         "1": {
@@ -7073,6 +8003,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:34:49.803Z",
+                "end_time": "2025-06-17T03:35:00.827Z",
+                "diff_time": 11.024
             }
         }
     },
@@ -7108,6 +8043,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:35:54.749Z",
+                "end_time": "2025-06-17T03:36:47.086Z",
+                "diff_time": 52.337
             }
         },
         "1": {
@@ -7141,6 +8081,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:36:47.086Z",
+                "end_time": "2025-06-17T03:36:50.349Z",
+                "diff_time": 3.263
             }
         },
         "2": {
@@ -7174,6 +8119,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:37:05.792Z",
+                "end_time": "2025-06-17T03:37:10.893Z",
+                "diff_time": 5.101
             }
         },
         "3": {
@@ -7207,6 +8157,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:37:26.405Z",
+                "end_time": "2025-06-17T03:37:32.911Z",
+                "diff_time": 6.506
             }
         },
         "4": {
@@ -7240,6 +8195,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:37:38.983Z",
+                "end_time": "2025-06-17T03:37:51.556Z",
+                "diff_time": 12.573
             }
         },
         "5": {
@@ -7273,6 +8233,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:37:51.556Z",
+                "end_time": "2025-06-17T03:37:55.189Z",
+                "diff_time": 3.633
             }
         },
         "6": {
@@ -7306,6 +8271,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:38:12.161Z",
+                "end_time": "2025-06-17T03:38:15.706Z",
+                "diff_time": 3.545
             }
         },
         "7": {
@@ -7339,6 +8309,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:38:41.655Z",
+                "end_time": "2025-06-17T03:38:45.685Z",
+                "diff_time": 4.03
             }
         }
     },
@@ -7382,6 +8357,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:41:02.765Z",
+                "end_time": "2025-06-17T03:41:08.746Z",
+                "diff_time": 5.981
             }
         },
         "1": {
@@ -7423,6 +8403,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:41:08.746Z",
+                "end_time": "2025-06-17T03:41:12.205Z",
+                "diff_time": 3.459
             }
         },
         "2": {
@@ -7464,6 +8449,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:41:21.281Z",
+                "end_time": "2025-06-17T03:41:24.826Z",
+                "diff_time": 3.545
             }
         },
         "3": {
@@ -7505,6 +8495,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:41:35.449Z",
+                "end_time": "2025-06-17T03:41:39.172Z",
+                "diff_time": 3.723
             }
         }
     },
@@ -7548,6 +8543,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:42:02.544Z",
+                "end_time": "2025-06-17T03:42:13.410Z",
+                "diff_time": 10.866
             }
         }
     },
@@ -7591,6 +8591,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:42:37.468Z",
+                "end_time": "2025-06-17T03:42:41.463Z",
+                "diff_time": 3.995
             }
         },
         "1": {
@@ -7632,6 +8637,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:42:49.435Z",
+                "end_time": "2025-06-17T03:42:52.942Z",
+                "diff_time": 3.507
             }
         },
         "2": {
@@ -7673,6 +8683,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:43:03.381Z",
+                "end_time": "2025-06-17T03:43:10.944Z",
+                "diff_time": 7.563
             }
         }
     },
@@ -7708,6 +8723,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:45:28.504Z",
+                "end_time": "2025-06-17T03:45:35.370Z",
+                "diff_time": 6.866
             }
         },
         "1": {
@@ -7741,6 +8761,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:46:05.915Z",
+                "end_time": "2025-06-17T03:46:08.915Z",
+                "diff_time": 3.0
             }
         },
         "2": {
@@ -7774,6 +8799,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:46:22.541Z",
+                "end_time": "2025-06-17T03:46:25.711Z",
+                "diff_time": 3.17
             }
         },
         "3": {
@@ -7807,6 +8837,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:46:50.734Z",
+                "end_time": "2025-06-17T03:46:55.041Z",
+                "diff_time": 4.307
             }
         },
         "4": {
@@ -7840,6 +8875,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:47:13.360Z",
+                "end_time": "2025-06-17T03:47:16.823Z",
+                "diff_time": 3.463
             }
         },
         "5": {
@@ -7873,6 +8913,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:47:33.173Z",
+                "end_time": "2025-06-17T03:47:36.289Z",
+                "diff_time": 3.116
             }
         },
         "6": {
@@ -7906,6 +8951,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:47:51.591Z",
+                "end_time": "2025-06-17T03:47:59.319Z",
+                "diff_time": 7.728
             }
         }
     },
@@ -7941,6 +8991,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:48:23.991Z",
+                "end_time": "2025-06-17T03:48:27.071Z",
+                "diff_time": 3.08
             }
         },
         "1": {
@@ -7974,6 +9029,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:48:41.606Z",
+                "end_time": "2025-06-17T03:48:44.911Z",
+                "diff_time": 3.305
             }
         },
         "2": {
@@ -8007,6 +9067,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:49:03.372Z",
+                "end_time": "2025-06-17T03:49:06.476Z",
+                "diff_time": 3.104
             }
         },
         "3": {
@@ -8040,6 +9105,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:49:22.024Z",
+                "end_time": "2025-06-17T03:49:25.279Z",
+                "diff_time": 3.255
             }
         },
         "4": {
@@ -8073,6 +9143,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:49:42.811Z",
+                "end_time": "2025-06-17T03:49:46.444Z",
+                "diff_time": 3.633
             }
         },
         "5": {
@@ -8106,6 +9181,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:50:01.063Z",
+                "end_time": "2025-06-17T03:50:04.538Z",
+                "diff_time": 3.475
             }
         }
     },
@@ -8141,6 +9221,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:50:36.092Z",
+                "end_time": "2025-06-17T03:50:39.875Z",
+                "diff_time": 3.783
             }
         },
         "1": {
@@ -8174,6 +9259,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:50:50.540Z",
+                "end_time": "2025-06-17T03:50:54.241Z",
+                "diff_time": 3.701
             }
         },
         "2": {
@@ -8207,6 +9297,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:51:13.828Z",
+                "end_time": "2025-06-17T03:51:17.421Z",
+                "diff_time": 3.593
             }
         },
         "3": {
@@ -8240,6 +9335,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:51:32.408Z",
+                "end_time": "2025-06-17T03:51:36.037Z",
+                "diff_time": 3.629
             }
         },
         "4": {
@@ -8273,6 +9373,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:51:53.110Z",
+                "end_time": "2025-06-17T03:51:57.551Z",
+                "diff_time": 4.441
             }
         }
     },
@@ -8308,6 +9413,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:52:25.681Z",
+                "end_time": "2025-06-17T03:52:36.706Z",
+                "diff_time": 11.025
             }
         },
         "1": {
@@ -8341,6 +9451,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:52:54.354Z",
+                "end_time": "2025-06-17T03:53:02.618Z",
+                "diff_time": 8.264
             }
         },
         "2": {
@@ -8374,6 +9489,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:53:02.618Z",
+                "end_time": "2025-06-17T03:53:05.915Z",
+                "diff_time": 3.297
             }
         },
         "3": {
@@ -8407,6 +9527,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:53:20.336Z",
+                "end_time": "2025-06-17T03:53:38.686Z",
+                "diff_time": 18.35
             }
         },
         "4": {
@@ -8440,6 +9565,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:53:38.686Z",
+                "end_time": "2025-06-17T03:53:41.729Z",
+                "diff_time": 3.043
             }
         },
         "5": {
@@ -8473,6 +9603,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:54:00.357Z",
+                "end_time": "2025-06-17T03:54:03.520Z",
+                "diff_time": 3.163
             }
         },
         "6": {
@@ -8506,6 +9641,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:54:20.632Z",
+                "end_time": "2025-06-17T03:54:29.149Z",
+                "diff_time": 8.517
             }
         }
     },
@@ -8549,6 +9689,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:56:38.597Z",
+                "end_time": "2025-06-17T03:56:46.714Z",
+                "diff_time": 8.117
             }
         },
         "1": {
@@ -8590,6 +9735,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:57:09.735Z",
+                "end_time": "2025-06-17T03:57:13.106Z",
+                "diff_time": 3.371
             }
         },
         "2": {
@@ -8631,6 +9781,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:57:24.195Z",
+                "end_time": "2025-06-17T03:57:28.385Z",
+                "diff_time": 4.19
             }
         },
         "3": {
@@ -8672,6 +9827,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:57:42.502Z",
+                "end_time": "2025-06-17T03:57:46.138Z",
+                "diff_time": 3.636
             }
         },
         "4": {
@@ -8713,6 +9873,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:57:57.332Z",
+                "end_time": "2025-06-17T03:58:00.366Z",
+                "diff_time": 3.034
             }
         },
         "5": {
@@ -8754,6 +9919,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:58:19.023Z",
+                "end_time": "2025-06-17T03:58:22.767Z",
+                "diff_time": 3.744
             }
         },
         "6": {
@@ -8795,6 +9965,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:58:32.228Z",
+                "end_time": "2025-06-17T03:59:02.850Z",
+                "diff_time": 30.622
             }
         }
     },
@@ -8838,6 +10013,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:59:21.994Z",
+                "end_time": "2025-06-17T03:59:25.858Z",
+                "diff_time": 3.864
             }
         },
         "1": {
@@ -8879,6 +10059,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:59:34.236Z",
+                "end_time": "2025-06-17T03:59:47.741Z",
+                "diff_time": 13.505
             }
         }
     },
@@ -8922,6 +10107,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T03:59:56.401Z",
+                "end_time": "2025-06-17T04:01:10.629Z",
+                "diff_time": 74.228
             }
         },
         "1": {
@@ -8963,6 +10153,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:01:10.629Z",
+                "end_time": "2025-06-17T04:01:14.320Z",
+                "diff_time": 3.691
             }
         },
         "2": {
@@ -9004,6 +10199,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:01:26.985Z",
+                "end_time": "2025-06-17T04:01:30.158Z",
+                "diff_time": 3.173
             }
         },
         "3": {
@@ -9045,6 +10245,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:01:44.716Z",
+                "end_time": "2025-06-17T04:01:48.104Z",
+                "diff_time": 3.388
             }
         },
         "4": {
@@ -9086,6 +10291,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:02:02.979Z",
+                "end_time": "2025-06-17T04:02:06.451Z",
+                "diff_time": 3.472
             }
         },
         "5": {
@@ -9127,6 +10337,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:02:19.738Z",
+                "end_time": "2025-06-17T04:02:23.437Z",
+                "diff_time": 3.699
             }
         },
         "6": {
@@ -9168,6 +10383,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:02:31.611Z",
+                "end_time": "2025-06-17T04:02:47.584Z",
+                "diff_time": 15.973
             }
         },
         "7": {
@@ -9209,6 +10429,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:02:47.584Z",
+                "end_time": "2025-06-17T04:02:58.399Z",
+                "diff_time": 10.815
             }
         }
     },
@@ -9252,6 +10477,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:03:26.050Z",
+                "end_time": "2025-06-17T04:05:12.647Z",
+                "diff_time": 106.597
             }
         },
         "1": {
@@ -9293,6 +10523,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:05:12.647Z",
+                "end_time": "2025-06-17T04:06:56.538Z",
+                "diff_time": 103.891
             }
         },
         "2": {
@@ -9334,6 +10569,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:06:56.538Z",
+                "end_time": "2025-06-17T04:06:59.925Z",
+                "diff_time": 3.387
             }
         },
         "3": {
@@ -9375,6 +10615,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:07:15.573Z",
+                "end_time": "2025-06-17T04:07:25.601Z",
+                "diff_time": 10.028
             }
         }
     },
@@ -9418,6 +10663,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:07:40.683Z",
+                "end_time": "2025-06-17T04:08:25.192Z",
+                "diff_time": 44.509
             }
         },
         "1": {
@@ -9459,6 +10709,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:08:25.192Z",
+                "end_time": "2025-06-17T04:08:29.466Z",
+                "diff_time": 4.274
             }
         },
         "2": {
@@ -9500,6 +10755,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:08:43.900Z",
+                "end_time": "2025-06-17T04:08:47.318Z",
+                "diff_time": 3.418
             }
         },
         "3": {
@@ -9541,6 +10801,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:09:06.012Z",
+                "end_time": "2025-06-17T04:09:09.109Z",
+                "diff_time": 3.097
             }
         },
         "4": {
@@ -9582,6 +10847,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:09:27.970Z",
+                "end_time": "2025-06-17T04:09:31.266Z",
+                "diff_time": 3.296
             }
         },
         "5": {
@@ -9623,6 +10893,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:09:50.955Z",
+                "end_time": "2025-06-17T04:09:54.821Z",
+                "diff_time": 3.866
             }
         },
         "6": {
@@ -9664,6 +10939,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:10:14.854Z",
+                "end_time": "2025-06-17T04:10:18.446Z",
+                "diff_time": 3.592
             }
         }
     },
@@ -9699,6 +10979,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:11:34.995Z",
+                "end_time": "2025-06-17T04:11:35.011Z",
+                "diff_time": 0.016
             }
         },
         "1": {
@@ -9732,6 +11017,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:11:35.011Z",
+                "end_time": "2025-06-17T04:12:32.209Z",
+                "diff_time": 57.198
             }
         },
         "2": {
@@ -9765,6 +11055,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:12:32.209Z",
+                "end_time": "2025-06-17T04:12:36.078Z",
+                "diff_time": 3.869
             }
         },
         "3": {
@@ -9798,6 +11093,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:12:46.583Z",
+                "end_time": "2025-06-17T04:12:49.904Z",
+                "diff_time": 3.321
             }
         },
         "4": {
@@ -9831,6 +11131,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:13:06.618Z",
+                "end_time": "2025-06-17T04:13:09.924Z",
+                "diff_time": 3.306
             }
         },
         "5": {
@@ -9864,6 +11169,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:13:23.059Z",
+                "end_time": "2025-06-17T04:13:30.568Z",
+                "diff_time": 7.509
             }
         }
     },
@@ -9899,6 +11209,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:13:54.492Z",
+                "end_time": "2025-06-17T04:13:58.015Z",
+                "diff_time": 3.523
             }
         },
         "1": {
@@ -9932,6 +11247,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:14:04.925Z",
+                "end_time": "2025-06-17T04:14:08.039Z",
+                "diff_time": 3.114
             }
         },
         "2": {
@@ -9965,6 +11285,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:14:25.236Z",
+                "end_time": "2025-06-17T04:14:28.713Z",
+                "diff_time": 3.477
             }
         },
         "3": {
@@ -9998,6 +11323,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:14:40.063Z",
+                "end_time": "2025-06-17T04:14:49.071Z",
+                "diff_time": 9.008
             }
         }
     },
@@ -10033,6 +11363,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:15:20.401Z",
+                "end_time": "2025-06-17T04:15:23.927Z",
+                "diff_time": 3.526
             }
         },
         "1": {
@@ -10066,6 +11401,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:15:36.658Z",
+                "end_time": "2025-06-17T04:15:40.329Z",
+                "diff_time": 3.671
             }
         },
         "2": {
@@ -10099,6 +11439,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:15:49.689Z",
+                "end_time": "2025-06-17T04:16:07.589Z",
+                "diff_time": 17.9
             }
         },
         "3": {
@@ -10132,6 +11477,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:16:07.589Z",
+                "end_time": "2025-06-17T04:16:10.964Z",
+                "diff_time": 3.375
             }
         },
         "4": {
@@ -10165,6 +11515,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:16:29.639Z",
+                "end_time": "2025-06-17T04:16:33.391Z",
+                "diff_time": 3.752
             }
         }
     },
@@ -10200,6 +11555,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:16:58.864Z",
+                "end_time": "2025-06-17T04:17:02.959Z",
+                "diff_time": 4.095
             }
         },
         "1": {
@@ -10233,6 +11593,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:17:16.545Z",
+                "end_time": "2025-06-17T04:17:20.361Z",
+                "diff_time": 3.816
             }
         },
         "2": {
@@ -10266,6 +11631,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:17:33.820Z",
+                "end_time": "2025-06-17T04:17:37.098Z",
+                "diff_time": 3.278
             }
         },
         "3": {
@@ -10299,6 +11669,11 @@
                 "inning_phase": {
                     "early": false
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:17:52.519Z",
+                "end_time": "2025-06-17T04:18:00.524Z",
+                "diff_time": 8.005
             }
         }
     },
@@ -10342,6 +11717,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:19:16.301Z",
+                "end_time": "2025-06-17T04:20:25.782Z",
+                "diff_time": 69.481
             }
         },
         "1": {
@@ -10383,6 +11763,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:20:25.782Z",
+                "end_time": "2025-06-17T04:20:29.102Z",
+                "diff_time": 3.32
             }
         },
         "2": {
@@ -10424,6 +11809,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:20:39.908Z",
+                "end_time": "2025-06-17T04:20:43.548Z",
+                "diff_time": 3.64
             }
         },
         "3": {
@@ -10465,6 +11855,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:20:54.930Z",
+                "end_time": "2025-06-17T04:20:58.275Z",
+                "diff_time": 3.345
             }
         },
         "4": {
@@ -10506,6 +11901,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:21:10.320Z",
+                "end_time": "2025-06-17T04:21:17.766Z",
+                "diff_time": 7.446
             }
         }
     },
@@ -10549,6 +11949,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:21:33.899Z",
+                "end_time": "2025-06-17T04:21:46.850Z",
+                "diff_time": 12.951
             }
         },
         "1": {
@@ -10590,6 +11995,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:21:46.850Z",
+                "end_time": "2025-06-17T04:21:50.307Z",
+                "diff_time": 3.457
             }
         },
         "2": {
@@ -10631,6 +12041,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:22:00.167Z",
+                "end_time": "2025-06-17T04:22:03.414Z",
+                "diff_time": 3.247
             }
         },
         "3": {
@@ -10672,6 +12087,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:22:15.774Z",
+                "end_time": "2025-06-17T04:22:19.178Z",
+                "diff_time": 3.404
             }
         }
     },
@@ -10715,6 +12135,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:22:43.319Z",
+                "end_time": "2025-06-17T04:22:47.072Z",
+                "diff_time": 3.753
             }
         },
         "1": {
@@ -10756,6 +12181,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:23:05.941Z",
+                "end_time": "2025-06-17T04:23:11.496Z",
+                "diff_time": 5.555
             }
         },
         "2": {
@@ -10797,6 +12227,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:23:23.111Z",
+                "end_time": "2025-06-17T04:23:34.021Z",
+                "diff_time": 10.91
             }
         }
     },
@@ -10840,6 +12275,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:23:57.457Z",
+                "end_time": "2025-06-17T04:24:04.399Z",
+                "diff_time": 6.942
             }
         }
     },
@@ -10875,6 +12315,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:25:16.784Z",
+                "end_time": "2025-06-17T04:26:09.930Z",
+                "diff_time": 53.146
             }
         },
         "1": {
@@ -10908,6 +12353,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:26:09.930Z",
+                "end_time": "2025-06-17T04:26:13.504Z",
+                "diff_time": 3.574
             }
         },
         "2": {
@@ -10941,6 +12391,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:26:21.079Z",
+                "end_time": "2025-06-17T04:26:24.607Z",
+                "diff_time": 3.528
             }
         },
         "3": {
@@ -10974,6 +12429,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:26:31.590Z",
+                "end_time": "2025-06-17T04:26:41.839Z",
+                "diff_time": 10.249
             }
         }
     },
@@ -11009,6 +12469,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:26:49.771Z",
+                "end_time": "2025-06-17T04:27:43.821Z",
+                "diff_time": 54.05
             }
         },
         "1": {
@@ -11042,6 +12507,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:27:43.821Z",
+                "end_time": "2025-06-17T04:29:11.252Z",
+                "diff_time": 87.431
             }
         },
         "2": {
@@ -11075,6 +12545,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:29:11.252Z",
+                "end_time": "2025-06-17T04:29:14.696Z",
+                "diff_time": 3.444
             }
         },
         "3": {
@@ -11108,6 +12583,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:29:32.005Z",
+                "end_time": "2025-06-17T04:29:35.734Z",
+                "diff_time": 3.729
             }
         },
         "4": {
@@ -11141,6 +12621,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:29:51.827Z",
+                "end_time": "2025-06-17T04:29:55.880Z",
+                "diff_time": 4.053
             }
         },
         "5": {
@@ -11174,6 +12659,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:30:20.121Z",
+                "end_time": "2025-06-17T04:30:23.378Z",
+                "diff_time": 3.257
             }
         },
         "6": {
@@ -11207,6 +12697,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:30:40.529Z",
+                "end_time": "2025-06-17T04:30:44.501Z",
+                "diff_time": 3.972
             }
         },
         "7": {
@@ -11240,6 +12735,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:31:09.387Z",
+                "end_time": "2025-06-17T04:31:13.119Z",
+                "diff_time": 3.732
             }
         }
     },
@@ -11275,6 +12775,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:31:41.102Z",
+                "end_time": "2025-06-17T04:31:44.434Z",
+                "diff_time": 3.332
             }
         },
         "1": {
@@ -11308,6 +12813,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:32:03.303Z",
+                "end_time": "2025-06-17T04:32:06.937Z",
+                "diff_time": 3.634
             }
         },
         "2": {
@@ -11341,6 +12851,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:32:25.699Z",
+                "end_time": "2025-06-17T04:32:29.665Z",
+                "diff_time": 3.966
             }
         },
         "3": {
@@ -11374,6 +12889,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:32:46.831Z",
+                "end_time": "2025-06-17T04:32:50.013Z",
+                "diff_time": 3.182
             }
         },
         "4": {
@@ -11407,6 +12927,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:33:13.038Z",
+                "end_time": "2025-06-17T04:33:16.679Z",
+                "diff_time": 3.641
             }
         },
         "5": {
@@ -11440,6 +12965,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:33:33.458Z",
+                "end_time": "2025-06-17T04:33:36.844Z",
+                "diff_time": 3.386
             }
         },
         "6": {
@@ -11473,6 +13003,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:34:00.252Z",
+                "end_time": "2025-06-17T04:34:11.064Z",
+                "diff_time": 10.812
             }
         }
     },
@@ -11508,6 +13043,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:34:41.327Z",
+                "end_time": "2025-06-17T04:34:44.778Z",
+                "diff_time": 3.451
             }
         },
         "1": {
@@ -11541,6 +13081,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:35:06.305Z",
+                "end_time": "2025-06-17T04:35:10.077Z",
+                "diff_time": 3.772
             }
         },
         "2": {
@@ -11574,6 +13119,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:35:28.225Z",
+                "end_time": "2025-06-17T04:35:31.652Z",
+                "diff_time": 3.427
             }
         },
         "3": {
@@ -11607,6 +13157,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:35:51.011Z",
+                "end_time": "2025-06-17T04:35:54.689Z",
+                "diff_time": 3.678
             }
         }
     },
@@ -11642,6 +13197,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:36:22.154Z",
+                "end_time": "2025-06-17T04:36:29.082Z",
+                "diff_time": 6.928
             }
         }
     },
@@ -11685,6 +13245,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:38:06.298Z",
+                "end_time": "2025-06-17T04:38:46.138Z",
+                "diff_time": 39.84
             }
         },
         "1": {
@@ -11726,6 +13291,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:38:46.138Z",
+                "end_time": "2025-06-17T04:38:49.269Z",
+                "diff_time": 3.131
             }
         },
         "2": {
@@ -11767,6 +13337,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:39:03.161Z",
+                "end_time": "2025-06-17T04:40:13.624Z",
+                "diff_time": 70.463
             }
         },
         "3": {
@@ -11808,6 +13383,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:40:13.624Z",
+                "end_time": "2025-06-17T04:40:16.872Z",
+                "diff_time": 3.248
             }
         },
         "4": {
@@ -11849,6 +13429,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:40:32.327Z",
+                "end_time": "2025-06-17T04:40:40.357Z",
+                "diff_time": 8.03
             }
         }
     },
@@ -11892,6 +13477,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:41:08.104Z",
+                "end_time": "2025-06-17T04:41:11.724Z",
+                "diff_time": 3.62
             }
         },
         "1": {
@@ -11933,6 +13523,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:41:22.026Z",
+                "end_time": "2025-06-17T04:41:25.588Z",
+                "diff_time": 3.562
             }
         },
         "2": {
@@ -11974,6 +13569,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:41:30.393Z",
+                "end_time": "2025-06-17T04:41:41.512Z",
+                "diff_time": 11.119
             }
         },
         "3": {
@@ -12015,6 +13615,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:41:41.512Z",
+                "end_time": "2025-06-17T04:41:45.164Z",
+                "diff_time": 3.652
             }
         }
     },
@@ -12058,6 +13663,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:42:11.023Z",
+                "end_time": "2025-06-17T04:42:20.117Z",
+                "diff_time": 9.094
             }
         }
     },
@@ -12093,6 +13703,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:44:32.317Z",
+                "end_time": "2025-06-17T04:44:35.711Z",
+                "diff_time": 3.394
             }
         },
         "1": {
@@ -12126,6 +13741,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:44:56.838Z",
+                "end_time": "2025-06-17T04:45:00.039Z",
+                "diff_time": 3.201
             }
         },
         "2": {
@@ -12159,6 +13779,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:45:18.688Z",
+                "end_time": "2025-06-17T04:45:22.653Z",
+                "diff_time": 3.965
             }
         },
         "3": {
@@ -12192,6 +13817,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:45:37.690Z",
+                "end_time": "2025-06-17T04:45:41.051Z",
+                "diff_time": 3.361
             }
         },
         "4": {
@@ -12225,6 +13855,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:46:01.660Z",
+                "end_time": "2025-06-17T04:46:07.404Z",
+                "diff_time": 5.744
             }
         }
     },
@@ -12260,6 +13895,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:46:38.946Z",
+                "end_time": "2025-06-17T04:46:46.558Z",
+                "diff_time": 7.612
             }
         }
     },
@@ -12295,6 +13935,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:47:16.382Z",
+                "end_time": "2025-06-17T04:47:19.764Z",
+                "diff_time": 3.382
             }
         },
         "1": {
@@ -12328,6 +13973,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:47:36.254Z",
+                "end_time": "2025-06-17T04:47:39.483Z",
+                "diff_time": 3.229
             }
         },
         "2": {
@@ -12361,6 +14011,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:47:53.358Z",
+                "end_time": "2025-06-17T04:47:57.512Z",
+                "diff_time": 4.154
             }
         },
         "3": {
@@ -12394,6 +14049,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:48:12.476Z",
+                "end_time": "2025-06-17T04:48:16.404Z",
+                "diff_time": 3.928
             }
         },
         "4": {
@@ -12427,6 +14087,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:48:34.342Z",
+                "end_time": "2025-06-17T04:48:39.609Z",
+                "diff_time": 5.267
             }
         }
     },
@@ -12462,6 +14127,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:49:11.695Z",
+                "end_time": "2025-06-17T04:49:21.706Z",
+                "diff_time": 10.011
             }
         }
     },
@@ -12505,6 +14175,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:50:24.122Z",
+                "end_time": "2025-06-17T04:50:24.146Z",
+                "diff_time": 0.024
             }
         },
         "1": {
@@ -12546,6 +14221,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:50:24.146Z",
+                "end_time": "2025-06-17T04:52:03.360Z",
+                "diff_time": 99.214
             }
         },
         "2": {
@@ -12587,6 +14267,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:52:03.360Z",
+                "end_time": "2025-06-17T04:52:06.830Z",
+                "diff_time": 3.47
             }
         },
         "3": {
@@ -12628,6 +14313,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:52:20.750Z",
+                "end_time": "2025-06-17T04:52:24.413Z",
+                "diff_time": 3.663
             }
         },
         "4": {
@@ -12669,6 +14359,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:52:37.572Z",
+                "end_time": "2025-06-17T04:52:45.374Z",
+                "diff_time": 7.802
             }
         }
     },
@@ -12712,6 +14407,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:53:10.905Z",
+                "end_time": "2025-06-17T04:53:14.086Z",
+                "diff_time": 3.181
             }
         },
         "1": {
@@ -12753,6 +14453,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:53:29.814Z",
+                "end_time": "2025-06-17T04:53:33.259Z",
+                "diff_time": 3.445
             }
         },
         "2": {
@@ -12794,6 +14499,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:53:49.302Z",
+                "end_time": "2025-06-17T04:53:52.619Z",
+                "diff_time": 3.317
             }
         },
         "3": {
@@ -12835,6 +14545,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:54:08.235Z",
+                "end_time": "2025-06-17T04:54:13.769Z",
+                "diff_time": 5.534
             }
         }
     },
@@ -12878,6 +14593,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:54:42.699Z",
+                "end_time": "2025-06-17T04:54:46.007Z",
+                "diff_time": 3.308
             }
         },
         "1": {
@@ -12919,6 +14639,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:55:01.706Z",
+                "end_time": "2025-06-17T04:55:05.304Z",
+                "diff_time": 3.598
             }
         },
         "2": {
@@ -12960,6 +14685,11 @@
                 "inning_phase": {
                     "early": true
                 }
+            },
+            "time": {
+                "start_time": "2025-06-17T04:55:19.191Z",
+                "end_time": "2025-06-17T04:55:27.945Z",
+                "diff_time": 8.754
             }
         }
     }
