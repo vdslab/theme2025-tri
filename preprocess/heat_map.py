@@ -21,8 +21,10 @@ for play in all_plays:
 
         for event in events:
             # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
-            if event["type"] == "action":
+            if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
                 continue
+            # if event["details"].get("eventType") == "game_advisory":
+            #     continue
             d = calc_time_diff(event["startTime"] ,event["endTime"])
             sec += d
             durations.append(d)
@@ -44,9 +46,9 @@ cur = 0
 # 評価値を正規化して(若しくは正規化された評価値を使用して)ヒートマップに反映する
 # 評価値を取得できるようになったら書き直すこと
 # scores = [i for i in range(len(bins))]
-# scores = [idx for idx, _ in enumerate(bins)]
+scores = [idx for idx, _ in enumerate(bins)]
 
-scores = get_scores()
+# scores = get_scores()
 
 for bin_p in bins:
     pos.append((cur,bin_p))
