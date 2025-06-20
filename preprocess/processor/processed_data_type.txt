@@ -1,0 +1,45 @@
+# processed_data_type
+
+"p_key" : {
+    "e_key" : {
+        "is_away" : bool
+        "is_inning_first" : bool
+        "inning" : number
+        "event_type" : string
+        "batter" : {
+            "id" : number
+            "full_name" : string
+        }
+        "runner_state" : {
+            "pre_runner_state" : {
+                "1B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+                "2B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+                "3B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+            }
+        }
+        "runner_count" : {
+            "pre_runner_count" : number
+            "pos_runner_count" : number
+        }
+        "score_from_event" : number
+        "team_score" : {
+            "away" : {
+                "pre_score" : number
+                "pos_score" : number
+            }
+            "home" : {
+                "pre_score" : number
+                "pos_score" : number
+            }
+        }
+    }
+}
