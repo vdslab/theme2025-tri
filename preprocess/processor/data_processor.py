@@ -11,6 +11,7 @@ def process_data(data):
     isInningTop_ = False
     pre_runner_state = {}
     pre_home_score,pre_away_score,pos_home_score,pos_away_score = 0,0,0,0
+    last_inning = max(play["about"]["inning"] for play in allPlays)
     for p_idx, play in enumerate(allPlays):
         playEvents = play["playEvents"]
         isInningTop = play["about"]["isTopInning"]
@@ -25,12 +26,11 @@ def process_data(data):
             isLast = e_idx == len(play["playEvents"])-1
             isPlayFirst = p_idx == 0
             
-            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score)
-
+            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning)
                 
     return event_lookup
     
-def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score):
+def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning):
     processed_event = {}
     
     # is away
@@ -137,7 +137,9 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     else:
         pos_away_score = pre_away_score
         pos_home_score = pre_home_score + score_from_event
-        
+    
+    # is_last_inning    
+    is_last_inning =  is_away == False and inning == last_inning
     
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
@@ -159,6 +161,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     home["pre_score"] = pre_home_score
     home["pos_score"] = pos_home_score
     processed_event["team_score"] = team_score
+    processed_event["is_last_inning"] = is_last_inning
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 
