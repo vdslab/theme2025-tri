@@ -2,16 +2,31 @@
 
 "p_key" : {
     "e_key" : {
-        "is_away" : bool
+        "is_away" : bool //　is_away=True :先行 is_away=False :後攻
         "is_inning_first" : bool
         "inning" : number
         "event_type" : string
+        "is_base_running_play": bool // なんかnullがあるのでなんとかしたい
         "batter" : {
             "id" : number
             "full_name" : string
         }
         "runner_state" : {
             "pre_runner_state" : {
+                "1B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+                "2B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+                "3B" : {
+                    "id" : number
+                    "full_name" : string
+                }
+            }
+            "pos_runner_state" : {
                 "1B" : {
                     "id" : number
                     "full_name" : string
@@ -41,5 +56,7 @@
                 "pos_score" : number
             }
         }
+        "rbi" : number
+        "isLastInning" : bool
     }
 }

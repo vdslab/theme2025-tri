@@ -1,132 +1,156 @@
 import json
 
-with open("data/raw/game/777708.json", encoding="utf-8") as f:
-    game_data = json.load(f)
-
-with open("master/bb_evaluation_master.json", encoding="utf-8") as f:
-    evaluation_master = json.load(f)
-
-play_features = evaluation_master["play_features"]
-situation_features = evaluation_master["situation_features"]
-
-all_plays = game_data["liveData"]["plays"]["allPlays"]
-
-def get_situation_score(event,play,isLast,a,b):
-    
-    inning = play["about"].get("inning",{})
-    
-    # inning_scoreを算出
-    inning_score = 0
-    if inning <= 3:
-        inning_score = situation_features["inning_phase"]["early"]
-    elif inning <= 6:
-        inning_score = situation_features["inning_phase"]["middle"]
-    else:
-        inning_score = situation_features["inning_phase"]["late"]
-    
-    a_score = play["result"].get("awayScore",{})
-    h_score = play["result"].get("awayScore",{})
-    
-    isTopInning = play["about"].get("isTopInning",{})
-    
-    rbi = play["result"].get("awayScore",{})
-    
-    # 相対的な得点差
-    # pre_diff_score,diff_scoreを算出
-    pre_diff_score = 0
-    diff_score = 0
-    
-    if isLast:
-        if isTopInning:
-            pre_a_score = a_score - rbi
-            pre_diff_score = func_score_diff(pre_a_score - h_score)
-            diff_score = func_score_diff(a_score - h_score)
-        else:
-            pre_h_score = h_score - rbi
-            pre_diff_score = func_score_diff(pre_h_score - a_score)
-            diff_score = func_score_diff(h_score - a_score)
-    
-    else:
-        if isTopInning:
-            pre_diff_score = func_score_diff(a_score - h_score)
-            diff_score = func_score_diff(a_score - h_score)
-        else:
-            pre_diff_score = func_score_diff(a_score - h_score)
-            diff_score = func_score_diff(a_score - h_score)
-            
-    # 逆転のランナーがいるか
-    # 負けている時に限る
-    # 点差よりランナー数が多いならtrue
-    
-    # ランナー状況
-    
-    return a * (inning_score + pre_diff_score) + b * (inning_score + diff_score)
-
-def func_score_diff(score_diff):
-    diff_score = 0
-    if score_diff <= -3:
-        diff_score = situation_features["score_difference"]["minus_less_3"]   
-    elif  score_diff == -2:
-        diff_score = situation_features["score_difference"]["minus_2"]
-    elif  score_diff == -1:
-        diff_score = situation_features["score_difference"]["minus_1"]
-    elif  score_diff == 0:
-        diff_score = situation_features["score_difference"]["tie"]
-    elif  score_diff == 1:
-        diff_score = situation_features["score_difference"]["plus_1"] 
-    elif  score_diff == 2:
-        diff_score = situation_features["score_difference"]["plus_2"] 
-    elif  score_diff >= 3:
-        diff_score = situation_features["score_difference"]["plus_more_3"] 
-    
-    return diff_score
-
-def get_play_event_score(event,play,isLast):
-    score = 0
-    result = play["result"]
-    eventType = result.get("eventType")
-    unique_score = 0
-    
-    if eventType == "home_run":
-        unique_score += play_features["hit_event"]["home_run"]
-    elif eventType == "triple":
-        unique_score += play_features["hit_event"]["triple"]
-    elif eventType == "double":
-        unique_score += play_features["hit_event"]["double"]
-    elif eventType == "single":
-        unique_score += play_features["hit_event"]["single"]
-    else:
-        unique_score += play_features["hit_event"]["others"]
-    
-    # NOTE:playのresultが上記のものである場合、playEventsの最後のeventに関しては上記のunique_scoreを適用させる
-    # 上記に含まれない場合は、playEventsの "description" を基にscoreを算出する
+def data_download():
+    with open("data/processed/777490_processed_data.json", encoding="utf-8") as f:
+        game_data = json.load(f)
         
-    # TODO:descriptionの値によってscoreを変える可能性はある
-    # 現状0.2で固定
-    # event["detail"]["description"]
-    score = 0.2
+    return game_data
     
-    # NOTE:最終要素の場合のみユニークスコアに変換
-    if isLast:
-        score = unique_score
-        
-    return score
-
 def get_scores():
-    scores = []
-    for play in all_plays:
-        # NOTE:True:表,False:裏
-        if  play["about"]["isTopInning"] == False:
-            events = play["playEvents"]
+    game_data = data_download()
+    scores_data = {}
+    for p_idx,play in  game_data.items():
+        p_score = {}
+        for e_idx,event in play.items():
+            if event["event_type"] == "action" and event["is_base_running_play"] == None:
+                continue
+            e_score = {}
+            play_features = {}
+            situation_features = {}
+            
+            get_play_score(event,play_features)
+            get_situation_score(event,situation_features)
+            
+            p_score[e_idx] = e_score
+            e_score["play_features"] = play_features
+            e_score["situation_features"] = situation_features
+            
+        scores_data[p_idx] = p_score
+    return scores_data
+        
+def get_play_score(event,play_features):
+    # hit_event
+    hit_event = {}
+    hit_event["single"] = event["event_type"] == "single"
+    hit_event["double"] = event["event_type"] == "double"
+    hit_event["triple"] = event["event_type"] == "triple"
+    hit_event["home_run"] = event["event_type"] == "home_run"
+    
+    # rbi_impact
+    rbi_impact = {}
+    rbi = event["rbi"]
+    pre_score_diff = 0
+    team_score = event["team_score"]
+    rbi_impact["regular_rbi"] = False
+    rbi_impact["tie_rbi"] = False
+    rbi_impact["go_ahead_rbi"] = False
+    rbi_impact["sayonara_rbi"] = False
+    # TODO:キモすぎるのでいつか直す
+    if rbi > 0:
+        if event["is_away"]:
+            if team_score["home"]["pre_score"] - team_score["away"]["pre_score"] >= 0:
+                pre_score_diff = team_score["home"]["pre_score"] - team_score["away"]["pre_score"]
+                if pre_score_diff == rbi:
+                    rbi_impact["tie_rbi"] = True
+                elif pre_score_diff > rbi:
+                    if event["is_last_inning"]:
+                        rbi_impact["sayonara_rbi"] = True
+                    else:
+                        rbi_impact["go_ahead_rbi"] = True
+                else:
+                    rbi_impact["regular_rbi"] = True
+            else:
+                rbi_impact["regular_rbi"] = True
+                        
+        else:
+            if team_score["away"]["pre_score"] - team_score["home"]["pre_score"] > 0:
+                pre_score_diff = team_score["away"]["pre_score"] - team_score["home"]["pre_score"]
+                if pre_score_diff == rbi:
+                    rbi_impact["regular_rbi"] = True
+                elif pre_score_diff > rbi:
+                    if event["isLastInning"]:
+                        rbi_impact["sayonara_rbi"] = True
+                    else:
+                        rbi_impact["go_ahead_rbi"] = True
+                else:
+                    rbi_impact["regular_rbi"] = True
+            else:
+                rbi_impact["regular_rbi"] = True
+                
+    play_features["hit_event"] = hit_event
+    play_features["rbi_impact"] = rbi_impact
 
-            for idx,event in enumerate(events):
-                score = 0
-                # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
-                if event["type"] == "action":
-                    continue
-                
-                isLast = idx == len(events)-1
-                
-                score = get_play_event_score(event,play,isLast) + get_situation_score(event,play,isLast,a = 0.5,b = 0.5)
-                scores.append(score)
-    return scores
+def get_situation_score(event,situation_features):
+    # runner_status
+    runner_status = {}
+    runner_state = event["runner_state"]
+    is_runner = {
+        "1B":False,
+        "2B":False,
+        "3B":False
+    }
+    # NOTE:イベント前はpre,イベント後はpos
+    for k,v in runner_state["pre_runner_state"].items():
+        if v["id"]:
+            is_runner[k] = True
+        
+    runner_status["none"] = not is_runner["1B"] and not is_runner["2B"] and not is_runner["3B"]
+    runner_status["first"] = is_runner["1B"] and not is_runner["2B"] and not is_runner["3B"]
+    runner_status["second"] = not is_runner["1B"] and is_runner["2B"] and not is_runner["3B"]
+    runner_status["third"] = not is_runner["1B"] and not is_runner["2B"] and is_runner["3B"]
+    runner_status["first-second"] = is_runner["1B"] and is_runner["2B"] and not is_runner["3B"]
+    runner_status["first-third"] = is_runner["1B"] and not is_runner["2B"] and is_runner["3B"]
+    runner_status["second-third"] = not is_runner["1B"] and is_runner["2B"] and is_runner["3B"]
+    runner_status["first-second-third"] = is_runner["1B"] and is_runner["2B"] and is_runner["3B"]
+    
+    # is_goahead_runner_on_base
+    is_goahead_runner_on_base = False
+    pre_runner_count = event["runner_count"]["pre_runner_count"]
+    team_score = event["team_score"]
+
+    # NOTE:イベント前はpre,イベント後はpos
+    pre_score_diff = 0
+    if event["is_away"]:
+        # NOTE:イベント前はpre,イベント後はpos
+        pre_score_diff = team_score["home"]["pre_score"] - team_score["away"]["pre_score"]
+        if pre_score_diff > 0 and pre_runner_count > pre_score_diff:
+            is_goahead_runner_on_base = True
+    else:
+        # NOTE:イベント前はpre,イベント後はpos
+        pre_score_diff = team_score["away"]["pre_score"] - team_score["home"]["pre_score"]
+        if pre_score_diff > 0 and pre_runner_count > pre_score_diff:
+            is_goahead_runner_on_base = True
+    
+    # score_difference
+    score_difference = {}
+    if event["is_away"]:
+        # NOTE:イベント前はpre,イベント後はpos
+        pre_score_diff = team_score["away"]["pre_score"] - team_score["home"]["pre_score"]
+        
+        score_difference["minus_less_3"] = pre_score_diff <= -3
+        score_difference["minus_2"] = pre_score_diff == -2
+        score_difference["minus_1"] = pre_score_diff == -1
+        score_difference["tie"] = pre_score_diff == 0
+        score_difference["plus_1"] = pre_score_diff == 1
+        score_difference["plus_2"] = pre_score_diff == 2
+        score_difference["plus_more_3"] = pre_score_diff >= 3
+    
+    # inning_phase
+    inning_phase = {}
+    inning_phase["early"] = event["inning"] <= 3
+    inning_phase["early"] = event["inning"] <= 6
+    inning_phase["early"] = event["inning"] >= 7
+    
+    situation_features["runner_status"] = runner_status
+    situation_features["is_goahead_runner_on_base"] = is_goahead_runner_on_base
+    situation_features["score_difference"] = score_difference
+    situation_features["inning_phase"] = inning_phase
+
+def output_data(scores_data):
+    output_path = "data/processed_for_ra/777490_processed_for_ra_data.json"
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(scores_data, f, ensure_ascii=False, indent=4)
+        
+scores_data = get_scores()
+output_data(scores_data)

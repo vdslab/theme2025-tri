@@ -1,0 +1,45 @@
+"p_key" : {
+    "e_key" : {
+        "play_features": {
+            "hit_event": {
+                "single": bool
+                "double": bool
+                "triple": bool
+                "home_run": bool
+            }
+            "rbi_impact": {
+                "regular_rbi": bool
+                "tie_rbi": bool　//並んだ
+                "go_ahead_rbi": bool //
+                "sayonara_rbi": bool　//
+            }
+        }
+        "situation_features": {
+            "runner_status": {
+                "none": bool
+                "first": bool
+                "second": bool
+                "third": bool
+                "first-second": bool
+                "first-third": bool
+                "second-third": bool
+                "first-second-third": bool
+            }
+            "is_goahead_runner_on_base" : bool
+            "score_difference": {
+                "minus_less_3": bool
+                "minus_2": bool
+                "minus_1": bool
+                "tie": bool
+                "plus_1": bool
+                "plus_2": bool
+                "plus_more_3": bool
+            }
+            "inning_phase": {
+                "early": bool
+                "middle": bool
+                "late": bool
+            }
+        }
+    }
+}
