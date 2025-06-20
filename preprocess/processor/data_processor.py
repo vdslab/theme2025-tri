@@ -46,6 +46,9 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     # event type
     event_type = event["type"]
     pe_type = play["result"]["eventType"]
+    
+    # is base running play
+    is_base_running_play = event.get("isBaseRunningPlay", "null")
     if isLast:
         event_type = pe_type
         
@@ -145,6 +148,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     processed_event["is_inning_first"] = is_inning_first
     processed_event["inning"] = inning
     processed_event["event_type"] = event_type
+    processed_event["is_base_running_play"] = is_base_running_play
     processed_event["batter"] = batter
     processed_event["runner_state"] = runner_state
     runner_state["pre_runner_state"] = pre_runner_state
