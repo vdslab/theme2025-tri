@@ -140,6 +140,11 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     else:
         pos_away_score = pre_away_score
         pos_home_score = pre_home_score + score_from_event
+        
+    # rbi
+    rbi = 0
+    if isLast:
+        rbi = play["result"]["rbi"]
     
     # is_last_inning    
     is_last_inning =  is_away == False and inning == last_inning
@@ -165,6 +170,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     home["pre_score"] = pre_home_score
     home["pos_score"] = pos_home_score
     processed_event["team_score"] = team_score
+    processed_event["rbi"] = rbi
     processed_event["is_last_inning"] = is_last_inning
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
