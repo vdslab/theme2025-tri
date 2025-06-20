@@ -79,8 +79,8 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     base_movements = {}
     
     runners = play["runners"]
+    start_ = None
     for runner in runners:
-        start_ = None
         if runner["details"]["playIndex"] == event["index"]:
 
             origin = runner["movement"]["originBase"]
