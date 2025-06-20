@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 logging.basicConfig(level=logging.WARNING)
 
 from calculate.measure_time import calc_time_diff
-from calculate.get_scores import get_scores
+from preprocess.get_scores import get_scores
 
 with open("data/raw/game/777708.json", encoding="utf-8") as f:
     data = json.load(f)
