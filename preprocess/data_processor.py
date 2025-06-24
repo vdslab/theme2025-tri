@@ -1,8 +1,10 @@
 import json
 from calculate.measure_time import calc_time_diff
 
+gamepk = 777866
+
 def data_download():
-    with open("data/raw/game/777490.json", encoding="utf-8") as f:
+    with open(f"data/raw/game/{gamepk}.json", encoding="utf-8") as f:
         game_data = json.load(f)
     return game_data
 
@@ -187,7 +189,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 
 def output_data(processed_data):
-    output_path = "data/processed/777490_processed_data.json"
+    output_path = f"data/processed/{gamepk}_processed_data.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(processed_data, f, ensure_ascii=False, indent=4)
