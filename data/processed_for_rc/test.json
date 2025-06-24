@@ -1,0 +1,362 @@
+[
+    {
+        "gamepk": 777526,
+        "time": 173.75430000000046,
+        "ex_base_hit_cnt": 4,
+        "total_score": 3,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777531,
+        "time": 239.5739166666668,
+        "ex_base_hit_cnt": 5,
+        "total_score": 8,
+        "diff_score": 8,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777530,
+        "time": 390.30975,
+        "ex_base_hit_cnt": 6,
+        "total_score": 20,
+        "diff_score": 2,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777539,
+        "time": 251.1989333333334,
+        "ex_base_hit_cnt": 3,
+        "total_score": 2,
+        "diff_score": 2,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777538,
+        "time": 288.7487,
+        "ex_base_hit_cnt": 12,
+        "total_score": 15,
+        "diff_score": 5,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777528,
+        "time": 266.13508333333345,
+        "ex_base_hit_cnt": 3,
+        "total_score": 12,
+        "diff_score": 2,
+        "lead_change_cnt": 2
+    },
+    {
+        "gamepk": 777537,
+        "time": 266.70766666666674,
+        "ex_base_hit_cnt": 1,
+        "total_score": 3,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777535,
+        "time": 303.21561666666673,
+        "ex_base_hit_cnt": 7,
+        "total_score": 16,
+        "diff_score": 8,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777524,
+        "time": 269.35176666666706,
+        "ex_base_hit_cnt": 5,
+        "total_score": 4,
+        "diff_score": 2,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777529,
+        "time": 347.85123333333354,
+        "ex_base_hit_cnt": 5,
+        "total_score": 10,
+        "diff_score": 2,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777527,
+        "time": 304.6455500000003,
+        "ex_base_hit_cnt": 10,
+        "total_score": 13,
+        "diff_score": 7,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777525,
+        "time": 199.11723333333364,
+        "ex_base_hit_cnt": 4,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777521,
+        "time": 263.87916666666644,
+        "ex_base_hit_cnt": 4,
+        "total_score": 6,
+        "diff_score": 4,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777520,
+        "time": 289.41986666666816,
+        "ex_base_hit_cnt": 10,
+        "total_score": 9,
+        "diff_score": 5,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777522,
+        "time": 292.6159666666673,
+        "ex_base_hit_cnt": 7,
+        "total_score": 8,
+        "diff_score": 4,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777514,
+        "time": 187.9123166666667,
+        "ex_base_hit_cnt": 4,
+        "total_score": 7,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777517,
+        "time": 133.30310000000003,
+        "ex_base_hit_cnt": 8,
+        "total_score": 12,
+        "diff_score": 10,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777513,
+        "time": 159.85085000000018,
+        "ex_base_hit_cnt": 2,
+        "total_score": 3,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777519,
+        "time": 205.0962500000004,
+        "ex_base_hit_cnt": 8,
+        "total_score": 11,
+        "diff_score": 1,
+        "lead_change_cnt": 3
+    },
+    {
+        "gamepk": 777509,
+        "time": 224.3253833333337,
+        "ex_base_hit_cnt": 3,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777508,
+        "time": 296.4713666666682,
+        "ex_base_hit_cnt": 7,
+        "total_score": 9,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777511,
+        "time": 200.43876666666677,
+        "ex_base_hit_cnt": 4,
+        "total_score": 4,
+        "diff_score": 4,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777518,
+        "time": 168.35430000000034,
+        "ex_base_hit_cnt": 8,
+        "total_score": 12,
+        "diff_score": 4,
+        "lead_change_cnt": 2
+    },
+    {
+        "gamepk": 777510,
+        "time": 285.6780999999998,
+        "ex_base_hit_cnt": 2,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777523,
+        "time": 290.17345000000057,
+        "ex_base_hit_cnt": 2,
+        "total_score": 5,
+        "diff_score": 3,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777512,
+        "time": 146.58994999999993,
+        "ex_base_hit_cnt": 6,
+        "total_score": 13,
+        "diff_score": 3,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777515,
+        "time": 300.67280000000017,
+        "ex_base_hit_cnt": 5,
+        "total_score": 15,
+        "diff_score": 1,
+        "lead_change_cnt": 3
+    },
+    {
+        "gamepk": 777516,
+        "time": 256.6776000000001,
+        "ex_base_hit_cnt": 7,
+        "total_score": 7,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777507,
+        "time": 243.19298333333424,
+        "ex_base_hit_cnt": 4,
+        "total_score": 7,
+        "diff_score": 1,
+        "lead_change_cnt": 2
+    },
+    {
+        "gamepk": 777506,
+        "time": 321.26673333333383,
+        "ex_base_hit_cnt": 10,
+        "total_score": 16,
+        "diff_score": 6,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777505,
+        "time": 225.9839666666667,
+        "ex_base_hit_cnt": 8,
+        "total_score": 12,
+        "diff_score": 4,
+        "lead_change_cnt": 3
+    },
+    {
+        "gamepk": 777501,
+        "time": 207.07213333333385,
+        "ex_base_hit_cnt": 8,
+        "total_score": 13,
+        "diff_score": 9,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777499,
+        "time": 192.20126666666775,
+        "ex_base_hit_cnt": 4,
+        "total_score": 15,
+        "diff_score": 7,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777504,
+        "time": 205.46351666666752,
+        "ex_base_hit_cnt": 3,
+        "total_score": 11,
+        "diff_score": 9,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777503,
+        "time": 155.35543333333348,
+        "ex_base_hit_cnt": 4,
+        "total_score": 4,
+        "diff_score": 2,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777500,
+        "time": 219.23650000000052,
+        "ex_base_hit_cnt": 3,
+        "total_score": 2,
+        "diff_score": 2,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777502,
+        "time": 235.2941000000001,
+        "ex_base_hit_cnt": 2,
+        "total_score": 9,
+        "diff_score": 9,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777496,
+        "time": 223.4538500000003,
+        "ex_base_hit_cnt": 7,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777494,
+        "time": 113.42816666666668,
+        "ex_base_hit_cnt": 2,
+        "total_score": 3,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777492,
+        "time": 240.32258333333343,
+        "ex_base_hit_cnt": 5,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777497,
+        "time": 192.76595000000046,
+        "ex_base_hit_cnt": 2,
+        "total_score": 5,
+        "diff_score": 1,
+        "lead_change_cnt": 1
+    },
+    {
+        "gamepk": 777493,
+        "time": 223.39971666666685,
+        "ex_base_hit_cnt": 7,
+        "total_score": 3,
+        "diff_score": 1,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777491,
+        "time": 216.62431666666657,
+        "ex_base_hit_cnt": 8,
+        "total_score": 10,
+        "diff_score": 6,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777495,
+        "time": 191.492483333333,
+        "ex_base_hit_cnt": 2,
+        "total_score": 6,
+        "diff_score": 6,
+        "lead_change_cnt": 0
+    },
+    {
+        "gamepk": 777498,
+        "time": 277.3860833333334,
+        "ex_base_hit_cnt": 5,
+        "total_score": 9,
+        "diff_score": 1,
+        "lead_change_cnt": 2
+    }
+]
