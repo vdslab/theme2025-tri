@@ -1,7 +1,9 @@
 import json
 
+gamepk = 777866
+
 def data_download():
-    with open("data/processed/777490_processed_data.json", encoding="utf-8") as f:
+    with open(f"data/processed/{gamepk}_processed_data.json", encoding="utf-8") as f:
         game_data = json.load(f)
         
     return game_data
@@ -69,7 +71,7 @@ def get_play_score(event,play_features):
                 if pre_score_diff == rbi:
                     rbi_impact["regular_rbi"] = True
                 elif pre_score_diff > rbi:
-                    if event["isLastInning"]:
+                    if event["is_last_inning"]:
                         rbi_impact["sayonara_rbi"] = True
                     else:
                         rbi_impact["go_ahead_rbi"] = True
@@ -148,7 +150,7 @@ def get_situation_score(event,situation_features):
     situation_features["inning_phase"] = inning_phase
 
 def output_data(scores_data):
-    output_path = "data/processed_for_ra/777490_processed_for_ra_data.json"
+    output_path = f"data/processed_for_ra/{gamepk}_processed_for_ra_data.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(scores_data, f, ensure_ascii=False, indent=4)
