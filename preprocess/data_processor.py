@@ -154,8 +154,8 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     
     # time
     time = {}
-    start_time = event["startTime"]
-    end_time = event["endTime"]
+    start_time = event.get("startTime",{})
+    end_time = event.get("endTime",{})
     diff_time = calc_time_diff(start_time,end_time)
     
     processed_event["is_away"] = is_away
