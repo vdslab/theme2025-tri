@@ -1,12 +1,14 @@
 import json
 from calculate.measure_time import calc_time_diff
+import requests
 
-gamepk = 777866
-
-def data_download():
-    with open(f"data/raw/game/{gamepk}.json", encoding="utf-8") as f:
-        game_data = json.load(f)
-    return game_data
+def data_download(gamepk):
+    url = f"https://statsapi.mlb.com/api/v1.1/game/{gamepk}/feed/live"
+    resp = requests.get(url)
+    if resp.ok:
+        return resp.json()
+    else:
+        return None
 
 def process_data(data):
     allPlays = data["liveData"]["plays"]["allPlays"]
@@ -188,12 +190,14 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 
-def output_data(processed_data):
+def output_data(processed_data,gamepk):
     output_path = f"data/processed/{gamepk}_processed_data.json"
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(processed_data, f, ensure_ascii=False, indent=4)
+    # with open(output_path, "w", encoding="utf-8") as f:
+    #     json.dump(processed_data, f, ensure_ascii=False, indent=4)
 
-data = data_download()
-processed_data = process_data(data)
-output_data(processed_data)
+def data_process(gamepk):
+    data = data_download(gamepk)
+    processed_data = process_data(data)
+    output_data(processed_data,gamepk)
+    return processed_data
