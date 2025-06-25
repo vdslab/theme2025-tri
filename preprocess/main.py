@@ -9,10 +9,10 @@ from data_processor_for_cr import data_process_for_cr
 
 def get_date_list():
     # start_date = datetime(2025, 3, 16)
-    start_date = datetime(2025, 6, 13)
+    start_date = datetime(2025, 3, 16)
     
     # end_date = datetime.today()
-    end_date = datetime(2025, 6, 15)
+    end_date = datetime(2025, 6, 16)
     
     days = (end_date - start_date).days + 1 
     return [(start_date + timedelta(days=i)).strftime("%m/%d/%Y") for i in range(days)]
@@ -24,7 +24,7 @@ def fetch_gamepks(date_str):
         return []
     try:
         games = resp.json()["dates"][0]["games"]
-        return [g["gamePk"] for g in games if g.get("seriesDescription") == "Regular Season"]
+        return [g["gamePk"] for g in games if g.get("seriesDescription") == "Regular Season" and g["status"].get("statusCode") == "F"]
     except Exception:
         return []
 
