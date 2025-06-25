@@ -1,0 +1,216 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.App-header p {
+  margin: 10px 0 0 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* ツールチップスタイル */
+.tooltip {
+  pointer-events: none !important;
+  z-index: 1000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* クラスタ制御パネル */
+.cluster-control-panel h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+.cluster-control-panel input[type="range"] {
+  -webkit-appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.cluster-control-panel input[type="range"]:not(:disabled):hover {
+  background: #ccc;
+}
+
+.cluster-control-panel input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #667eea;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cluster-control-panel input[type="range"]::-webkit-slider-thumb:hover {
+  background: #5a6fd8;
+}
+
+.cluster-control-panel input[type="range"]:disabled::-webkit-slider-thumb {
+  background: #bbb;
+  cursor: not-allowed;
+}
+
+.cluster-control-panel input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.1);
+}
+
+.cluster-control-panel label {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cluster-control-panel label:hover {
+  color: #333;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .App-header p {
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .cluster-control-panel {
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+  }
+}
+
+/* ローディング・エラー表示のスタイル */
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.error {
+  color: #dc3545;
+}
+
+/* SVG要素のスタイル */
+svg {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 統計情報表示エリア */
+.stats-info {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.stats-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.feature-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+/* アニメーション */
+.cluster-control-panel input[type="range"] {
+  transition: all 0.3s ease;
+}
+
+.stats-info {
+  transition: box-shadow 0.3s ease;
+}
+
+.stats-info:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
