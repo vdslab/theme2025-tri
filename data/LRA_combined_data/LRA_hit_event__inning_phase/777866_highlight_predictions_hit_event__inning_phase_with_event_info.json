@@ -1,0 +1,1422 @@
+{
+  "0": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "action"
+  },
+  "1": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "action"
+  },
+  "2": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "action"
+  },
+  "3": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "pitch"
+  },
+  "4": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "pitch"
+  },
+  "5": {
+    "highlight_probability": 3.9,
+    "batter": "Zach Neto",
+    "event_type": "home_run"
+  },
+  "6": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "7": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "8": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "9": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "10": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "11": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "12": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "13": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "14": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "15": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "16": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "17": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "18": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "19": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "20": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "21": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "22": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "23": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "24": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "25": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "26": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "27": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "28": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "29": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "30": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "31": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "32": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "33": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "34": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "35": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "36": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "37": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "38": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "39": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "40": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "41": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "42": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "43": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "44": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "45": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "46": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "47": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "48": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "49": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "50": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "51": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "52": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "53": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "54": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "55": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "56": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "57": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "58": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "59": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "60": {
+    "highlight_probability": 3.9,
+    "batter": "Nolan Schanuel",
+    "event_type": "pitch"
+  },
+  "61": {
+    "highlight_probability": 3.9,
+    "batter": "Nolan Schanuel",
+    "event_type": "pitch"
+  },
+  "62": {
+    "highlight_probability": 3.9,
+    "batter": "Nolan Schanuel",
+    "event_type": "action"
+  },
+  "63": {
+    "highlight_probability": 3.9,
+    "batter": "Nolan Schanuel",
+    "event_type": "pitch"
+  },
+  "64": {
+    "highlight_probability": 3.9,
+    "batter": "Nolan Schanuel",
+    "event_type": "field_out"
+  },
+  "65": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "66": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "67": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "68": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "69": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "70": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "71": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "72": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "73": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "74": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "75": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "76": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "77": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "78": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "79": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "80": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "81": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "82": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "83": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "84": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "85": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "86": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "87": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "88": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "89": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "90": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "91": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "92": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "93": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "94": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "95": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "96": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "97": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "98": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "99": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "100": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "101": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "102": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "103": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "104": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "105": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "106": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "107": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "108": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "109": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "110": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "111": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "112": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "113": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "114": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "115": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "116": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "117": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "118": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "119": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "120": {
+    "highlight_probability": 3.9,
+    "batter": "Yoán Moncada",
+    "event_type": "pitch"
+  },
+  "121": {
+    "highlight_probability": 3.9,
+    "batter": "Yoán Moncada",
+    "event_type": "pitch"
+  },
+  "122": {
+    "highlight_probability": 9.2,
+    "batter": "Yoán Moncada",
+    "event_type": "pitch"
+  },
+  "123": {
+    "highlight_probability": 3.9,
+    "batter": "Yoán Moncada",
+    "event_type": "pitch"
+  },
+  "124": {
+    "highlight_probability": 3.9,
+    "batter": "Yoán Moncada",
+    "event_type": "pitch"
+  },
+  "125": {
+    "highlight_probability": 3.9,
+    "batter": "Yoán Moncada",
+    "event_type": "walk"
+  },
+  "126": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "127": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "129": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "130": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "131": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "132": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "133": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "134": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "135": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "136": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "138": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "139": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "140": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "141": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "142": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "143": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "144": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "146": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "147": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "148": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "149": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "152": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "153": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "154": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "155": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "156": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "157": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "158": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "159": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "160": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "161": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "162": {
+    "highlight_probability": 35.4,
+    "batter": null,
+    "event_type": null
+  },
+  "163": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "165": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "166": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "167": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "168": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "169": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "170": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "171": {
+    "highlight_probability": 35.4,
+    "batter": null,
+    "event_type": null
+  },
+  "172": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "173": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "175": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "176": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "177": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "178": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "179": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "180": {
+    "highlight_probability": 3.9,
+    "batter": "Taylor Ward",
+    "event_type": "pitch"
+  },
+  "181": {
+    "highlight_probability": 3.9,
+    "batter": "Taylor Ward",
+    "event_type": "pitch"
+  },
+  "182": {
+    "highlight_probability": 3.9,
+    "batter": "Taylor Ward",
+    "event_type": "home_run"
+  },
+  "183": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "184": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "185": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "186": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "189": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "190": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "191": {
+    "highlight_probability": 35.4,
+    "batter": null,
+    "event_type": null
+  },
+  "192": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "193": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "194": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "195": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "196": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "197": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "198": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "199": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "200": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "201": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "202": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "203": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "204": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "205": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "206": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "208": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "209": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "210": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "211": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "212": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "213": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "214": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "215": {
+    "highlight_probability": 35.4,
+    "batter": null,
+    "event_type": null
+  },
+  "216": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "217": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "218": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "219": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "220": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "221": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "222": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "223": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "225": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "226": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "227": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "228": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "229": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "230": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "231": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "233": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "234": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "235": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "236": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "237": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "238": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "239": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "240": {
+    "highlight_probability": 3.9,
+    "batter": "Jorge Soler",
+    "event_type": "pitch"
+  },
+  "241": {
+    "highlight_probability": 3.9,
+    "batter": "Jorge Soler",
+    "event_type": "field_out"
+  },
+  "242": {
+    "highlight_probability": 3.9,
+    "batter": null,
+    "event_type": null
+  },
+  "243": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "244": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "245": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "246": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "247": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "249": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "250": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "251": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "252": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "253": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "254": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "255": {
+    "highlight_probability": 99.1,
+    "batter": null,
+    "event_type": null
+  },
+  "256": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "257": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "258": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "259": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "260": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "261": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "262": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "263": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "264": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "266": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "267": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "268": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "269": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "270": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "271": {
+    "highlight_probability": 99.1,
+    "batter": null,
+    "event_type": null
+  },
+  "272": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "273": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "274": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "275": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "276": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "277": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "278": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "279": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "280": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "281": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "282": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "283": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "284": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "285": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "286": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "287": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "288": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "289": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "290": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "291": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "292": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "294": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "295": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "296": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "297": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  },
+  "298": {
+    "highlight_probability": 89.5,
+    "batter": null,
+    "event_type": null
+  }
+}
