@@ -363,6 +363,18 @@ const ClusterVisualization = () => {
           .style("opacity", 0.8);
 
         tooltip.style("opacity", 0);
+      })
+      .on("click", (event, d) => {
+        const textToCopy = d.gamepk;
+        navigator.clipboard
+          .writeText(textToCopy)
+          .then(function () {
+            alert("テキストをコピーしました！ copy gamepk = " + textToCopy);
+          })
+          .catch(function (error) {
+            alert("テキストのコピーに失敗しました");
+            console.log(error);
+          });
       });
 
     // 凡例を作成
