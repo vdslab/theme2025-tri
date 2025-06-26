@@ -1,6 +1,11 @@
 import json
 from datetime import datetime, timedelta
 from collections import defaultdict
+import sys
+import os
+
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # ^^^ gamepkの指定 ---
 gamepk = "777866"

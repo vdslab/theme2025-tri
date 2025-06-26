@@ -1,10 +1,15 @@
 import json
 import logging
 import matplotlib.pyplot as plt
+import sys
+import os
+
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 logging.basicConfig(level=logging.WARNING)
 
 from calculate.measure_time import calc_time_diff
-from preprocess.get_scores import get_scores
 
 with open("data/raw/game/777708.json", encoding="utf-8") as f:
     data = json.load(f)

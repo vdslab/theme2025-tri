@@ -2,6 +2,11 @@ import json
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
+import sys
+import os
+
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 pk_list = ["777398","777490","777824","777838","777854","777866"]  # 対象のゲームPK
 # pk_list = ["777398"] テスト用
