@@ -28,7 +28,9 @@ const ClusterVisualization = () => {
         setLoading(true);
 
         // データ処理
-        const processedData = await processGameData("/data/3-16-6-16.json");
+        const processedData = await processGameData(
+          "/data/2025-03-16-2025-06-16.json"
+        );
 
         // エルボー法でクラスタ数候補を分析
         console.log("📊 エルボー分析を実行中...");

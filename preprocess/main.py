@@ -18,7 +18,7 @@ def get_date_list():
     end_date = datetime(e_y, e_m, e_d)
     
     days = (end_date - start_date).days + 1 
-    return [(start_date + timedelta(days=i)).strftime("%m/%d/%Y") for i in range(days)]
+    return [(start_date + timedelta(days=i)).strftime("%m/%d/%Y") for i in range(days)],s_y,s_m,s_d,e_y,e_m,e_d
 
 def fetch_gamepks(date_str):
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={date_str}"
@@ -31,15 +31,17 @@ def fetch_gamepks(date_str):
     except Exception:
         return []
 
-def output_data(process_datas_dor_rc):
-    output_path = "frontend/public/data/3-16-6-16.json"
+def output_data(process_datas_dor_rc,s_y,s_m,s_d,e_y,e_m,e_d):
+    start_date_str = f"{s_y}-{s_m:02d}-{s_d:02d}"
+    end_date_str = f"{e_y}-{e_m:02d}-{e_d:02d}"
+    output_path = f"frontend/public/data/{start_date_str}-{end_date_str}.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(process_datas_dor_rc, f, ensure_ascii=False, indent=4)
         
 def main():
     process_datas_dor_rc = []
-    date_str = get_date_list()
+    date_str,s_y,s_m,s_d,e_y,e_m,e_d = get_date_list()
     for date in date_str:
         gamepks = fetch_gamepks(date)
         print(gamepks)
@@ -51,7 +53,7 @@ def main():
             # print(process_data_dor_rc)
             process_datas_dor_rc.append(process_data_dor_rc)
     
-    output_data(process_datas_dor_rc)
+    output_data(process_datas_dor_rc,s_y,s_m,s_d,e_y,e_m,e_d)
     
 if __name__ == "__main__":
     main()
