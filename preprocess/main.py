@@ -9,10 +9,13 @@ from data_processor_for_cr import data_process_for_cr
 
 def get_date_list():
     # start_date = datetime(2025, 3, 16)
-    start_date = datetime(2025, 3, 16)
+    s_y, s_m, s_d = 2025, 6, 16
+    e_y, e_m, e_d = 2025, 6, 16
     
+    # start_date = datetime(2025, 3, 16)
+    start_date = datetime(s_y, s_m, s_d)
     # end_date = datetime.today()
-    end_date = datetime(2025, 6, 16)
+    end_date = datetime(e_y, e_m, e_d)
     
     days = (end_date - start_date).days + 1 
     return [(start_date + timedelta(days=i)).strftime("%m/%d/%Y") for i in range(days)]
@@ -29,7 +32,7 @@ def fetch_gamepks(date_str):
         return []
 
 def output_data(process_datas_dor_rc):
-    output_path = "data/processed_for_rc/test.json"
+    output_path = "frontend/public/data/test2.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(process_datas_dor_rc, f, ensure_ascii=False, indent=4)
@@ -42,9 +45,9 @@ def main():
         print(gamepks)
         for gamepk in gamepks:
             print(gamepk)
-            process_data = data_process(gamepk)
+            raw_data,process_data = data_process(gamepk)
 
-            process_data_dor_rc = data_process_for_cr(process_data,gamepk)
+            process_data_dor_rc = data_process_for_cr(raw_data,process_data,gamepk)
             # print(process_data_dor_rc)
             process_datas_dor_rc.append(process_data_dor_rc)
     

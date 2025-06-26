@@ -28,7 +28,7 @@ const ClusterVisualization = () => {
         setLoading(true);
 
         // データ処理
-        const processedData = await processGameData("/data/test.json");
+        const processedData = await processGameData("/data/test2.json");
 
         // エルボー法でクラスタ数候補を分析
         console.log("📊 エルボー分析を実行中...");
@@ -311,6 +311,16 @@ const ClusterVisualization = () => {
               d.cluster
             }</strong>
             </div>
+            ${
+              d.date
+                ? `<div style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #555;">
+              <strong style="color: #FFD54F;">📅 ${d.date}</strong><br/>
+              <strong style="color: #81C784;">${
+                d.team ? `${d.team.away} vs ${d.team.home}` : ""
+              }</strong>
+            </div>`
+                : ""
+            }
             <div style="line-height: 1.4;">
               <strong>元の特徴量:</strong><br/>
               • 試合時間: ${(

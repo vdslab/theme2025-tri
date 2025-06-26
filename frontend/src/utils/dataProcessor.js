@@ -23,7 +23,7 @@ export async function loadJsonData(filePath) {
 }
 
 /**
- * gamepk 以外の 4 つの特徴量を抽出
+ * gamepk 以外の特徴量を抽出し、date と team 情報も保持
  * @param {Array} rawData - 元データ
  * @returns {Array} - 特徴量データ
  */
@@ -46,6 +46,15 @@ export function extractFeatures(rawData) {
     features.forEach((feature) => {
       featureData[feature] = item[feature];
     });
+
+    // date と team 情報も保持（ツールチップ表示用）
+    if (item.date) {
+      featureData.date = item.date;
+    }
+
+    if (item.team) {
+      featureData.team = item.team;
+    }
 
     return featureData;
   });

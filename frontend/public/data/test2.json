@@ -1,0 +1,93 @@
+[
+    {
+        "gamepk": 777483,
+        "time": 233.21114999999998,
+        "ex_base_hit_cnt": 7,
+        "total_score": 7,
+        "diff_score": 3,
+        "lead_change_cnt": 0,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Philadelphia Phillies",
+            "home": "Miami Marlins"
+        }
+    },
+    {
+        "gamepk": 777488,
+        "time": 265.85375000000016,
+        "ex_base_hit_cnt": 8,
+        "total_score": 10,
+        "diff_score": 2,
+        "lead_change_cnt": 2,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Colorado Rockies",
+            "home": "Washington Nationals"
+        }
+    },
+    {
+        "gamepk": 777487,
+        "time": 255.99841666666654,
+        "ex_base_hit_cnt": 4,
+        "total_score": 1,
+        "diff_score": 1,
+        "lead_change_cnt": 0,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Los Angeles Angels",
+            "home": "New York Yankees"
+        }
+    },
+    {
+        "gamepk": 777484,
+        "time": 218.67851666666706,
+        "ex_base_hit_cnt": 7,
+        "total_score": 8,
+        "diff_score": 6,
+        "lead_change_cnt": 0,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Baltimore Orioles",
+            "home": "Tampa Bay Rays"
+        }
+    },
+    {
+        "gamepk": 777486,
+        "time": 232.4430333333335,
+        "ex_base_hit_cnt": 2,
+        "total_score": 2,
+        "diff_score": 2,
+        "lead_change_cnt": 0,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Boston Red Sox",
+            "home": "Seattle Mariners"
+        }
+    },
+    {
+        "gamepk": 777485,
+        "time": 243.08351666666684,
+        "ex_base_hit_cnt": 5,
+        "total_score": 4,
+        "diff_score": 2,
+        "lead_change_cnt": 1,
+        "date": "2025-06-16",
+        "team": {
+            "away": "Houston Astros",
+            "home": "Athletics"
+        }
+    },
+    {
+        "gamepk": 777490,
+        "time": 271.51316666666673,
+        "ex_base_hit_cnt": 6,
+        "total_score": 9,
+        "diff_score": 3,
+        "lead_change_cnt": 1,
+        "date": "2025-06-16",
+        "team": {
+            "away": "San Diego Padres",
+            "home": "Los Angeles Dodgers"
+        }
+    }
+]

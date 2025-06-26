@@ -197,7 +197,7 @@ def output_data(processed_data,gamepk):
     #     json.dump(processed_data, f, ensure_ascii=False, indent=4)
 
 def data_process(gamepk):
-    data = data_download(gamepk)
-    processed_data = process_data(data)
+    raw_data = data_download(gamepk)
+    processed_data = process_data(raw_data)
     output_data(processed_data,gamepk)
-    return processed_data
+    return raw_data,processed_data
