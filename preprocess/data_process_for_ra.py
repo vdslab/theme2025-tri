@@ -1,15 +1,12 @@
 import json
+import sys
+import os
 
-gamepk = 777866
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-def data_download():
-    with open(f"data/processed/{gamepk}_processed_data.json", encoding="utf-8") as f:
-        game_data = json.load(f)
-        
-    return game_data
-    
-def get_scores():
-    game_data = data_download()
+def get_scores(processed_data):
+    game_data = processed_data
     scores_data = {}
     for p_idx,play in  game_data.items():
         p_score = {}
@@ -149,11 +146,15 @@ def get_situation_score(event,situation_features):
     situation_features["score_difference"] = score_difference
     situation_features["inning_phase"] = inning_phase
 
-def output_data(scores_data):
+def output_data(scores_data,gamepk):
     output_path = f"data/processed_for_ra/{gamepk}_processed_for_ra_data.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(scores_data, f, ensure_ascii=False, indent=4)
         
-scores_data = get_scores()
-output_data(scores_data)
+        
+def data_process_for_ra(processed_data,gamepk):
+    scores_data = get_scores(processed_data)
+    output_data(scores_data,gamepk)
+    
+    return scores_data

@@ -1,6 +1,12 @@
 import json
-from calculate.measure_time import calc_time_diff
 import requests
+import sys
+import os
+
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from preprocess.calculate.measure_time import calc_time_diff
 
 def data_download(gamepk):
     url = f"https://statsapi.mlb.com/api/v1.1/game/{gamepk}/feed/live"
@@ -200,4 +206,5 @@ def data_process(gamepk):
     raw_data = data_download(gamepk)
     processed_data = process_data(raw_data)
     output_data(processed_data,gamepk)
+    
     return raw_data,processed_data

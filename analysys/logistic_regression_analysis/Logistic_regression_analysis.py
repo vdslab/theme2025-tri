@@ -4,14 +4,11 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
-pk_list = ["777398","777490","777824","777838","777854","777866",]
+# pk_list = ["777398","777490","777824","777838","777854","777866",]
 
 # gamepk = pk_list[3]  # 対象のゲームPK
 
-for pk in pk_list:
-# --- データの読み込み ---
-    with open(f"data/molded_data/{pk}_molded_data.json", encoding="utf-8") as f:
-        molded_data = json.load(f)
+def Logistic_regression_analysis(gamepk, molded_data):
 
     minutes_data = molded_data["minutes"]
 
