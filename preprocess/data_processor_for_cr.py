@@ -27,11 +27,6 @@ def get_score(raw_data,data,gamepk):
     team = {}
     team["away"] = raw_data.get("gameData", {}).get("teams", {}).get("away", {}).get("name", "undefined")
     team["home"] = raw_data.get("gameData", {}).get("teams", {}).get("home", {}).get("name", "undefined")
-    
-    # score
-    score = {}
-    score["away"] = raw_data.get("gameData", {}).get("teams", {}).get("away", {}).get("score", "undefined")
-    score["home"] = raw_data.get("gameData", {}).get("teams", {}).get("home", {}).get("score", "undefined")
 
     lead_change_cnt = 0
     for _,play in data.items():

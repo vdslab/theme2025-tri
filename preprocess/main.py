@@ -9,7 +9,7 @@ from data_processor_for_cr import data_process_for_cr
 
 def get_date_list():
     # start_date = datetime(2025, 3, 16)
-    s_y, s_m, s_d = 2025, 6, 16
+    s_y, s_m, s_d = 2025, 3, 16
     e_y, e_m, e_d = 2025, 6, 16
     
     # start_date = datetime(2025, 3, 16)
@@ -32,7 +32,7 @@ def fetch_gamepks(date_str):
         return []
 
 def output_data(process_datas_dor_rc):
-    output_path = "frontend/public/data/test2.json"
+    output_path = "frontend/public/data/3-16-6-16.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(process_datas_dor_rc, f, ensure_ascii=False, indent=4)
