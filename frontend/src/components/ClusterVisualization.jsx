@@ -363,6 +363,22 @@ const ClusterVisualization = () => {
           .style("opacity", 0.8);
 
         tooltip.style("opacity", 0);
+      })
+      .on("click", (event, d) => {
+        // const textToCopy = d.gamepk;
+        const textToCopy = d.date + " " + d.team.away + " " + d.team.home;
+        navigator.clipboard
+          .writeText(textToCopy)
+          .then(function () {
+            alert(
+              "テキストをコピーしました！貼り付け可能です! copy gameinfo = " +
+                textToCopy
+            );
+          })
+          .catch(function (error) {
+            alert("テキストのコピーに失敗しました");
+            console.log(error);
+          });
       });
 
     // 凡例を作成
