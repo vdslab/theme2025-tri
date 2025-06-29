@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import { processGameData } from "../utils/dataProcessor";
 import { performClustering, findOptimalClusters } from "../utils/kmeans";
 import { performPCA } from "../utils/pca";
+import { ClusterVisualizationService } from "../service/ClusterVisualizationService";
 
 /**
  * クラスタリング可視化コンポーネント
@@ -379,6 +380,8 @@ const ClusterVisualization = () => {
             alert("テキストのコピーに失敗しました");
             console.log(error);
           });
+
+        ClusterVisualizationService.getLogisticRegressionData(d.gamepk);
       });
 
     // 凡例を作成
