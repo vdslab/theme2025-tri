@@ -21,6 +21,7 @@ const ClusterVisualization = () => {
   const [clusterCount, setClusterCount] = useState(null); // 手動指定されたクラスタ数
   const [isAutoMode, setIsAutoMode] = useState(true); // 自動/手動モード切り替え
   const [updating, setUpdating] = useState(false);
+  const [selectedGamepk, setSelectedGamepk] = useState(null);
 
   // 初期データの読み込み
   useEffect(() => {
@@ -291,8 +292,8 @@ const ClusterVisualization = () => {
       .attr("cy", (d) => yScale(d.pc2))
       .attr("r", 7)
       .attr("fill", (d) => colorScale(d.cluster))
-      .attr("stroke", "white")
-      .attr("stroke-width", 2)
+      .attr("stroke", (d) => (selectedGamepk === d.gamepk ? "#333" : "white"))
+      .attr("stroke-width", (d) => (selectedGamepk === d.gamepk ? 4 : 2))
       .style("cursor", "pointer")
       .style("opacity", 0.8)
       .on("mouseover", (event, d) => {
@@ -382,6 +383,7 @@ const ClusterVisualization = () => {
           });
 
         ClusterVisualizationService.getLogisticRegressionData(d.gamepk);
+        setSelectedGamepk(d.gamepk);
       });
 
     // 凡例を作成
@@ -469,7 +471,7 @@ const ClusterVisualization = () => {
       .style("font-size", "12px")
       .style("fill", "#666")
       .text("5次元特徴量を主成分分析で2次元に次元削減");
-  }, [data]);
+  }, [data, selectedGamepk]);
 
   // 自動モード切り替え時の処理
   const handleModeChange = (auto) => {
@@ -680,7 +682,7 @@ const ClusterVisualization = () => {
           </div>
         </div>
       )}
-
+      <div>selectedGamepk: {selectedGamepk}</div>
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <svg ref={svgRef}></svg>
       </div>
