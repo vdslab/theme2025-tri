@@ -29,7 +29,7 @@ const ClusterVisualization = () => {
 
         // データ処理
         const processedData = await processGameData(
-          "/data/2025-03-16-2025-06-16.json"
+          "/data/2025-03-16-2025-06-16.json",
         );
 
         // エルボー法でクラスタ数候補を分析
@@ -37,7 +37,7 @@ const ClusterVisualization = () => {
         const { optimalK, elbowData: elbowResult } = findOptimalClusters(
           processedData.normalizedData,
           processedData.features,
-          8 // 最大8クラスタまで試行
+          8, // 最大8クラスタまで試行
         );
 
         setProcessedData(processedData);
@@ -68,14 +68,14 @@ const ClusterVisualization = () => {
         const clusteringResult = performClustering(
           processedData.normalizedData,
           processedData.features,
-          clusterCount // 手動指定されたクラスタ数を使用
+          clusterCount, // 手動指定されたクラスタ数を使用
         );
 
         // PCAで次元削減
         const pcaResult = performPCA(
           clusteringResult.clusteredData,
           processedData.features,
-          2
+          2,
         );
 
         setData({
@@ -129,7 +129,7 @@ const ClusterVisualization = () => {
           d3
             .axisBottom(xScale)
             .ticks(elbowData.length)
-            .tickFormat(d3.format("d"))
+            .tickFormat(d3.format("d")),
         );
 
       g.append("g").call(d3.axisLeft(yScale).ticks(5));
@@ -233,7 +233,7 @@ const ClusterVisualization = () => {
       .style("text-anchor", "middle")
       .style("font-size", "14px")
       .text(
-        `第1主成分 (寄与率: ${(data.pca.varianceRatios[0] * 100).toFixed(1)}%)`
+        `第1主成分 (寄与率: ${(data.pca.varianceRatios[0] * 100).toFixed(1)}%)`,
       );
 
     g.append("g")
@@ -246,7 +246,7 @@ const ClusterVisualization = () => {
       .style("text-anchor", "middle")
       .style("font-size", "14px")
       .text(
-        `第2主成分 (寄与率: ${(data.pca.varianceRatios[1] * 100).toFixed(1)}%)`
+        `第2主成分 (寄与率: ${(data.pca.varianceRatios[1] * 100).toFixed(1)}%)`,
       );
 
     // グリッドライン
@@ -331,25 +331,25 @@ const ClusterVisualization = () => {
               ).toFixed(1)}分<br/>
               • エキストラベースヒット: ${Math.round(
                 d.ex_base_hit_cnt * data.scalingParams.ex_base_hit_cnt.range +
-                  data.scalingParams.ex_base_hit_cnt.min
+                  data.scalingParams.ex_base_hit_cnt.min,
               )}回<br/>
               • 総得点: ${Math.round(
                 d.total_score * data.scalingParams.total_score.range +
-                  data.scalingParams.total_score.min
+                  data.scalingParams.total_score.min,
               )}点<br/>
               • 得点差: ${Math.round(
                 d.diff_score * data.scalingParams.diff_score.range +
-                  data.scalingParams.diff_score.min
+                  data.scalingParams.diff_score.min,
               )}点<br/>
               • リードチェンジ: ${Math.round(
                 d.lead_change_cnt * data.scalingParams.lead_change_cnt.range +
-                  data.scalingParams.lead_change_cnt.min
+                  data.scalingParams.lead_change_cnt.min,
               )}回
             </div>
             <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #555; font-size: 11px; color: #ccc;">
               PC1: ${d.pc1.toFixed(3)}, PC2: ${d.pc2.toFixed(3)}
             </div>
-          `
+          `,
           )
           .style("left", event.pageX + 15 + "px")
           .style("top", event.pageY - 10 + "px");
@@ -372,7 +372,7 @@ const ClusterVisualization = () => {
           .then(function () {
             alert(
               "テキストをコピーしました！貼り付け可能です! copy gameinfo = " +
-                textToCopy
+                textToCopy,
             );
           })
           .catch(function (error) {
@@ -386,11 +386,11 @@ const ClusterVisualization = () => {
       .append("g")
       .attr(
         "transform",
-        `translate(${width + margin.left + 20}, ${margin.top})`
+        `translate(${width + margin.left + 20}, ${margin.top})`,
       );
 
     const clusters = [...new Set(pcaData.map((d) => d.cluster))].sort(
-      (a, b) => a - b
+      (a, b) => a - b,
     );
 
     legend
@@ -482,7 +482,7 @@ const ClusterVisualization = () => {
             ? { k: current.k, improvement }
             : optimal;
         },
-        { k: 3, improvement: 0 }
+        { k: 3, improvement: 0 },
       ).k;
 
       setClusterCount(optimalK);
