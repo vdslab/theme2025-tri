@@ -24,6 +24,7 @@ def get_scores(processed_data):
             e_score["play_features"] = play_features
             e_score["situation_features"] = situation_features
             e_score["time"] = event["time"]
+            e_score["detail"] = event["detail"]
             
         scores_data[p_idx] = p_score
     return scores_data

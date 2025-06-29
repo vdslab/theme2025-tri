@@ -22,7 +22,6 @@ def time_data_sellecting(gamepk,match_data):
     all_start_times = []
     all_end_times = []
     events = []
-
     for at_bat_id, event_group in match_data.items():
         for event_id, event in event_group.items():
             start = parse_time(event["time"]["start_time"])
@@ -33,7 +32,8 @@ def time_data_sellecting(gamepk,match_data):
                 "start": start,
                 "end": end,
                 "play_features": event["play_features"],
-                "situation_features": event["situation_features"]
+                "situation_features": event["situation_features"],
+                "detail": event["detail"]
             })
 
     start_time = min(all_start_times)
@@ -42,14 +42,14 @@ def time_data_sellecting(gamepk,match_data):
 
     # --- 1分単位に分割し、該当イベントを記録 ---
     minute_events = defaultdict(list)
-
     for event in events:
         start_minute = int((event["start"] - start_time).total_seconds() // 60)
         end_minute = int((event["end"] - start_time).total_seconds() // 60)
         for minute in range(start_minute, end_minute + 1):
             minute_events[minute].append({
                 "play_features": event["play_features"],
-                "situation_features": event["situation_features"]
+                "situation_features": event["situation_features"],
+                "detail": event["detail"]
             })
 
     # --- 出力用に整形 ---
@@ -57,7 +57,7 @@ def time_data_sellecting(gamepk,match_data):
         "total_duration_minutes": int(total_duration // 60),
         "start_time": start_time.isoformat(),
         "end_time": end_time.isoformat(),
-        "minutes": {}
+        "minutes": {},
     }
 
     for minute, features in minute_events.items():
