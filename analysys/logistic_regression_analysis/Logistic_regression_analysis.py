@@ -76,16 +76,12 @@ def Logistic_regression_analysis(gamepk, molded_data):
         # print(classification_report(y, y_pred))
 
         probs = model.predict_proba(X)[:, 1]
-        print("aaa")
         print("\n--- Highlight Probabilities ---")
         print(probs)
-        print(len(probs))
         
         logistic_regression_data = {}
         values = list(molded_data["minutes"].values())
-        print(len(values))
         for v_idx,value in enumerate(values):
-            print(probs[v_idx])
             detail = []
             for v in value:
                 detail.append(v["detail"])
