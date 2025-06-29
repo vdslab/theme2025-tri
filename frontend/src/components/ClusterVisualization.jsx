@@ -310,8 +310,8 @@ const ClusterVisualization = () => {
             <div style="border-bottom: 1px solid #555; padding-bottom: 8px; margin-bottom: 8px;">
               <strong style="color: #4FC3F7;">Game PK: ${d.gamepk}</strong><br/>
               <strong style="color: ${colorScale(d.cluster)};">クラスタ ${
-              d.cluster
-            }</strong>
+                d.cluster
+              }</strong>
             </div>
             ${
               d.date
@@ -365,11 +365,15 @@ const ClusterVisualization = () => {
         tooltip.style("opacity", 0);
       })
       .on("click", (event, d) => {
-        const textToCopy = d.gamepk;
+        // const textToCopy = d.gamepk;
+        const textToCopy = d.date + " " + d.team.away + " " + d.team.home;
         navigator.clipboard
           .writeText(textToCopy)
           .then(function () {
-            alert("テキストをコピーしました！ copy gamepk = " + textToCopy);
+            alert(
+              "テキストをコピーしました！貼り付け可能です! copy gameinfo = " +
+                textToCopy
+            );
           })
           .catch(function (error) {
             alert("テキストのコピーに失敗しました");
