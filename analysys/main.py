@@ -24,6 +24,15 @@ def main():
 
     Logistic_regression_analysis(gamepk,molded_data)
 
+def get_data(gamepk):
+    
+    _,processed_data = data_process(gamepk)
+    
+    match_data = data_process_for_ra(processed_data,gamepk)
+        
+    molded_data = time_data_sellecting(gamepk,match_data)
+
+    Logistic_regression_analysis(gamepk,molded_data)
 
 if __name__ == "__main__":
     main()
