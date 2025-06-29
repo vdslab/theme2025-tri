@@ -29,6 +29,9 @@ def process_data(data):
         
         event_lookup[p_idx] = {}
         for e_idx, event in enumerate(playEvents):
+            # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
+            if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
+                continue
             
             is_inning_first = isInningTop_ != isInningTop
             if is_inning_first:
