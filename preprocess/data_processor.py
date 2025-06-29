@@ -29,6 +29,9 @@ def process_data(data):
         
         event_lookup[p_idx] = {}
         for e_idx, event in enumerate(playEvents):
+            # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
+            if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
+                continue
             
             is_inning_first = isInningTop_ != isInningTop
             if is_inning_first:
@@ -56,13 +59,17 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     
     # event type
     event_type = event["type"]
+    description = event["details"].get("description")
     pe_type = play["result"]["eventType"]
     
+    if isLast:
+        description = pe_type
+        event_type = pe_type
+
     # is base running play
     is_base_running_play = event.get("isBaseRunningPlay", "null")
-    if isLast:
-        event_type = pe_type
         
+    # batter
     batter = {
         "id":play["matchup"]["batter"]["id"],
         "full_name":play["matchup"]["batter"]["fullName"],
@@ -166,6 +173,15 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     end_time = event.get("endTime",{})
     diff_time = calc_time_diff(start_time,end_time)
     
+    # detail
+    detail = {}
+    detail["inning"] = inning
+    detail["inning_top"] = is_away
+    detail["batter"] = batter["full_name"]
+    detail["count"] = event.get("count",{})
+    detail["event"] = description
+    detail["runner_state"] = runner_state
+    
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
     processed_event["inning"] = inning
@@ -193,6 +209,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     time["start_time"] = start_time
     time["end_time"] = end_time
     time["diff_time"] = diff_time
+    processed_event["detail"] = detail
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 

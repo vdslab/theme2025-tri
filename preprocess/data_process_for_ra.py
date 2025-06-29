@@ -24,6 +24,7 @@ def get_scores(processed_data):
             e_score["play_features"] = play_features
             e_score["situation_features"] = situation_features
             e_score["time"] = event["time"]
+            e_score["detail"] = event["detail"]
             
         scores_data[p_idx] = p_score
     return scores_data
@@ -149,8 +150,8 @@ def get_situation_score(event,situation_features):
 def output_data(scores_data,gamepk):
     output_path = f"data/processed_for_ra/{gamepk}_processed_for_ra_data.json"
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(scores_data, f, ensure_ascii=False, indent=4)
+    # with open(output_path, "w", encoding="utf-8") as f:
+    #     json.dump(scores_data, f, ensure_ascii=False, indent=4)
         
         
 def data_process_for_ra(processed_data,gamepk):
