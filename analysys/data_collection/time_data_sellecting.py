@@ -64,8 +64,8 @@ def time_data_sellecting(gamepk,match_data):
         output["minutes"][str(minute)] = features
 
     # --- 保存 ---
-    with open(f"data/molded_data/{gamepk}_molded_data.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+    # with open(f"data/molded_data/{gamepk}_molded_data.json", "w", encoding="utf-8") as f:
+    #     json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"保存完了：{gamepk}_molded_data.json")
     

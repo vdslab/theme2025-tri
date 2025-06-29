@@ -138,8 +138,8 @@ def main():
         output[game_pk] = plays
 
     os.makedirs("output", exist_ok=True)
-    with open(f"output/mlb_features_{target_date}.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+    # with open(f"output/mlb_features_{target_date}.json", "w", encoding="utf-8") as f:
+    #     json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"保存しました: output/mlb_features_{target_date}.json")
 
