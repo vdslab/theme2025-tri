@@ -22,6 +22,7 @@ const ClusterVisualization = () => {
   const [isAutoMode, setIsAutoMode] = useState(true); // 自動/手動モード切り替え
   const [updating, setUpdating] = useState(false);
   const [selectedGamepk, setSelectedGamepk] = useState(null);
+  const [searchedGamepk, setSearchedGamepk] = useState(null);
 
   // 初期データの読み込み
   useEffect(() => {
@@ -182,6 +183,10 @@ const ClusterVisualization = () => {
     drawElbowChart();
   }, [elbowData, clusterCount]);
 
+  useEffect(() => {
+    console.log(searchedGamepk);
+  }, [searchedGamepk]);
+
   // D3.js 可視化（PCA版）
   useEffect(() => {
     if (!data) return;
@@ -291,7 +296,12 @@ const ClusterVisualization = () => {
       .attr("cx", (d) => xScale(d.pc1))
       .attr("cy", (d) => yScale(d.pc2))
       .attr("r", 7)
-      .attr("fill", (d) => colorScale(d.cluster))
+      .attr("fill", (d) => {
+        if (Number(searchedGamepk) === d.gamepk) {
+          return "#000000";
+        }
+        return colorScale(d.cluster);
+      })
       .attr("stroke", (d) => (selectedGamepk === d.gamepk ? "#333" : "white"))
       .attr("stroke-width", (d) => (selectedGamepk === d.gamepk ? 4 : 2))
       .style("cursor", "pointer")
@@ -471,7 +481,7 @@ const ClusterVisualization = () => {
       .style("font-size", "12px")
       .style("fill", "#666")
       .text("5次元特徴量を主成分分析で2次元に次元削減");
-  }, [data, selectedGamepk]);
+  }, [data, selectedGamepk, searchedGamepk]);
 
   // 自動モード切り替え時の処理
   const handleModeChange = (auto) => {
@@ -683,6 +693,15 @@ const ClusterVisualization = () => {
         </div>
       )}
       <div>selectedGamepk: {selectedGamepk}</div>
+      <div>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          value={searchedGamepk}
+          onChange={(e) => setSearchedGamepk(e.target.value)}
+        />
+      </div>
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <svg ref={svgRef}></svg>
       </div>
