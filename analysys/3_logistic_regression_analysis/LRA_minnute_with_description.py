@@ -15,7 +15,63 @@ feature_groups = [
     "score_difference",
     "inning_phase"
 ]
+# runner_status の one-hot を重み付きに変換する関数
+def weighted_runner_status(status_dict):
+    # 任意の重みを設定（例: none=0, first=1, second=2, third=3, first-second=4, ...）
+    weights = {
+        "none": 0,
+        "first": 1,
+        "second": 2,
+        "third": 3,
+        "first-second": 4,
+        "first-third": 5,
+        "second-third": 6,
+        "first-second-third": 7
+    }
+    # 該当するステータスの重みを返す
+    for key, val in status_dict.items():
+        if val:
+            return [weights.get(key, 0)]
+    # どれも該当しない場合は0
+    return [0]
 
+# flatten_features の runner_status 部分を書き換えるためのラッパー
+def flatten_features_with_weighted_runner(minute):
+    play = minute["play_features"]
+    situ = minute["situation_features"]
+    features = []
+
+    if do_place == "hit_event":
+        for key in ["single", "double", "triple", "home_run"]:
+            features.append(int(play["hit_event"].get(key, False)))
+    elif do_place == "rbi_impact":
+        for key in ["regular_rbi", "tie_rbi", "go_ahead_rbi", "sayonara_rbi"]:
+            features.append(int(play["rbi_impact"].get(key, False)))
+    elif do_place == "runner_status":
+        features.extend(weighted_runner_status(situ["runner_status"]))
+    elif do_place == "score_difference":
+        for key in [
+            "minus_less_3", "minus_2", "minus_1", "tie",
+            "plus_1", "plus_2", "plus_more_3"
+        ]:
+            features.append(int(situ["score_difference"].get(key, False)))
+    elif do_place == "inning_phase":
+        features.append(int(situ["inning_phase"].get("early", False)))
+    elif do_place == "play_features":
+        for key in ["single", "double", "triple", "home_run"]:
+            features.append(int(play["hit_event"].get(key, False)))
+        for key in ["regular_rbi", "tie_rbi", "go_ahead_rbi", "sayonara_rbi"]:
+            features.append(int(play["rbi_impact"].get(key, False)))
+    elif do_place == "situation_features":
+        features.extend(weighted_runner_status(situ["runner_status"]))
+        for key in [
+            "minus_less_3", "minus_2", "minus_1", "tie",
+            "plus_1", "plus_2", "plus_more_3"
+        ]:
+            features.append(int(situ["score_difference"].get(key, False)))
+        features.append(int(situ["inning_phase"].get("early", False)))
+
+    return features
 for gamepk in pk_list:
     # --- ファイルの読み込み ---
     with open(f"data/molded_data/{gamepk}_molded_data.json", encoding="utf-8") as f:
@@ -31,7 +87,6 @@ for gamepk in pk_list:
             play = minute["play_features"]
             situ = minute["situation_features"]
             features = []
-
             if do_place == "hit_event":
                 for key in ["single", "double", "triple", "home_run"]:
                     features.append(int(play["hit_event"].get(key, False)))
@@ -39,11 +94,7 @@ for gamepk in pk_list:
                 for key in ["regular_rbi", "tie_rbi", "go_ahead_rbi", "sayonara_rbi"]:
                     features.append(int(play["rbi_impact"].get(key, False)))
             elif do_place == "runner_status":
-                for key in [
-                    "none", "first", "second", "third", "first-second",
-                    "first-third", "second-third", "first-second-third"
-                ]:
-                    features.append(int(situ["runner_status"].get(key, False)))
+                features.extend(weighted_runner_status(situ["runner_status"]))
             elif do_place == "score_difference":
                 for key in [
                     "minus_less_3", "minus_2", "minus_1", "tie",
@@ -53,17 +104,12 @@ for gamepk in pk_list:
             elif do_place == "inning_phase":
                 features.append(int(situ["inning_phase"].get("early", False)))
             elif do_place == "play_features":
-                # 両方まとめて使う場合
                 for key in ["single", "double", "triple", "home_run"]:
                     features.append(int(play["hit_event"].get(key, False)))
                 for key in ["regular_rbi", "tie_rbi", "go_ahead_rbi", "sayonara_rbi"]:
                     features.append(int(play["rbi_impact"].get(key, False)))
             elif do_place == "situation_features":
-                for key in [
-                    "none", "first", "second", "third", "first-second",
-                    "first-third", "second-third", "first-second-third"
-                ]:
-                    features.append(int(situ["runner_status"].get(key, False)))
+                features.extend(weighted_runner_status(situ["runner_status"]))
                 for key in [
                     "minus_less_3", "minus_2", "minus_1", "tie",
                     "plus_1", "plus_2", "plus_more_3"
@@ -72,6 +118,7 @@ for gamepk in pk_list:
                 features.append(int(situ["inning_phase"].get("early", False)))
 
             return features
+        
     # --- ハイライトラベル抽出関数 ---
         def is_highlight(minute):
             if do_place == "play_features":
@@ -119,7 +166,7 @@ for gamepk in pk_list:
             model.fit(X, y)
             probs = model.predict_proba(X)[:, 1]
         else:
-            print("⚠️ ラベルが一種類しかないため、モデル学習不可。")
+            print(f"⚠️ ラベルが一種類しかないため、モデル学習不可。{do_place}")
             probs = [0.0] * len(X)
 
         # --- 出力データの構築 ---

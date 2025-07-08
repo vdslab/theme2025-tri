@@ -13,7 +13,7 @@ feature_groups = [
     "rbi_impact",
     "runner_status",
     "score_difference",
-    "inning_phase"
+    "inning_phase",
 ]
 
 # 組み合わせ生成
@@ -41,15 +41,35 @@ for gamepk in pk_list:
                     for key in ["single", "double", "triple", "home_run"]:
                         f.append(int(play["hit_event"].get(key, False)))
                 elif group == "rbi_impact":
-                    for key in ["regular_rbi", "tie_rbi", "go_ahead_rbi", "sayonara_rbi"]:
+                    for key in [
+                        "regular_rbi",
+                        "tie_rbi",
+                        "go_ahead_rbi",
+                        "sayonara_rbi",
+                    ]:
                         f.append(int(play["rbi_impact"].get(key, False)))
                 elif group == "runner_status":
-                    for key in ["none", "first", "second", "third", "first-second",
-                                "first-third", "second-third", "first-second-third"]:
+                    for key in [
+                        "none",
+                        "first",
+                        "second",
+                        "third",
+                        "first-second",
+                        "first-third",
+                        "second-third",
+                        "first-second-third",
+                    ]:
                         f.append(int(situ["runner_status"].get(key, False)))
                 elif group == "score_difference":
-                    for key in ["minus_less_3", "minus_2", "minus_1", "tie",
-                                "plus_1", "plus_2", "plus_more_3"]:
+                    for key in [
+                        "minus_less_3",
+                        "minus_2",
+                        "minus_1",
+                        "tie",
+                        "plus_1",
+                        "plus_2",
+                        "plus_more_3",
+                    ]:
                         f.append(int(situ["score_difference"].get(key, False)))
                 elif group == "inning_phase":
                     f.append(int(situ["inning_phase"].get("early", False)))
@@ -92,7 +112,7 @@ for gamepk in pk_list:
         y = np.array(y)
 
         if len(np.unique(y)) > 1:
-            model = LogisticRegression(max_iter=1000)
+            model = LogisticRegression(max_iter=1000, class_weight="balanced")
             model.fit(X, y)
             probs = model.predict_proba(X)[:, 1]
         else:
@@ -108,13 +128,13 @@ for gamepk in pk_list:
                 output_data[minute_str] = {
                     "highlight_probability": round(probs[idx] * 100, 1),
                     "batter": event["batter"]["full_name"],
-                    "event_type": event["event_type"]
+                    "event_type": event["event_type"],
                 }
             except KeyError:
                 output_data[minute_str] = {
                     "highlight_probability": round(probs[idx] * 100, 1),
                     "batter": None,
-                    "event_type": None
+                    "event_type": None,
                 }
 
         output_dir = f"data/LRA_combined_data/LRA_{combination_name}"
