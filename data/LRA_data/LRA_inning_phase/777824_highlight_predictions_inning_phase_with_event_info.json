@@ -1,1832 +1,1466 @@
 {
   "0": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "action"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "1": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "action"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "2": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "action"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "3": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "4": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "5": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "6": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "7": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "8": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "9": {
-    "highlight_probability": 1.8,
-    "batter": "Corbin Carroll",
-    "event_type": "walk"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "10": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "11": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "12": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "13": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "14": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "15": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "16": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "17": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "18": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "19": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "20": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "21": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "22": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "23": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "24": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "25": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "26": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "27": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "28": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "29": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "30": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "31": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "32": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "33": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "34": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "35": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "36": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "37": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "38": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "39": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "40": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "41": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "42": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "43": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "44": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "45": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "46": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "47": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "48": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "49": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "50": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "51": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "52": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "53": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "54": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "55": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "56": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "57": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "58": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "59": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "60": {
-    "highlight_probability": 1.8,
-    "batter": "Ketel Marte",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "61": {
-    "highlight_probability": 1.8,
-    "batter": "Ketel Marte",
-    "event_type": "grounded_into_double_play"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "62": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "63": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "64": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "65": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "66": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "67": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "68": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "69": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "70": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "71": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "72": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "73": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "74": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "75": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "76": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "77": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "78": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "79": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "80": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "81": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "82": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "83": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "84": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "85": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "86": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "87": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "88": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "89": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "90": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "91": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "92": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "93": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "94": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "95": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "96": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "97": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "98": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "99": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "100": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "101": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "102": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "103": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "104": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "105": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "106": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "107": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "108": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "109": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "110": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "111": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "112": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "113": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "114": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "115": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "116": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "117": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "118": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "119": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "120": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "121": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "122": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "123": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "124": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "action"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "125": {
-    "highlight_probability": 1.8,
-    "batter": "Gabriel Moreno",
-    "event_type": "strikeout"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "126": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "127": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "128": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "129": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "130": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "131": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "132": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "133": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "134": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "135": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "136": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "137": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "138": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "139": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "140": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "141": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "142": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "143": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "144": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "145": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "146": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "147": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "148": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "149": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "150": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "151": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "152": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "153": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "154": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "155": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "156": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "157": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "158": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "159": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "160": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "161": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "162": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "163": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "164": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "165": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "166": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "167": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "168": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "169": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "170": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "171": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "172": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "173": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "174": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "175": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "176": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "177": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "178": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "179": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "180": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "181": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "182": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "183": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "184": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "action"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "185": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "186": {
-    "highlight_probability": 1.8,
-    "batter": "Shohei Ohtani",
-    "event_type": "strikeout"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "187": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "188": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "189": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "190": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "191": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "192": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "193": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "194": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "195": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "196": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "197": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "198": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "199": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "200": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "201": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "202": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "203": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "204": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "205": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "206": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "207": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "208": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "209": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "210": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "211": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "212": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "213": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "214": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "215": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "216": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "217": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "218": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "219": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "220": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "221": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "222": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "223": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "224": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "225": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "226": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "227": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "228": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "229": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "230": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "231": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "232": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "233": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "234": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "235": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "236": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "237": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "238": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "239": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "240": {
-    "highlight_probability": 1.8,
-    "batter": "Mookie Betts",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "241": {
-    "highlight_probability": 1.8,
-    "batter": "Mookie Betts",
-    "event_type": "pitch"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "242": {
-    "highlight_probability": 1.8,
-    "batter": "Mookie Betts",
-    "event_type": "field_out"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "243": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "244": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "245": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "246": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "247": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "249": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "250": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "251": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "252": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "253": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "255": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "256": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "257": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "258": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "259": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "260": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "261": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "263": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "264": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "265": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "266": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "268": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "269": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "270": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "271": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "272": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "274": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "275": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "276": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "277": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "279": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "280": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "281": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "282": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "283": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "284": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "285": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "286": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "288": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "289": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "290": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "291": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "292": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "293": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "294": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "295": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "298": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "299": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "300": {
-    "highlight_probability": 1.8,
-    "batter": "Freddie Freeman",
-    "event_type": "field_out"
+    "prob": 1.8,
+    "runner_status": "none"
   },
   "301": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "302": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "303": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "304": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "305": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "307": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "308": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "309": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "310": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "311": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "312": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "313": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "314": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "315": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "317": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "318": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "319": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "320": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "321": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "322": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "323": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "324": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "325": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "326": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "328": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "329": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "330": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "331": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "332": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "333": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "334": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "335": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "336": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "337": {
-    "highlight_probability": 1.8,
-    "batter": null,
-    "event_type": null
+    "prob": 1.8,
+    "runner_status": null
   },
   "338": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "339": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "340": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "341": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "342": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "343": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "344": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "345": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "346": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "347": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "348": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "349": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "351": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "352": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "353": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "354": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "355": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "356": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "358": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "359": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "360": {
-    "highlight_probability": 85.5,
-    "batter": "Josh Naylor",
-    "event_type": "pitch"
+    "prob": 85.5,
+    "runner_status": "none"
   },
   "361": {
-    "highlight_probability": 85.5,
-    "batter": "Josh Naylor",
-    "event_type": "pitch"
+    "prob": 85.5,
+    "runner_status": "none"
   },
   "362": {
-    "highlight_probability": 85.5,
-    "batter": "Josh Naylor",
-    "event_type": "pitch"
+    "prob": 85.5,
+    "runner_status": "none"
   },
   "363": {
-    "highlight_probability": 85.5,
-    "batter": "Josh Naylor",
-    "event_type": "action"
+    "prob": 85.5,
+    "runner_status": "none"
   },
   "364": {
-    "highlight_probability": 85.5,
-    "batter": "Josh Naylor",
-    "event_type": "strikeout"
+    "prob": 85.5,
+    "runner_status": "none"
   },
   "365": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "366": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "367": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "368": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "369": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "370": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "371": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "372": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "373": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "374": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "375": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "376": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "377": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "378": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   },
   "379": {
-    "highlight_probability": 85.5,
-    "batter": null,
-    "event_type": null
+    "prob": 85.5,
+    "runner_status": null
   }
 }

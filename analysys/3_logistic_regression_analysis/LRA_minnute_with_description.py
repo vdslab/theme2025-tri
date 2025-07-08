@@ -121,6 +121,16 @@ for gamepk in pk_list:
         
     # --- ハイライトラベル抽出関数 ---
         def is_highlight(minute):
+            runner_status_weights = {
+                "none": 0,
+                "first": 1,
+                "second": 1,
+                "third": 1,
+                "first-second": 1.25,
+                "first-third": 1.5,
+                "second-third": 1.5,
+                "first-second-third": 3,
+            }
             if do_place == "play_features":
                 for group in ["hit_event", "rbi_impact"]:
                     if any(minute["play_features"][group].values()):
@@ -136,8 +146,11 @@ for gamepk in pk_list:
                 if any(minute["play_features"]["rbi_impact"].values()):
                     return 1
             elif do_place == "runner_status":
-                if any(minute["situation_features"]["runner_status"].values()):
-                    return 1
+                score = 0
+                for key, weight in runner_status_weights.items():
+                    if minute["situation_features"]["runner_status"].get(key, False):
+                        score += weight
+                return score >= 1  # この閾値は調整可能
             elif do_place == "score_difference":
                 if any(minute["situation_features"]["score_difference"].values()):
                     return 1
@@ -175,17 +188,22 @@ for gamepk in pk_list:
             inning_idx = str(int(minute_str) // 60)  # 仮の分割基準
             play_idx = str(int(minute_str) % 60)
             try:
+                runner_status_dict = minutes_data[minute_str][0]["situation_features"]["runner_status"]
+                runner_status_true = [key for key, val in runner_status_dict.items() if val]
+                runner_status_str = runner_status_true[0] if runner_status_true else None
+            except (KeyError, IndexError):
+                runner_status_str = {}
+
+            try:
                 event = processed_data[inning_idx][play_idx]
                 output_data[minute_str] = {
-                    "highlight_probability": round(probs[idx] * 100, 1),
-                    "batter": event["batter"]["full_name"],
-                    "event_type": event["event_type"]
+                    "prob": round(probs[idx] * 100, 1),
+                    "runner_status": runner_status_str
                 }
             except KeyError:
                 output_data[minute_str] = {
-                    "highlight_probability": round(probs[idx] * 100, 1),
-                    "batter": None,
-                    "event_type": None
+                    "prob": round(probs[idx] * 100, 1),
+                    "runner_status": None
                 }
 
         # --- JSONファイルとして保存 ---

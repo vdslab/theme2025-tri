@@ -4,8 +4,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 import os
 from itertools import combinations
+from dateutil import parser
+from datetime import datetime
 
-pk_list = ["777398", "777490", "777824", "777838", "777854", "777866"]
+
+# pk_list = ["777398", "777490", "777824", "777838", "777854", "777866"]
+
+pk_list = ["777398"]  # テスト用
 
 # 組み合わせ対象（単体では使わない）
 feature_groups = [
@@ -49,17 +54,25 @@ for gamepk in pk_list:
                     ]:
                         f.append(int(play["rbi_impact"].get(key, False)))
                 elif group == "runner_status":
-                    for key in [
-                        "none",
-                        "first",
-                        "second",
-                        "third",
-                        "first-second",
-                        "first-third",
-                        "second-third",
-                        "first-second-third",
-                    ]:
-                        f.append(int(situ["runner_status"].get(key, False)))
+                    runner_status_weights = {
+                        "none": 0,
+                        "first": 1,
+                        "second": 1,
+                        "third": 1,
+                        "first-second": 2,
+                        "first-third": 2,
+                        "second-third": 2,
+                        "first-second-third": 3,
+                    }
+
+                    for key in runner_status_weights:
+                        if situ["runner_status"].get(key, False):
+                            print(int(runner_status_weights[key]))
+                            f.append(int(runner_status_weights[key]))
+                            break
+                    else:
+                        f.append(0)  # fallback
+
                 elif group == "score_difference":
                     for key in [
                         "minus_less_3",
@@ -77,19 +90,35 @@ for gamepk in pk_list:
 
             features += extract(fg1)
             features += extract(fg2)
+            print(features)
             return features
 
         def is_highlight(minute):
             play = minute["play_features"]
             situ = minute["situation_features"]
+            runner_status_weights = {
+                "none": 0,
+                "first": 1,
+                "second": 1,
+                "third": 1,
+                "first-second": 2,
+                "first-third": 2,
+                "second-third": 2,
+                "first-second-third": 3,
+            }
 
             def group_has_true(group):
                 if group == "hit_event":
                     return any(play["hit_event"].values())
                 elif group == "rbi_impact":
+                    print(any(situ["runner_status"].values()))
                     return any(play["rbi_impact"].values())
                 elif group == "runner_status":
-                    return any(situ["runner_status"].values())
+                    score = 0
+                    for key, weight in runner_status_weights.items():
+                        if situ["runner_status"].get(key, False):
+                            score += weight
+                    return score >= 1  # この閾値は調整可能
                 elif group == "score_difference":
                     return any(situ["score_difference"].values())
                 elif group == "inning_phase":
@@ -111,8 +140,10 @@ for gamepk in pk_list:
         X = np.nan_to_num(np.array(X))
         y = np.array(y)
 
+        print(np.unique(y, return_counts=True))
+
         if len(np.unique(y)) > 1:
-            model = LogisticRegression(max_iter=1000, class_weight="balanced")
+            model = LogisticRegression(max_iter=1000)
             model.fit(X, y)
             probs = model.predict_proba(X)[:, 1]
         else:
@@ -139,7 +170,7 @@ for gamepk in pk_list:
 
         output_dir = f"data/LRA_combined_data/LRA_{combination_name}"
         os.makedirs(output_dir, exist_ok=True)
-        output_path = f"{output_dir}/{gamepk}_highlight_predictions_{combination_name}_with_event_info.json"
+        output_path = f"{output_dir}/{gamepk}_test_highlight_predictions_{combination_name}_with_event_info.json"
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
 

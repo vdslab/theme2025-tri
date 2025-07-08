@@ -1,0 +1,22 @@
+[
+  [
+    "play_features",
+    "hit_event"
+  ],
+  [
+    "play_features",
+    "rbi_impact"
+  ],
+  [
+    "situation_features",
+    "runner_status"
+  ],
+  [
+    "situation_features",
+    "score_difference"
+  ],
+  [
+    "situation_features",
+    "inning_phase"
+  ]
+]
