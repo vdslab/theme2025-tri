@@ -21,6 +21,7 @@ feature_groups = [
     "inning_phase",
 ]
 
+
 # 組み合わせ生成
 feature_combinations = list(combinations(feature_groups, 2))
 
@@ -175,3 +176,4 @@ for gamepk in pk_list:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
 
         print(f"✅ JSONファイルを出力しました: {output_path}")
+
