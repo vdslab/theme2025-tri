@@ -192,12 +192,15 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
 
 def output_data(processed_data,gamepk):
     output_path = f"data/processed/{gamepk}_processed_data.json"
-
-    # with open(output_path, "w", encoding="utf-8") as f:
-    #     json.dump(processed_data, f, ensure_ascii=False, indent=4)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(processed_data, f, ensure_ascii=False, indent=4)
 
 def data_process(gamepk):
     data = data_download(gamepk)
     processed_data = process_data(data)
     output_data(processed_data,gamepk)
     return processed_data
+
+if __name__ == "__main__":
+    gamepk = 778199  # Example gamepk, replace with actual gamepk
+    data_process(gamepk)

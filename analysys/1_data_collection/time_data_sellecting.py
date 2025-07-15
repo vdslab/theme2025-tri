@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # ^^^ gamepkの指定 ---
-gamepk = "777866"
+gamepk = "778199"
 # --- JSONファイルの読み込み ---
 with open(f"data/processed_for_ra/{gamepk}_processed_for_ra_data.json", encoding="utf-8") as f:
     match_data = json.load(f)

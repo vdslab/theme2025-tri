@@ -1,6 +1,6 @@
 import json
 
-gamepk = 777866
+gamepk = 778199
 
 def data_download():
     with open(f"data/processed/{gamepk}_processed_data.json", encoding="utf-8") as f:
