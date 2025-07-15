@@ -153,16 +153,9 @@ def output_data(scores_data,gamepk):
     # with open(output_path, "w", encoding="utf-8") as f:
     #     json.dump(scores_data, f, ensure_ascii=False, indent=4)
         
-<<<<<<< HEAD:preprocess/get_scores.py
-
-gamepk = 778199
-scores_data = get_scores(gamepk)
-output_data(scores_data,gamepk)
-=======
         
 def data_process_for_ra(processed_data,gamepk):
     scores_data = get_scores(processed_data)
     output_data(scores_data,gamepk)
     
     return scores_data
->>>>>>> develop:preprocess/data_process_for_ra.py
