@@ -1,0 +1,38 @@
+{
+  "feature_names": [
+    "runner_status_none",
+    "runner_status_first",
+    "runner_status_second",
+    "runner_status_third",
+    "runner_status_first-second",
+    "runner_status_first-third",
+    "runner_status_second-third",
+    "runner_status_first-second-third",
+    "score_difference_minus_less_3",
+    "score_difference_minus_2",
+    "score_difference_minus_1",
+    "score_difference_tie",
+    "score_difference_plus_1",
+    "score_difference_plus_2",
+    "score_difference_plus_more_3",
+    "inning_phase_early"
+  ],
+  "feature_weights": [
+    0.2130772225321666,
+    0.06375971467108997,
+    -0.8208821240507063,
+    0.0,
+    -0.8310681701200556,
+    0.4542319487169622,
+    0.6468854880219611,
+    0.2736913745851024,
+    0.0,
+    0.0,
+    -0.23223912743504158,
+    0.6695752844659131,
+    -0.3823812935148628,
+    0.0,
+    0.0,
+    -1.1424183901144978
+  ]
+}

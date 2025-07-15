@@ -1,0 +1,22 @@
+{
+  "feature_names": [
+    "hit_event_single",
+    "hit_event_double",
+    "hit_event_triple",
+    "hit_event_home_run",
+    "rbi_impact_regular_rbi",
+    "rbi_impact_tie_rbi",
+    "rbi_impact_go_ahead_rbi",
+    "rbi_impact_sayonara_rbi"
+  ],
+  "feature_weights": [
+    -0.39807972851933104,
+    -0.14003555574051255,
+    0.0,
+    0.4878430447364429,
+    -0.7003772320792891,
+    0.1857828789550821,
+    0.0,
+    0.0
+  ]
+}

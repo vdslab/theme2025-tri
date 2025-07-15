@@ -1,0 +1,14 @@
+{
+  "feature_names": [
+    "hit_event_single",
+    "hit_event_double",
+    "hit_event_triple",
+    "hit_event_home_run"
+  ],
+  "feature_weights": [
+    -0.4809089508525477,
+    -0.20573699252000915,
+    0.0,
+    0.52692828214919
+  ]
+}

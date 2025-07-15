@@ -1,0 +1,22 @@
+{
+  "feature_names": [
+    "runner_status_none",
+    "runner_status_first",
+    "runner_status_second",
+    "runner_status_third",
+    "runner_status_first-second",
+    "runner_status_first-third",
+    "runner_status_second-third",
+    "runner_status_first-second-third"
+  ],
+  "feature_weights": [
+    0.5642432448004749,
+    0.23624548765630143,
+    -0.5606222173219908,
+    0.0,
+    -0.9054958391323691,
+    0.3170773854126785,
+    0.17427057019147693,
+    0.17427057019147693
+  ]
+}
