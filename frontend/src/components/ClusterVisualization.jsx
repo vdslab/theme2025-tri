@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import { processGameData } from "../utils/dataProcessor";
 import { performClustering, findOptimalClusters } from "../utils/kmeans";
 import { performPCA } from "../utils/pca";
+import { ClusterVisualizationService } from "../service/ClusterVisualizationService";
 
 /**
  * クラスタリング可視化コンポーネント
@@ -20,6 +21,8 @@ const ClusterVisualization = () => {
   const [clusterCount, setClusterCount] = useState(null); // 手動指定されたクラスタ数
   const [isAutoMode, setIsAutoMode] = useState(true); // 自動/手動モード切り替え
   const [updating, setUpdating] = useState(false);
+  const [selectedGamepk, setSelectedGamepk] = useState(null);
+  const [searchedGamepk, setSearchedGamepk] = useState(null);
 
   // 初期データの読み込み
   useEffect(() => {
@@ -28,14 +31,16 @@ const ClusterVisualization = () => {
         setLoading(true);
 
         // データ処理
-        const processedData = await processGameData("/data/test.json");
+        const processedData = await processGameData(
+          "/data/2025-03-16-2025-06-16.json",
+        );
 
         // エルボー法でクラスタ数候補を分析
         console.log("📊 エルボー分析を実行中...");
         const { optimalK, elbowData: elbowResult } = findOptimalClusters(
           processedData.normalizedData,
           processedData.features,
-          8 // 最大8クラスタまで試行
+          8, // 最大8クラスタまで試行
         );
 
         setProcessedData(processedData);
@@ -66,14 +71,14 @@ const ClusterVisualization = () => {
         const clusteringResult = performClustering(
           processedData.normalizedData,
           processedData.features,
-          clusterCount // 手動指定されたクラスタ数を使用
+          clusterCount, // 手動指定されたクラスタ数を使用
         );
 
         // PCAで次元削減
         const pcaResult = performPCA(
           clusteringResult.clusteredData,
           processedData.features,
-          2
+          2,
         );
 
         setData({
@@ -127,7 +132,7 @@ const ClusterVisualization = () => {
           d3
             .axisBottom(xScale)
             .ticks(elbowData.length)
-            .tickFormat(d3.format("d"))
+            .tickFormat(d3.format("d")),
         );
 
       g.append("g").call(d3.axisLeft(yScale).ticks(5));
@@ -177,6 +182,10 @@ const ClusterVisualization = () => {
 
     drawElbowChart();
   }, [elbowData, clusterCount]);
+
+  useEffect(() => {
+    console.log(searchedGamepk);
+  }, [searchedGamepk]);
 
   // D3.js 可視化（PCA版）
   useEffect(() => {
@@ -231,7 +240,7 @@ const ClusterVisualization = () => {
       .style("text-anchor", "middle")
       .style("font-size", "14px")
       .text(
-        `第1主成分 (寄与率: ${(data.pca.varianceRatios[0] * 100).toFixed(1)}%)`
+        `第1主成分 (寄与率: ${(data.pca.varianceRatios[0] * 100).toFixed(1)}%)`,
       );
 
     g.append("g")
@@ -244,7 +253,7 @@ const ClusterVisualization = () => {
       .style("text-anchor", "middle")
       .style("font-size", "14px")
       .text(
-        `第2主成分 (寄与率: ${(data.pca.varianceRatios[1] * 100).toFixed(1)}%)`
+        `第2主成分 (寄与率: ${(data.pca.varianceRatios[1] * 100).toFixed(1)}%)`,
       );
 
     // グリッドライン
@@ -287,9 +296,14 @@ const ClusterVisualization = () => {
       .attr("cx", (d) => xScale(d.pc1))
       .attr("cy", (d) => yScale(d.pc2))
       .attr("r", 7)
-      .attr("fill", (d) => colorScale(d.cluster))
-      .attr("stroke", "white")
-      .attr("stroke-width", 2)
+      .attr("fill", (d) => {
+        if (Number(searchedGamepk) === d.gamepk) {
+          return "#000000";
+        }
+        return colorScale(d.cluster);
+      })
+      .attr("stroke", (d) => (selectedGamepk === d.gamepk ? "#333" : "white"))
+      .attr("stroke-width", (d) => (selectedGamepk === d.gamepk ? 4 : 2))
       .style("cursor", "pointer")
       .style("opacity", 0.8)
       .on("mouseover", (event, d) => {
@@ -308,9 +322,19 @@ const ClusterVisualization = () => {
             <div style="border-bottom: 1px solid #555; padding-bottom: 8px; margin-bottom: 8px;">
               <strong style="color: #4FC3F7;">Game PK: ${d.gamepk}</strong><br/>
               <strong style="color: ${colorScale(d.cluster)};">クラスタ ${
-              d.cluster
-            }</strong>
+                d.cluster
+              }</strong>
             </div>
+            ${
+              d.date
+                ? `<div style="margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #555;">
+              <strong style="color: #FFD54F;">📅 ${d.date}</strong><br/>
+              <strong style="color: #81C784;">${
+                d.team ? `${d.team.away} vs ${d.team.home}` : ""
+              }</strong>
+            </div>`
+                : ""
+            }
             <div style="line-height: 1.4;">
               <strong>元の特徴量:</strong><br/>
               • 試合時間: ${(
@@ -319,25 +343,25 @@ const ClusterVisualization = () => {
               ).toFixed(1)}分<br/>
               • エキストラベースヒット: ${Math.round(
                 d.ex_base_hit_cnt * data.scalingParams.ex_base_hit_cnt.range +
-                  data.scalingParams.ex_base_hit_cnt.min
+                  data.scalingParams.ex_base_hit_cnt.min,
               )}回<br/>
               • 総得点: ${Math.round(
                 d.total_score * data.scalingParams.total_score.range +
-                  data.scalingParams.total_score.min
+                  data.scalingParams.total_score.min,
               )}点<br/>
               • 得点差: ${Math.round(
                 d.diff_score * data.scalingParams.diff_score.range +
-                  data.scalingParams.diff_score.min
+                  data.scalingParams.diff_score.min,
               )}点<br/>
               • リードチェンジ: ${Math.round(
                 d.lead_change_cnt * data.scalingParams.lead_change_cnt.range +
-                  data.scalingParams.lead_change_cnt.min
+                  data.scalingParams.lead_change_cnt.min,
               )}回
             </div>
             <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #555; font-size: 11px; color: #ccc;">
               PC1: ${d.pc1.toFixed(3)}, PC2: ${d.pc2.toFixed(3)}
             </div>
-          `
+          `,
           )
           .style("left", event.pageX + 15 + "px")
           .style("top", event.pageY - 10 + "px");
@@ -351,6 +375,25 @@ const ClusterVisualization = () => {
           .style("opacity", 0.8);
 
         tooltip.style("opacity", 0);
+      })
+      .on("click", (event, d) => {
+        // const textToCopy = d.gamepk;
+        const textToCopy = d.date + " " + d.team.away + " " + d.team.home;
+        navigator.clipboard
+          .writeText(textToCopy)
+          .then(function () {
+            alert(
+              "テキストをコピーしました！貼り付け可能です! copy gameinfo = " +
+                textToCopy,
+            );
+          })
+          .catch(function (error) {
+            alert("テキストのコピーに失敗しました");
+            console.log(error);
+          });
+
+        ClusterVisualizationService.getLogisticRegressionData(d.gamepk);
+        setSelectedGamepk(d.gamepk);
       });
 
     // 凡例を作成
@@ -358,11 +401,11 @@ const ClusterVisualization = () => {
       .append("g")
       .attr(
         "transform",
-        `translate(${width + margin.left + 20}, ${margin.top})`
+        `translate(${width + margin.left + 20}, ${margin.top})`,
       );
 
     const clusters = [...new Set(pcaData.map((d) => d.cluster))].sort(
-      (a, b) => a - b
+      (a, b) => a - b,
     );
 
     legend
@@ -438,7 +481,7 @@ const ClusterVisualization = () => {
       .style("font-size", "12px")
       .style("fill", "#666")
       .text("5次元特徴量を主成分分析で2次元に次元削減");
-  }, [data]);
+  }, [data, selectedGamepk, searchedGamepk]);
 
   // 自動モード切り替え時の処理
   const handleModeChange = (auto) => {
@@ -454,7 +497,7 @@ const ClusterVisualization = () => {
             ? { k: current.k, improvement }
             : optimal;
         },
-        { k: 3, improvement: 0 }
+        { k: 3, improvement: 0 },
       ).k;
 
       setClusterCount(optimalK);
@@ -649,7 +692,16 @@ const ClusterVisualization = () => {
           </div>
         </div>
       )}
-
+      <div>selectedGamepk: {selectedGamepk}</div>
+      <div>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          value={searchedGamepk}
+          onChange={(e) => setSearchedGamepk(e.target.value)}
+        />
+      </div>
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <svg ref={svgRef}></svg>
       </div>

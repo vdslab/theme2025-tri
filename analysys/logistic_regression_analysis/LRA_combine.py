@@ -3,14 +3,15 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 import os
+import sys
 from itertools import combinations
 from dateutil import parser
 from datetime import datetime
 
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-# pk_list = ["777398", "777490", "777824", "777838", "777854", "777866"]
-
-pk_list = ["777398"]  # テスト用
+pk_list = ["777398", "777490", "777824", "777838", "777854", "777866"]
 
 # 組み合わせ対象（単体では使わない）
 feature_groups = [

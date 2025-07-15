@@ -141,14 +141,14 @@ export function performPCA(data, features, components = 2) {
   const vectors = data.map((item) => features.map((feature) => item[feature]));
 
   console.log(
-    `📊 データサイズ: ${vectors.length} サンプル × ${features.length} 特徴量`
+    `📊 データサイズ: ${vectors.length} サンプル × ${features.length} 特徴量`,
   );
 
   // 1. 平均を計算
   const mean = calculateMean(vectors);
   console.log(
     "平均ベクトル:",
-    mean.map((val) => val.toFixed(4))
+    mean.map((val) => val.toFixed(4)),
   );
 
   // 2. データを中心化
@@ -171,7 +171,7 @@ export function performPCA(data, features, components = 2) {
         eigenvalue /
         principalComponents.reduce(
           (sum, pc) => sum + pc.eigenvalue,
-          eigenvalue
+          eigenvalue,
         ),
     });
 
@@ -188,7 +188,7 @@ export function performPCA(data, features, components = 2) {
     return principalComponents.map((pc) => {
       return vector.reduce(
         (sum, val, idx) => sum + val * pc.eigenvector[idx],
-        0
+        0,
       );
     });
   });
@@ -203,10 +203,10 @@ export function performPCA(data, features, components = 2) {
   // 寄与率を計算
   const totalVariance = principalComponents.reduce(
     (sum, pc) => sum + pc.eigenvalue,
-    0
+    0,
   );
   const varianceRatios = principalComponents.map(
-    (pc) => pc.eigenvalue / totalVariance
+    (pc) => pc.eigenvalue / totalVariance,
   );
 
   console.log(`✅ PCA完了`);
@@ -215,7 +215,7 @@ export function performPCA(data, features, components = 2) {
   console.log(
     `累積寄与率: ${(
       varianceRatios.slice(0, 2).reduce((sum, ratio) => sum + ratio, 0) * 100
-    ).toFixed(1)}%`
+    ).toFixed(1)}%`,
   );
 
   return {

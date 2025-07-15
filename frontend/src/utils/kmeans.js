@@ -11,7 +11,7 @@
  */
 function euclideanDistance(point1, point2) {
   return Math.sqrt(
-    point1.reduce((sum, val, i) => sum + Math.pow(val - point2[i], 2), 0)
+    point1.reduce((sum, val, i) => sum + Math.pow(val - point2[i], 2), 0),
   );
 }
 
@@ -39,7 +39,7 @@ export function kmeans(
   k,
   features,
   maxIterations = 100,
-  tolerance = 1e-4
+  tolerance = 1e-4,
 ) {
   const vectors = dataToVectors(data, features);
   const n = vectors.length;
@@ -180,7 +180,7 @@ export function performClustering(normalizedData, features, k = null) {
     console.log("📊 最適なクラスタ数を決定中...");
     const { optimalK, elbowData } = findOptimalClusters(
       normalizedData,
-      features
+      features,
     );
     k = optimalK;
     console.log(`✅ 最適なクラスタ数: ${k}`);

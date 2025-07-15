@@ -2,6 +2,10 @@ import json
 import os
 import glob
 import numpy as np
+import sys
+
+# プロジェクトルートをパスに追加
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 
 # --- 対象ディレクトリ（必要に応じて変更） ---
 target_dir = "data/LRA_combined_data/LRA_hit_event__score_difference"

@@ -23,7 +23,7 @@ export async function loadJsonData(filePath) {
 }
 
 /**
- * gamepk 以外の 4 つの特徴量を抽出
+ * gamepk 以外の特徴量を抽出し、date と team 情報も保持
  * @param {Array} rawData - 元データ
  * @returns {Array} - 特徴量データ
  */
@@ -47,6 +47,15 @@ export function extractFeatures(rawData) {
       featureData[feature] = item[feature];
     });
 
+    // date と team 情報も保持（ツールチップ表示用）
+    if (item.date) {
+      featureData.date = item.date;
+    }
+
+    if (item.team) {
+      featureData.team = item.team;
+    }
+
     return featureData;
   });
 }
@@ -65,7 +74,7 @@ export function normalizeFeatures(
     "total_score",
     "diff_score",
     "lead_change_cnt",
-  ]
+  ],
 ) {
   // 各特徴量の最小値・最大値を計算
   const scalingParams = {};
@@ -114,7 +123,7 @@ export function denormalizeFeatures(
     "total_score",
     "diff_score",
     "lead_change_cnt",
-  ]
+  ],
 ) {
   return normalizedData.map((item) => {
     const denormalizedItem = { ...item };
@@ -153,7 +162,7 @@ export async function processGameData(filePath = "/data/testdata.json") {
     ];
     const { normalizedData, scalingParams } = normalizeFeatures(
       featureData,
-      features
+      features,
     );
     console.log("✅ 特徴量を 0〜1 の範囲に正規化しました");
 

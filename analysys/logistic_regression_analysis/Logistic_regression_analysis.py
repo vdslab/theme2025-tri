@@ -4,15 +4,11 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
-pk_list = ["777398","777490","777824","777838","777854","777866",]
+# pk_list = ["777398","777490","777824","777838","777854","777866",]
 
 # gamepk = pk_list[3]  # 対象のゲームPK
 
-for pk in pk_list:
-# --- データの読み込み ---
-    with open(f"data/molded_data/{pk}_molded_data.json", encoding="utf-8") as f:
-        molded_data = json.load(f)
-
+def Logistic_regression_analysis(gamepk, molded_data):
     minutes_data = molded_data["minutes"]
 
     # --- 特徴量抽出関数 ---
@@ -56,12 +52,10 @@ for pk in pk_list:
     # --- 特徴量とラベルの構築 ---
     X = []
     y = []
-
     for minute_id, minute_list in minutes_data.items():
         if not minute_list:
             continue
         minute = minute_list[0]  # 1分ごとに1イベントのみと仮定
-
         X.append(flatten_features(minute))
         y.append(is_play_feature_highlight(minute))
 
@@ -77,12 +71,25 @@ for pk in pk_list:
     if len(np.unique(y)) > 1:
         model = LogisticRegression(max_iter=1000)
         model.fit(X, y)
-        y_pred = model.predict(X)
-        print("\n--- Classification Report ---")
-        print(classification_report(y, y_pred))
+        # y_pred = model.predict(X)
+        # print("\n--- Classification Report ---")
+        # print(classification_report(y, y_pred))
 
         probs = model.predict_proba(X)[:, 1]
         print("\n--- Highlight Probabilities ---")
         print(probs)
+        
+        logistic_regression_data = {}
+        values = list(molded_data["minutes"].values())
+        for v_idx,value in enumerate(values):
+            detail = []
+            for v in value:
+                detail.append(v["detail"])
+            logistic_regression_data[v_idx] = {
+                "prob": probs[v_idx],
+                "detail": detail
+            }
+        with open(f"data/logistic_regression_analysis/{gamepk}_logistic_regression_analysis_data.json", "w", encoding="utf-8") as f:
+            json.dump(logistic_regression_data, f, ensure_ascii=False, indent=4)
     else:
         print("⚠️ Warning: ラベルが一種類のみのため、学習不可。")
