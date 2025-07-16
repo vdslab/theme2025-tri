@@ -1,506 +1,380 @@
 {
   "0": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "1": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "2": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "3": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "5": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "6": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "7": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "8": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "9": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "10": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "11": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "12": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "13": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "14": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "15": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "16": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "18": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "19": {
-    "prob": 51.2,
-    "runner_status": "none"
+    "prob": 51.2
   },
   "20": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "21": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "22": {
-    "prob": 31.8,
-    "runner_status": "none"
+    "prob": 31.8
   },
   "23": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "24": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "25": {
-    "prob": 15.1,
-    "runner_status": "first-second"
+    "prob": 15.1
   },
   "26": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "29": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "30": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "31": {
-    "prob": 26.4,
-    "runner_status": "none"
+    "prob": 26.4
   },
   "32": {
-    "prob": 26.4,
-    "runner_status": "first"
+    "prob": 26.4
   },
   "33": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "34": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "35": {
-    "prob": 21.0,
-    "runner_status": "first-third"
+    "prob": 21.0
   },
   "36": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "38": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "39": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "40": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "41": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "42": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "44": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "45": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "46": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "47": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "48": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "49": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "51": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "52": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "53": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "54": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "55": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "58": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "59": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "60": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "61": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "62": {
-    "prob": 18.8,
-    "runner_status": "first"
+    "prob": 18.8
   },
   "63": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "65": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "66": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "67": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "68": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "69": {
-    "prob": 31.8,
-    "runner_status": "none"
+    "prob": 31.8
   },
   "70": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "72": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "73": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "74": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "75": {
-    "prob": 31.8,
-    "runner_status": "none"
+    "prob": 31.8
   },
   "76": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "77": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "80": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "81": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "82": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "84": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "85": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "86": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "87": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "88": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "89": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "91": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "92": {
-    "prob": 26.4,
-    "runner_status": "none"
+    "prob": 26.4
   },
   "94": {
-    "prob": 34.9,
-    "runner_status": "second-third"
+    "prob": 34.9
   },
   "95": {
-    "prob": 34.9,
-    "runner_status": "second-third"
+    "prob": 34.9
   },
   "98": {
-    "prob": 34.9,
-    "runner_status": "second-third"
+    "prob": 34.9
   },
   "99": {
-    "prob": 34.9,
-    "runner_status": "second-third"
+    "prob": 34.9
   },
   "100": {
-    "prob": 34.9,
-    "runner_status": "second-third"
+    "prob": 34.9
   },
   "101": {
-    "prob": 15.1,
-    "runner_status": "second-third"
+    "prob": 15.1
   },
   "102": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "103": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "104": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "107": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "108": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "109": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "110": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "111": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "112": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "113": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "114": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "117": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "118": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "119": {
-    "prob": 34.9,
-    "runner_status": "second"
+    "prob": 34.9
   },
   "120": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "121": {
-    "prob": 30.2,
-    "runner_status": "first-third"
+    "prob": 30.2
   },
   "123": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "124": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "125": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "126": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "129": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "130": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "131": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "132": {
-    "prob": 34.9,
-    "runner_status": "first"
+    "prob": 34.9
   },
   "134": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "135": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "136": {
-    "prob": 34.9,
-    "runner_status": "first-second"
+    "prob": 34.9
   },
   "137": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "138": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "139": {
-    "prob": 34.9,
-    "runner_status": "first-third"
+    "prob": 34.9
   },
   "141": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "142": {
-    "prob": 34.9,
-    "runner_status": "first-second-third"
+    "prob": 34.9
   },
   "145": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "146": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "147": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "148": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "149": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "151": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "152": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "153": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "154": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   },
   "157": {
-    "prob": 34.9,
-    "runner_status": "none"
+    "prob": 34.9
   }
 }

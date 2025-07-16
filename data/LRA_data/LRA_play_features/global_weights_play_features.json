@@ -1,0 +1,10 @@
+{
+  "rbi_impact_tie_rbi": -0.5753,
+  "rbi_impact_go_ahead_rbi": -0.4216,
+  "rbi_impact_regular_rbi": -0.2896,
+  "hit_event_double": 0.2324,
+  "hit_event_triple": -0.2316,
+  "hit_event_home_run": 0.1369,
+  "hit_event_single": -0.0682,
+  "rbi_impact_sayonara_rbi": 0.0
+}
