@@ -79,16 +79,32 @@ def Logistic_regression_analysis(gamepk, molded_data):
         print("\n--- Highlight Probabilities ---")
         print(probs)
         
+        # 通常
+        # logistic_regression_data = {}
+        # values = list(molded_data["minutes"].values())
+        # for v_idx,value in enumerate(values):
+        #     detail = []
+        #     for v in value:
+        #         detail.append(v["detail"])
+        #     logistic_regression_data[v_idx] = {
+        #         "prob": probs[v_idx],
+        #         "detail": detail
+        #     }
+        
+        # ヒートマップデータ用
         logistic_regression_data = {}
+        logistic_regression_data["id"] = gamepk
+        logistic_regression_data["data"] = []
         values = list(molded_data["minutes"].values())
         for v_idx,value in enumerate(values):
             detail = []
             for v in value:
                 detail.append(v["detail"])
-            logistic_regression_data[v_idx] = {
-                "prob": probs[v_idx],
-                "detail": detail
-            }
+            logistic_regression_data["data"].append({
+                "x": v_idx,
+                "y": int(probs[v_idx]*100),
+            })
+            
         with open(f"data/logistic_regression_analysis/{gamepk}_logistic_regression_analysis_data.json", "w", encoding="utf-8") as f:
             json.dump(logistic_regression_data, f, ensure_ascii=False, indent=4)
     else:

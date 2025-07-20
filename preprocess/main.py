@@ -3,6 +3,8 @@ from datetime import datetime, timedelta
 import pandas as pd
 import time
 import json
+import psycopg2
+import psycopg2.extras
 
 from data_processor import data_process
 from data_processor_for_cr import data_process_for_cr
@@ -10,7 +12,7 @@ from data_processor_for_cr import data_process_for_cr
 def get_date_list():
     # start_date = datetime(2025, 3, 16)
     s_y, s_m, s_d = 2025, 3, 16
-    e_y, e_m, e_d = 2025, 6, 16
+    e_y, e_m, e_d = 2025, 7, 14
     
     # start_date = datetime(2025, 3, 16)
     start_date = datetime(s_y, s_m, s_d)
@@ -42,6 +44,7 @@ def output_data(process_datas_dor_rc,s_y,s_m,s_d,e_y,e_m,e_d):
 def main():
     process_datas_dor_rc = []
     date_str,s_y,s_m,s_d,e_y,e_m,e_d = get_date_list()
+
     for date in date_str:
         gamepks = fetch_gamepks(date)
         print(gamepks)
@@ -55,5 +58,77 @@ def main():
     
     output_data(process_datas_dor_rc,s_y,s_m,s_d,e_y,e_m,e_d)
     
+# def main():
+#     insert_data = []
+#     date_str,s_y,s_m,s_d,e_y,e_m,e_d = get_date_list()
+#     for date in date_str:
+#         gamepks = fetch_gamepks(date)
+#         print(gamepks)
+#         for gamepk in gamepks:
+#             print(gamepk)
+#             data = {}
+#             process_data = data_process(gamepk)
+#             data["gamepk"] = gamepk
+#             data["play_data"] = process_data
+#             data["analysis_data"] = {}
+#             data["movie_label"] = []
+#             insert_data.append(data)
+#     chunk_and_insert_all(insert_data)
+            
+# def chunk_and_insert_all(insert_data, chunk_size=100):
+#     for i in range(0, len(insert_data), chunk_size):
+#         chunk = insert_data[i:i+chunk_size]
+#         insert_to_postgresql(chunk)
+
+# # PostgreSQL database connection details
+# DATABASE_URL = "postgresql://postgres.kvnjgvidsowvnnbaazyy:kohsei0720meimei@aws-0-ap-northeast-1.pooler.supabase.com:6543/postgres"
+# TABLE_NAME = "game_data"
+
+# def insert_to_postgresql(data_chunk):
+#     try:
+#         # Connect to PostgreSQL database
+#         conn = psycopg2.connect(DATABASE_URL)
+#         cursor = conn.cursor()
+        
+#         # Prepare the INSERT statement
+#         insert_query = f"""
+#         INSERT INTO {TABLE_NAME} (gamepk, play_data, analysis_data, movie_label)
+#         VALUES (%s, %s, %s, %s)
+#         ON CONFLICT (gamepk) DO UPDATE SET
+#         play_data = EXCLUDED.play_data,
+#         analysis_data = EXCLUDED.analysis_data,
+#         movie_label = EXCLUDED.movie_label
+#         """
+        
+#         # Prepare data for insertion
+#         values_to_insert = []
+#         for record in data_chunk:
+#             values_to_insert.append((
+#                 record["gamepk"],
+#                 json.dumps(record["play_data"]),  # Convert to JSON string for JSONB
+#                 json.dumps(record["analysis_data"]) if record["analysis_data"] else None,  # Convert to JSON string for JSONB
+#                 record["movie_label"]  # Keep as array for ARRAY type
+#             ))
+        
+#         # Execute the batch insert
+#         cursor.executemany(insert_query, values_to_insert)
+        
+#         # Commit the transaction
+#         conn.commit()
+        
+#         print(f"Successfully inserted {len(data_chunk)} records into {TABLE_NAME}")
+        
+#     except psycopg2.Error as e:
+#         print(f"Database error: {e}")
+#         if 'conn' in locals():
+#             conn.rollback()
+#     except Exception as e:
+#         print(f"Error: {e}")
+#     finally:
+#         if 'cursor' in locals():
+#             cursor.close()
+#         if 'conn' in locals():
+#             conn.close()
+
 if __name__ == "__main__":
     main()

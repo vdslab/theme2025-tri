@@ -40,11 +40,13 @@ def time_data_sellecting(gamepk,match_data):
     end_time = max(all_end_times)
     total_duration = (end_time - start_time).total_seconds()
 
-    # --- 1分単位に分割し、該当イベントを記録 ---
+    # --- m分単位に分割し、該当イベントを記録 ---
     minute_events = defaultdict(list)
+    m = 60
+    # m = total_duration/120
     for event in events:
-        start_minute = int((event["start"] - start_time).total_seconds() // 60)
-        end_minute = int((event["end"] - start_time).total_seconds() // 60)
+        start_minute = int((event["start"] - start_time).total_seconds() // m)
+        end_minute = int((event["end"] - start_time).total_seconds() // m)
         for minute in range(start_minute, end_minute + 1):
             minute_events[minute].append({
                 "play_features": event["play_features"],

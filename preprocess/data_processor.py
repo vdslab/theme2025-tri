@@ -216,8 +216,8 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
 def output_data(processed_data,gamepk):
     output_path = f"data/processed/{gamepk}_processed_data.json"
 
-    # with open(output_path, "w", encoding="utf-8") as f:
-    #     json.dump(processed_data, f, ensure_ascii=False, indent=4)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(processed_data, f, ensure_ascii=False, indent=4)
 
 def data_process(gamepk):
     raw_data = data_download(gamepk)
