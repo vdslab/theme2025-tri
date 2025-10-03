@@ -2,6 +2,7 @@ import json
 import requests
 import sys
 import os
+import copy
 
 # プロジェクトルートをパスに追加
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -16,18 +17,39 @@ def data_download(gamepk):
     else:
         return None
 
-def process_data(data):
-    allPlays = data["liveData"]["plays"]["allPlays"]
-    event_lookup = {}
+def process_data(play_data):
+    allPlays = play_data["liveData"]["plays"]["allPlays"]
+    data_lookup = {}
+    meta = {}
+    data = {}
+    data_lookup["meta"] = meta
+    data_lookup["data"] = data
+    
+    meta["gamepk"] = play_data["gamePk"]
+    meta["team"] = {
+        "away": play_data["gameData"]["teams"]["away"]["teamName"],
+        "home": play_data["gameData"]["teams"]["home"]["teamName"]
+    }
+    meta["status"] = play_data["gameData"]["status"]["statusCode"]
+    
     isInningTop_ = False
     pre_runner_state = {}
     pre_home_score,pre_away_score,pos_home_score,pos_away_score = 0,0,0,0
     last_inning = max(play["about"]["inning"] for play in allPlays)
+    
+    score_board = {}
+    away_score = {"1":None,"2":None,"3":None,"4":None,"5":None,"6":None,"7":None,"8":None,"9":None,"10":None}
+    home_score = {"1":None,"2":None,"3":None,"4":None,"5":None,"6":None,"7":None,"8":None,"9":None,"10":None}
+    score_board["away"] = away_score
+    score_board["home"] = home_score
+    
+    isFirstPlayTF = True
     for p_idx, play in enumerate(allPlays):
         playEvents = play["playEvents"]
         isInningTop = play["about"]["isTopInning"]
         
-        event_lookup[p_idx] = {}
+        data[p_idx] = {}
+        isFirstEventTF = True
         for e_idx, event in enumerate(playEvents):
             # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
             if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
@@ -40,12 +62,41 @@ def process_data(data):
             isLast = e_idx == len(play["playEvents"])-1
             isPlayFirst = p_idx == 0
             
-            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning)
+            # ヒートマップコントロール用
+            isFirstPlay = False
+            if isFirstPlayTF:
+                isFirstPlay = True
+                isFirstPlayTF = False
                 
-    return event_lookup
+            isLastPlay = False
+            if p_idx == len(allPlays)-1 and e_idx == len(playEvents)-1:
+                isLastPlay = True
+            
+            isFirstEvent = False
+            if isFirstEventTF:
+                isFirstEvent = True
+                isFirstEventTF = False
+                
+            isLastEvent = False
+            if e_idx == len(playEvents)-1:
+                isLastEvent = True
+                
+            data[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score,pos_a,pos_w,score_board = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,score_board)
+            
+            data[p_idx][e_idx]["is_first_play"] = isFirstPlay
+            data[p_idx][e_idx]["is_last_play"] = isLastPlay
+            data[p_idx][e_idx]["is_first_event"] = isFirstEvent
+            data[p_idx][e_idx]["is_last_event"] = isLastEvent
+            meta["away_score"] = pos_a
+            meta["home_score"] = pos_w
+            
+    return data_lookup
     
-def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning):
+def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,score_board):
     processed_event = {}
+    
+    # score_boardのディープコピーを作成
+    score_board_copy = copy.deepcopy(score_board)
     
     # is away
     is_away = None
@@ -173,6 +224,16 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     end_time = event.get("endTime",{})
     diff_time = calc_time_diff(start_time,end_time)
     
+    # score_board
+    if is_away == True:
+        if is_inning_first:
+            score_board_copy["away"][str(inning)] = 0
+        score_board_copy["away"][str(inning)] += score_from_event
+    else:
+        if is_inning_first:
+            score_board_copy["home"][str(inning)] = 0
+        score_board_copy["home"][str(inning)] += score_from_event
+    
     # detail
     detail = {}
     detail["inning"] = inning
@@ -181,6 +242,8 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     detail["count"] = event.get("count",{})
     detail["event"] = description
     detail["runner_state"] = runner_state
+    detail["p_id"] = p_idx
+    detail["e_id"] = e_idx
     
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
@@ -210,18 +273,19 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     time["end_time"] = end_time
     time["diff_time"] = diff_time
     processed_event["detail"] = detail
+    processed_event["score_board"] = score_board_copy
     
-    return processed_event, pre_runner_state,pos_away_score,pos_home_score
+    return processed_event, pre_runner_state,pos_away_score,pos_home_score,pos_away_score,pos_home_score,score_board_copy
 
 def output_data(processed_data,gamepk):
     output_path = f"data/processed/{gamepk}_processed_data.json"
 
-    # with open(output_path, "w", encoding="utf-8") as f:
-    #     json.dump(processed_data, f, ensure_ascii=False, indent=4)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(processed_data, f, ensure_ascii=False, indent=4)
 
 def data_process(gamepk):
     raw_data = data_download(gamepk)
     processed_data = process_data(raw_data)
     output_data(processed_data,gamepk)
-    
-    return raw_data,processed_data
+    print("data_process done")
+    return raw_data,processed_data["meta"],processed_data["data"]

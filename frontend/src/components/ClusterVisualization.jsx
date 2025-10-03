@@ -32,7 +32,7 @@ const ClusterVisualization = () => {
 
         // データ処理
         const processedData = await processGameData(
-          "/data/2025-03-16-2025-06-16.json",
+          "/data/2025-03-16-2025-07-14.json",
         );
 
         // エルボー法でクラスタ数候補を分析
@@ -337,10 +337,12 @@ const ClusterVisualization = () => {
             }
             <div style="line-height: 1.4;">
               <strong>元の特徴量:</strong><br/>
-              • 試合時間: ${(
-                d.time * data.scalingParams.time.range +
-                data.scalingParams.time.min
-              ).toFixed(1)}分<br/>
+              • 試合時間: ${Math.round(
+                (
+                  d.time * data.scalingParams.time.range +
+                  data.scalingParams.time.min
+                ).toFixed(1) / 60,
+              )}分<br/>
               • エキストラベースヒット: ${Math.round(
                 d.ex_base_hit_cnt * data.scalingParams.ex_base_hit_cnt.range +
                   data.scalingParams.ex_base_hit_cnt.min,
