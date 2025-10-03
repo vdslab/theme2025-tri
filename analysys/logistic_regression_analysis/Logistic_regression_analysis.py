@@ -103,6 +103,8 @@ def Logistic_regression_analysis(gamepk, molded_data):
             logistic_regression_data["data"].append({
                 "x": v_idx,
                 "y": int(probs[v_idx]*100),
+                "p_id": detail[0]["p_id"],
+                "e_id": detail[0]["e_id"]
             })
             
         with open(f"data/logistic_regression_analysis/{gamepk}_logistic_regression_analysis_data.json", "w", encoding="utf-8") as f:

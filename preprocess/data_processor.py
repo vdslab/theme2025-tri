@@ -30,6 +30,7 @@ def process_data(play_data):
         "away": play_data["gameData"]["teams"]["away"]["teamName"],
         "home": play_data["gameData"]["teams"]["home"]["teamName"]
     }
+    meta["status"] = play_data["gameData"]["status"]["statusCode"]
     
     isInningTop_ = False
     pre_runner_state = {}
@@ -42,11 +43,13 @@ def process_data(play_data):
     score_board["away"] = away_score
     score_board["home"] = home_score
     
+    isFirstPlayTF = True
     for p_idx, play in enumerate(allPlays):
         playEvents = play["playEvents"]
         isInningTop = play["about"]["isTopInning"]
         
         data[p_idx] = {}
+        isFirstEventTF = True
         for e_idx, event in enumerate(playEvents):
             # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
             if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
@@ -59,8 +62,34 @@ def process_data(play_data):
             isLast = e_idx == len(play["playEvents"])-1
             isPlayFirst = p_idx == 0
             
-            data[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score,score_board = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,score_board)
+            # ヒートマップコントロール用
+            isFirstPlay = False
+            if isFirstPlayTF:
+                isFirstPlay = True
+                isFirstPlayTF = False
                 
+            isLastPlay = False
+            if p_idx == len(allPlays)-1 and e_idx == len(playEvents)-1:
+                isLastPlay = True
+            
+            isFirstEvent = False
+            if isFirstEventTF:
+                isFirstEvent = True
+                isFirstEventTF = False
+                
+            isLastEvent = False
+            if e_idx == len(playEvents)-1:
+                isLastEvent = True
+                
+            data[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score,pos_a,pos_w,score_board = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,score_board)
+            
+            data[p_idx][e_idx]["is_first_play"] = isFirstPlay
+            data[p_idx][e_idx]["is_last_play"] = isLastPlay
+            data[p_idx][e_idx]["is_first_event"] = isFirstEvent
+            data[p_idx][e_idx]["is_last_event"] = isLastEvent
+            meta["away_score"] = pos_a
+            meta["home_score"] = pos_w
+            
     return data_lookup
     
 def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,score_board):
@@ -213,6 +242,8 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     detail["count"] = event.get("count",{})
     detail["event"] = description
     detail["runner_state"] = runner_state
+    detail["p_id"] = p_idx
+    detail["e_id"] = e_idx
     
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
@@ -244,7 +275,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     processed_event["detail"] = detail
     processed_event["score_board"] = score_board_copy
     
-    return processed_event, pre_runner_state,pos_away_score,pos_home_score,score_board_copy
+    return processed_event, pre_runner_state,pos_away_score,pos_home_score,pos_away_score,pos_home_score,score_board_copy
 
 def output_data(processed_data,gamepk):
     output_path = f"data/processed/{gamepk}_processed_data.json"
@@ -257,4 +288,4 @@ def data_process(gamepk):
     processed_data = process_data(raw_data)
     output_data(processed_data,gamepk)
     print("data_process done")
-    return raw_data,processed_data["data"]
+    return raw_data,processed_data["meta"],processed_data["data"]

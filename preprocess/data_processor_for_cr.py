@@ -8,7 +8,7 @@ from analysys.data_collection.time_data_sellecting import parse_time
         
 #     return game_data
 
-def get_score(raw_data,data,gamepk):
+def get_score(raw_data,meta,data,gamepk):
     score = {}
     
     # 試合時間
@@ -29,6 +29,8 @@ def get_score(raw_data,data,gamepk):
     team = {}
     team["away"] = raw_data.get("gameData", {}).get("teams", {}).get("away", {}).get("name", "undefined")
     team["home"] = raw_data.get("gameData", {}).get("teams", {}).get("home", {}).get("name", "undefined")
+    team["away_short"] = raw_data.get("gameData", {}).get("teams", {}).get("away", {}).get("clubName", "undefined")
+    team["home_short"] = raw_data.get("gameData", {}).get("teams", {}).get("home", {}).get("clubName", "undefined")
 
     lead_change_cnt = 0
     for _,play in data.items():
@@ -67,18 +69,28 @@ def get_score(raw_data,data,gamepk):
         start_time = min(all_start_times)
         end_time = max(all_end_times)
         total_duration = (end_time - start_time).total_seconds()
+        
+        # 総イベント時間
+        total_event_duration = sum((end - start).total_seconds() for start, end in zip(all_start_times, all_end_times))
                     
+        # 10の位で四捨五入
+        total_event_duration = round(total_event_duration / 10) * 10
     score["gamepk"] = gamepk
-    score["time"] = total_duration
+    score["time"] = total_event_duration
     score["ex_base_hit_cnt"] = ex_base_hit_cnt
     score["total_score"] = total_score
     score["diff_score"] = diff_score
     score["lead_change_cnt"] = lead_change_cnt
     score["date"] = date
     score["team"] = team
+    score["status"] = meta["status"]
+    score["score"] = {
+        "away": meta["away_score"],
+        "home": meta["home_score"]
+    }
     
     return score
     
-def data_process_for_cr(raw_data,process_data,gamepk):
-    score = get_score(raw_data,process_data,gamepk)
+def data_process_for_cr(raw_data,meta,process_data,gamepk):
+    score = get_score(raw_data,meta,process_data,gamepk)
     return score
