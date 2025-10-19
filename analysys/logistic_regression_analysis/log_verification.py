@@ -102,3 +102,22 @@ cv_scores = cross_val_score(LogisticRegression(max_iter=1000), X, y, cv=5, scori
 print("\n--- 🔁 5分割交差検証 (F1スコア) ---")
 print("各foldスコア:", np.round(cv_scores, 3))
 print("平均F1スコア:", round(cv_scores.mean(), 3))
+
+# ⬛️ 評価④: 保存済みの回帰係数を使って合致率を検証
+saved_weights = np.array([weights_json.get(name, 0.0) for name in feature_names])
+bias = weights_json.get("intercept", 0.0)  # バイアス項（保存されていれば）
+
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+# 予測（保存された係数を用いて）
+logits = X @ saved_weights + bias
+probs = sigmoid(logits)
+saved_preds = (probs >= 0.5).astype(int)
+
+# 合致割合（accuracy）
+match_ratio = (saved_preds == y).mean()
+
+print("\n--- 🧪 保存済み回帰係数による判定との合致率 ---")
+print(f"合致数: {(saved_preds == y).sum()} / {len(y)}")
+print(f"合致割合（Accuracy）: {match_ratio:.3f}")
