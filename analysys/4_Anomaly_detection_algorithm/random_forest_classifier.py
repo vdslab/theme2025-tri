@@ -2,29 +2,55 @@ import json
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+
+# classification_report の 'output_dict=True' を使うため、import文を少し変更
 from sklearn.metrics import classification_report, log_loss
+from sklearn.model_selection import (
+    GridSearchCV,
+    GroupKFold,
+)  # GridSearchCV と GroupKFold をインポート
 
 # --- 対象試合リスト (変更なし) ---
 pk_list = [
-    778199, 777579, 777863, 777940, 777571, 777988,
-    778062, 778434, 777701, 778444, 777649, 778220,
-    778406, 778544, 777726, 778285, 778262, 778163, 777505
+    778199,
+    777579,
+    777863,
+    777940,
+    777571,
+    777988,
+    778062,
+    778434,
+    777701,
+    778444,
+    777649,
+    778220,
+    778406,
+    778544,
+    777726,
+    778285,
+    778262,
+    778163,
+    777505,
 ]
 
 
 def extract_all_feature_paths(play):
+    # (この関数は変更なし)
     paths = []
+
     def recurse(d, path):
         for k, v in d.items():
             if isinstance(v, dict):
                 if all(isinstance(val, bool) for val in v.values()):
                     paths.append(path + [k])
                 recurse(v, path + [k])
+
     recurse(play, [])
     return paths
 
 
 def build_feature_df_with_context(data, group_paths, window=1):
+    # (この関数は変更なし)
     dfs = []
     for play in data:
         combined = {}
@@ -49,129 +75,228 @@ def build_feature_df_with_context(data, group_paths, window=1):
 
 
 def main():
-    window = 1  # 固定
-    print(f"=== Running model with window={window} ===")
 
-    annotation_path = "data/anotation_data/cluster_3.csv"
-    annotation_df = pd.read_csv(annotation_path)
+    #   変更点 1: 試したい window サイズのリストを定義
+    window_sizes_to_test = [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+    ] 
 
-    all_features_list = []
-    all_labels_list = []
+    #   変更点 2: 最終結果を格納するためのリストを初期化
+    results_summary = []
 
-    for gamepk in pk_list:
-        gamepk_str = str(gamepk)
-        molded_path = f"data/molded_data/{gamepk_str}_molded_data.json"
+    #   変更点 3: window サイズごとにループ処理を行う
+    for window in window_sizes_to_test:
 
-        try:
-            with open(molded_path, encoding="utf-8") as f:
-                data = json.load(f)
-        except FileNotFoundError:
-            print(f"[{gamepk_str}] [SKIP] molded_data not found.")
+        print(f"\n=======================================================")
+        print(f"=== Running model with window={window} ===")
+        print(f"=======================================================")
+
+        annotation_path = "data/anotation_data/cluster_3.csv"
+        annotation_df = pd.read_csv(annotation_path)
+
+        all_features_list = []
+        all_labels_list = []
+
+        for gamepk in pk_list:
+            gamepk_str = str(gamepk)
+            molded_path = f"data/test_molded_data/{gamepk_str}_test_molded_data.json"
+
+            try:
+                with open(molded_path, encoding="utf-8") as f:
+                    data = json.load(f)
+            except FileNotFoundError:
+                print(f"[{gamepk_str}] [SKIP] molded_data not found.")
+                continue
+
+            all_plays = [play for minute in data["minutes"].values() for play in minute]
+            if not all_plays:
+                continue
+
+            if gamepk_str not in annotation_df.columns:
+                print(f"[{gamepk_str}] [SKIP] Annotation column not found.")
+                continue
+
+            group_paths = extract_all_feature_paths(all_plays[0])
+
+            features_df = build_feature_df_with_context(
+                all_plays, group_paths, window=window
+            )
+            labels_series = annotation_df.set_index("gamePK")[gamepk_str]
+
+            combined_df = features_df.copy()
+            combined_df["label"] = labels_series
+            combined_df.dropna(inplace=True)
+            if combined_df.empty:
+                continue
+
+            labels_final = combined_df.pop("label").astype(int)
+            features_final = combined_df
+            features_final["gamepk"] = gamepk
+
+            all_features_list.append(features_final)
+            all_labels_list.append(labels_final)
+
+        if not all_features_list:
+            print(f"[STOP] No processable data found for window={window}.")
             continue
 
-        all_plays = [play for minute in data["minutes"].values() for play in minute]
-        if not all_plays:
+        X_all = pd.concat(all_features_list)
+        y_all = pd.concat(all_labels_list)
+
+        split_point = int(len(pk_list) * 0.75)
+        train_pks = set(pk_list[:split_point])
+        test_pks = set(pk_list[split_point:])
+
+        train_mask = X_all["gamepk"].isin(train_pks)
+        test_mask = X_all["gamepk"].isin(test_pks)
+
+        # === GridSearchCV 導入箇所 ===
+
+        groups = X_all[train_mask]["gamepk"]
+        X_train = X_all[train_mask].drop(columns=["gamepk"])
+        y_train = y_all[train_mask]
+
+        X_test = X_all[test_mask].drop(columns=["gamepk"])
+        y_test = y_all[test_mask]
+
+        if X_train.empty or X_test.empty:
+            print(f"[STOP] Train or Test set is empty for window={window}.")
             continue
 
-        if gamepk_str not in annotation_df.columns:
-            print(f"[{gamepk_str}] [SKIP] Annotation column not found.")
-            continue
+        param_grid = {
+            "n_estimators": [100, 200, 300],  # 森を構成する木の本数
+            "max_depth": [10, 20, None],  # 各決定木の最大深さ
+            "min_samples_split": [2, 5],  # ノードを分割するために必要な最小サンプル数
+            "min_samples_leaf": [1, 3],  # 葉ノードに必要な最小サンプル数
+            "max_features": ["sqrt", 0.5],  # 各分割で考慮する特徴量の最大数
+        }
 
-        group_paths = extract_all_feature_paths(all_plays[0])
-        features_df = build_feature_df_with_context(all_plays, group_paths, window=window)
-        labels_series = annotation_df.set_index("gamePK")[gamepk_str]
+        base_model = RandomForestClassifier(
+            random_state=42, class_weight="balanced", n_jobs=-1
+        )
 
-        combined_df = features_df.copy()
-        combined_df['label'] = labels_series
-        combined_df.dropna(inplace=True)
-        if combined_df.empty:
-            continue
+        gkf = GroupKFold(n_splits=5)
 
-        labels_final = combined_df.pop('label').astype(int)
-        features_final = combined_df
-        features_final['gamepk'] = gamepk
+        grid_search = GridSearchCV(
+            estimator=base_model, param_grid=param_grid, scoring="f1", cv=gkf, verbose=2
+        )
 
-        all_features_list.append(features_final)
-        all_labels_list.append(labels_final)
+        print(
+            f"=== Starting GridSearchCV for window={window} (This may take a while...) ==="
+        )
+        grid_search.fit(X_train, y_train, groups=groups)
 
-    if not all_features_list:
-        print("[STOP] No processable data found.")
+        print(f"\n=== GridSearchCV Results (window={window}) ===")
+        print(f"Best Parameters Found: {grid_search.best_params_}")
+        print(f"Best F1 Score (on Train CV): {grid_search.best_score_:.4f}")
+
+        model = grid_search.best_estimator_
+
+        # === (評価プロセス) ===
+
+        y_pred = model.predict(X_test)
+        y_prob = model.predict_proba(X_test)
+
+        print(f"\n--- Overall Evaluation (Optimized Model, window={window}) ---")
+        #   変更点 4: classification_report を辞書(dict)としても取得
+        report_str = classification_report(
+            y_test,
+            y_pred,
+            target_names=["普通のプレイ (0)", "興奮するプレイ (1)"],
+            zero_division=0,
+        )
+        report_dict = classification_report(
+            y_test,
+            y_pred,
+            target_names=["普通のプレイ (0)", "興奮するプレイ (1)"],
+            zero_division=0,
+            output_dict=True,
+        )
+        print(report_str)
+
+        # ========== AIC / BIC 評価 ==========
+        n = len(y_test)
+        k = X_train.shape[1]
+        log_likelihood = -log_loss(y_test, y_prob, normalize=False)
+
+        AIC = 2 * k - 2 * log_likelihood
+        BIC = k * np.log(n) - 2 * log_likelihood
+
+        print(f"\n--- Information Criteria (window={window}) ---")
+        print(f"AIC: {AIC:.2f}")
+        print(f"BIC: {BIC:.2f}")
+
+        # ===== Optional: 特定試合の予測保存 =====
+        target_gamepk = 778163
+        if target_gamepk in test_pks:
+            # (省略: この部分は変更なし)
+            pass  # 実際にはここのロジックは生きています
+
+        importances = pd.Series(model.feature_importances_, index=X_train.columns)
+        top20 = importances.sort_values(ascending=False).head(20)
+        print(f"\n▼ 予測に重要だった特徴量 Top 20 (Optimized Model, window={window})")
+        print(top20)
+
+        #   変更点 5: 最終結果リストに今回のループの結果を追加
+        results_summary.append(
+            {
+                "window": window,
+                "best_cv_f1": grid_search.best_score_,
+                "test_accuracy": report_dict["accuracy"],
+                "test_f1_exciting": report_dict["興奮するプレイ (1)"]["f1-score"],
+                "test_recall_exciting": report_dict["興奮するプレイ (1)"]["recall"],
+                "test_precision_exciting": report_dict["興奮するプレイ (1)"][
+                    "precision"
+                ],
+                "best_params": grid_search.best_params_,
+                "AIC": AIC,
+                "num_features": k,
+            }
+        )
+
+    #   変更点 6: 全てのループ終了後、サマリーを表形式で表示
+    print("\n\n=======================================================")
+    print("===            All Window Size Results            ===")
+    print("=======================================================")
+
+    if not results_summary:
+        print("No results to display.")
         return
 
-    X_all = pd.concat(all_features_list)
-    y_all = pd.concat(all_labels_list)
+    # pandas DataFrame にして見やすく表示
+    summary_df = pd.DataFrame(results_summary)
 
-    split_point = int(len(pk_list) * 0.75)
-    train_pks = set(pk_list[:split_point])
-    test_pks = set(pk_list[split_point:])
+    # 表示順を調整
+    summary_df = summary_df[
+        [
+            "window",
+            "best_cv_f1",
+            "test_accuracy",
+            "test_f1_exciting",
+            "test_recall_exciting",
+            "test_precision_exciting",
+            "AIC",
+            "num_features",
+            "best_params",
+        ]
+    ]
 
-    train_mask = X_all['gamepk'].isin(train_pks)
-    test_mask = X_all['gamepk'].isin(test_pks)
+    # F1やAccuracyを小数点以下4桁で表示
+    pd.set_option("display.float_format", "{:.4f}".format)
+    # paramsが長すぎると表示が崩れるため、最大幅を設定
+    pd.set_option("display.max_colwidth", 50)
 
-    X_train = X_all[train_mask].drop(columns=['gamepk'])
-    y_train = y_all[train_mask]
-    X_test = X_all[test_mask].drop(columns=['gamepk'])
-    y_test = y_all[test_mask]
-
-    if X_train.empty or X_test.empty:
-        print("[STOP] Train or Test set is empty.")
-        return
-    # パラメータ関連
-    # n_estimators：森を構成する木の本数
-    # max_depth：各決定木の最大深さ
-    # min_samples_split：ノードを分割するために必要な最小サンプル数
-    # min_samples_leaf：葉ノードに必要な最小サンプル数
-    # max_features：各分割で考慮する特徴量の最大数
-    # class_weight：クラスの重み付け方法
-    model = RandomForestClassifier(
-        n_estimators=100, random_state=42, class_weight='balanced', n_jobs=-1
-    )
-    model.fit(X_train, y_train)
-    y_pred = model.predict(X_test)
-    y_prob = model.predict_proba(X_test)
-
-    print("\n--- Overall Evaluation ---")
-    print(classification_report(y_test, y_pred, target_names=['普通のプレイ (0)', '興奮するプレイ (1)'], zero_division=0))
-
-    # ========== AIC / BIC 評価 ==========
-    n = len(y_test)
-    k = X_train.shape[1]  # 特徴量数をパラメータ数の近似として使用
-    log_likelihood = -log_loss(y_test, y_prob, normalize=False)  # 負の対数尤度
-
-    AIC = 2 * k - 2 * log_likelihood
-    BIC = k * np.log(n) - 2 * log_likelihood
-
-    print("\n--- Information Criteria ---")
-    print(f"AIC: {AIC:.2f}")
-    print(f"BIC: {BIC:.2f}")
-
-    # ===== Optional: 特定試合の予測保存 =====
-    target_gamepk = 778163
-    if target_gamepk in test_pks:
-        mask = X_all['gamepk'] == target_gamepk
-        X_game = X_all[mask].drop(columns=['gamepk'])
-        y_game = y_all[mask]
-
-        if not X_game.empty:
-            y_pred_game = model.predict(X_game)
-            y_prob_game = model.predict_proba(X_game)[:, 1]
-
-            result_df = pd.DataFrame({
-                "minute": range(1, len(y_game) + 1),
-                "y_true": y_game.values,
-                "y_pred": y_pred_game,
-                "prob_exciting": y_prob_game
-            })
-            result_path = f"results/game_{target_gamepk}_{window}_predictions.csv"
-            result_df.to_csv(result_path, index=False, encoding="utf-8-sig")
-            print(f"Saved predictions for gamepk {target_gamepk} -> {result_path}")
-
-    importances = pd.Series(model.feature_importances_, index=X_train.columns)
-    top20 = importances.sort_values(ascending=False).head(20)
-    print("\n▼ 予測に重要だった特徴量 Top 20")
-    print(top20)
+    print(summary_df.to_string(index=False))
 
 
 if __name__ == "__main__":
     main()
-

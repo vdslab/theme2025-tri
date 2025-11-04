@@ -1,0 +1,6121 @@
+{
+  "total_duration_minutes": 198,
+  "start_time": "2025-04-24T01:40:40.307000+00:00",
+  "end_time": "2025-04-24T04:58:05.175000+00:00",
+  "minutes": {
+    "0": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "1": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "2": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "3": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "5": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": true
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": true
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "7": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "8": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "9": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "10": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "11": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "12": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "13": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "14": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "15": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "16": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "18": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": true
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": true,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "19": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": true
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": true,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "20": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "21": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "22": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "23": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "24": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "25": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "26": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "29": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "30": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "31": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "32": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "33": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "34": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "35": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "36": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "38": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "39": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "40": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "41": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "42": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "44": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "45": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "46": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "47": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "48": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "49": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "51": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "52": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "53": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "54": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "55": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "58": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "59": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "60": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "61": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "62": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "63": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "65": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "66": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "67": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "68": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "69": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "70": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "72": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "73": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "74": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "75": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "76": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "77": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "80": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "81": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "82": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "84": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "85": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "86": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "87": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "88": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "89": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": false
+          }
+        }
+      }
+    ],
+    "91": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "92": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "94": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "95": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "98": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "99": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "100": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "101": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": true,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "102": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "103": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "104": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "107": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "108": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "109": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "110": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": true
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "111": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "112": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "113": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "114": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "117": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "118": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "119": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "120": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "121": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": true,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": true,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "123": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "124": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "125": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "126": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "129": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "130": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "131": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "132": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "134": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "135": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "136": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "137": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "138": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "139": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "141": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "142": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "145": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "146": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "147": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "148": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "149": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "151": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "152": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "153": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "154": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "157": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "158": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "159": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "160": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "163": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "164": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "166": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "167": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "168": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "169": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "170": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "171": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "174": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "175": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "176": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": true,
+            "plus_1": false,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "177": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "178": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "179": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "180": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": true,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "181": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "182": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": true,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": true,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": true,
+            "plus_2": false,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "183": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": true,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "184": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": true,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "185": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {
+            "minus_less_3": false,
+            "minus_2": false,
+            "minus_1": false,
+            "tie": false,
+            "plus_1": false,
+            "plus_2": true,
+            "plus_more_3": false
+          },
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "188": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": true,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": true,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "189": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "190": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "191": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": true,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": false,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "193": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": true,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "194": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "195": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": true,
+            "second-third": false,
+            "first-second-third": false
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "196": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ],
+    "197": [
+      {
+        "play_features": {
+          "hit_event": {
+            "single": false,
+            "double": false,
+            "triple": false,
+            "home_run": false
+          },
+          "rbi_impact": {
+            "regular_rbi": false,
+            "tie_rbi": false,
+            "go_ahead_rbi": false,
+            "sayonara_rbi": false
+          }
+        },
+        "situation_features": {
+          "runner_status": {
+            "none": false,
+            "first": false,
+            "second": false,
+            "third": false,
+            "first-second": false,
+            "first-third": false,
+            "second-third": false,
+            "first-second-third": true
+          },
+          "is_goahead_runner_on_base": true,
+          "score_difference": {},
+          "inning_phase": {
+            "early": true
+          }
+        }
+      }
+    ]
+  }
+}
