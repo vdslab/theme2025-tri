@@ -206,19 +206,35 @@ def get_situation_score(event, situation_features):
     
     # --- 7. 交互作用特徴量 (新規追加) ---
     interaction_features = {}
+    
+    # スタッツによる特徴量(11/5 追加)
+    # NOTE: シーズン打率、ホームラン数、 ops、 本試合のヒット回数 を取得
+    # NOTE: 閾値は仮決め
+    stats = event["stats"]
+    
+    season_avg = {}
+    season_avg["high"] = float(stats["season_avg"]) >= 0.30
+    season_avg["middle"] = 0.30 > float(stats["season_avg"]) >= 0.28
+    season_avg["low"] = 0.28 > float(stats["season_avg"])
+    season_home_runs = {}
+    season_home_runs["high"] = float(stats["season_home_runs"]) >= 25
+    season_home_runs["middle"] = 25 > float(stats["season_home_runs"]) >= 10
+    season_home_runs["low"] = 10 > float(stats["season_home_runs"])
+    # season_ops = stats["season_ops"] > 0.8
+    # today_hits = stats["today_hits"]
 
-    # 既存の特徴量から値を取得
-    is_late = situation_features["inning_phase"]["late"]
-    is_tie = situation_features["score_difference"]["tie"]
-    is_minus_1 = situation_features["score_difference"]["minus_1"]
-    is_2_outs = situation_features["outs_status"]["outs_2"]
+    # ローカル変数から値を取得（まだsituation_featuresには代入されていないため）
+    is_late = inning_phase["late"]
+    is_tie = score_difference["tie"]
+    is_minus_1 = score_difference["minus_1"]
+    is_2_outs = outs_status["outs_2"]
     is_scoring_pos = (
-        situation_features["runner_status"]["second"] or
-        situation_features["runner_status"]["third"] or
-        situation_features["runner_status"]["first-second"] or
-        situation_features["runner_status"]["first-third"] or
-        situation_features["runner_status"]["second-third"] or
-        situation_features["runner_status"]["first-second-third"]
+        runner_status["second"] or
+        runner_status["third"] or
+        runner_status["first-second"] or
+        runner_status["first-third"] or
+        runner_status["second-third"] or
+        runner_status["first-second-third"]
     )
 
     # 「終盤」かつ「僅差」か
@@ -242,6 +258,8 @@ def get_situation_score(event, situation_features):
     situation_features["outs_status"] = outs_status         # 新規
     situation_features["count_status"] = count_status       # 新規
     situation_features["interaction_features"] = interaction_features # 新規
+    situation_features["season_avg"] = season_avg
+    situation_features["season_home_runs"] = season_home_runs
 
 
 def output_data(scores_data, gamepk):

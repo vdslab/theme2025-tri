@@ -17,6 +17,7 @@ def data_download(gamepk):
         return None
 
 def process_data(data):
+    boxscore = data["liveData"]["boxscore"]
     allPlays = data["liveData"]["plays"]["allPlays"]
     event_lookup = {}
     isInningTop_ = False
@@ -40,11 +41,11 @@ def process_data(data):
             isLast = e_idx == len(play["playEvents"])-1
             isPlayFirst = p_idx == 0
             
-            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning)
+            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,boxscore)
                 
     return event_lookup
     
-def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning):
+def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,boxscore):
     processed_event = {}
     
     # is away
@@ -182,6 +183,23 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     detail["event"] = description
     detail["runner_state"] = runner_state
     
+    # stats(11/5 追加)
+    # NOTE: シーズン打率、ホームラン数、 ops、 本試合のヒット回数 を取得
+    if(is_away):
+        team = boxscore["teams"]["away"]
+    else:
+        team = boxscore["teams"]["home"]
+    
+    stats = {}
+    batter_id = batter["id"]
+    
+    print(team["players"])
+    stats["season_avg"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["avg"]
+    stats["season_home_runs"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["homeRuns"]
+    stats["season_ops"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["ops"]
+    # NOTE: 一旦コメントアウト
+    # stats["today_hits"] = team["players"][f"ID{batter_id}"]["stats"]["batting"]["hits"]
+    
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
     processed_event["inning"] = inning
@@ -210,6 +228,7 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     time["end_time"] = end_time
     time["diff_time"] = diff_time
     processed_event["detail"] = detail
+    processed_event["stats"] = stats
     
     return processed_event, pre_runner_state,pos_away_score,pos_home_score
 
@@ -224,3 +243,7 @@ def data_process(gamepk):
     output_data(processed_data,gamepk)
     
     return raw_data,processed_data
+
+# NOTE: テストに使って
+# if __name__ == "__main__":
+#     data_process("778199")
