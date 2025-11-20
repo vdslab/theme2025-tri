@@ -106,6 +106,8 @@ def build_feature_df_with_context(data, group_paths, window=1):
 # --- データ読み込みと前処理 ---
 def load_and_preprocess(pk_list, annotation_df, window):
     all_features_list, all_labels_list = [], []
+    inference_plays = None
+    
     for gamepk in pk_list:
         gamepk_str = str(gamepk)
         molded_path = molded_path_template.format(gamepk=gamepk_str)
@@ -120,6 +122,9 @@ def load_and_preprocess(pk_list, annotation_df, window):
         all_plays = [play for minute in data["minutes"].values() for play in minute]
         if not all_plays:
             continue
+
+        # 推論対象試合のall_playsを保存
+        inference_plays = all_plays
 
         # --- ラベルの存在をチェック ---
         has_annotation = gamepk_str in annotation_df.columns
@@ -167,12 +172,12 @@ def load_and_preprocess(pk_list, annotation_df, window):
         all_labels_list.append(labels_final)
 
     if not all_features_list:
-        return None, None
+        return None, None, None
 
     X_full = pd.concat(all_features_list)
     y_full = pd.concat(all_labels_list)
 
-    return X_full, y_full
+    return X_full, y_full, inference_plays
 
 
 # --- メイン処理 ---
@@ -192,7 +197,7 @@ def main():
         return
 
     # 訓練用試合と推論用試合を読み込み、前処理
-    X_full, y_full = load_and_preprocess(PK_LIST_ALL, annotation_df, TARGET_WINDOW)
+    X_full, y_full, inference_plays = load_and_preprocess(PK_LIST_ALL, annotation_df, TARGET_WINDOW)
 
     if X_full is None:
         print("[STOP] No processable data found.")
@@ -247,8 +252,20 @@ def main():
     # 推論結果をJSONファイルに出力
     print("\n=> Exporting Inference Probabilities...")
 
+    # prob_dfのインデックスを使って対応するp_idとe_idを取得
     pk_results = {
-        int(idx): round(prob, 4) for idx, prob in prob_df["prob_exciting"].items()
+        "id": PK_INFERENCE_TARGET,
+        "data": [
+            {
+                "x": i,
+                "y": int(prob * 100),
+                "e_id": inference_plays[idx]["detail"]["e_id"],
+                "p_id": inference_plays[idx]["detail"]["p_id"],
+                "inning": inference_plays[idx]["detail"]["inning"],
+                "inning_top": inference_plays[idx]["detail"]["inning_top"]
+            }
+            for i, (idx, prob) in enumerate(prob_df["prob_exciting"].items())
+        ]
     }
 
     if pk_results:
