@@ -101,7 +101,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 0,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".429",
@@ -211,7 +213,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 0,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".429",
@@ -321,7 +325,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 0,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".429",
@@ -431,7 +437,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 0,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".429",
@@ -543,7 +551,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -653,7 +663,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -763,7 +775,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -873,7 +887,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -983,7 +999,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".250",
@@ -1093,7 +1111,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 1,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".250",
@@ -1205,7 +1225,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 2,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".300",
@@ -1317,7 +1339,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 3,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -1427,7 +1451,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 3,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -1537,7 +1563,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 3,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -1647,7 +1675,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 3,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -1757,7 +1787,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 3,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".500",
@@ -1869,7 +1901,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 4,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -1979,7 +2013,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 4,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -2089,7 +2125,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 4,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -2199,7 +2237,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 4,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -2309,7 +2349,9 @@
                             "full_name": "Kerry Carpenter"
                         }
                     }
-                }
+                },
+                "p_id": 4,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -2421,7 +2463,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 5,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".375",
@@ -2531,7 +2575,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 5,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".375",
@@ -2641,7 +2687,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 5,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".375",
@@ -2751,7 +2799,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 5,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".375",
@@ -2863,7 +2913,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 6,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -2973,7 +3025,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 6,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -3091,7 +3145,9 @@
                             "full_name": "Shohei Ohtani"
                         }
                     }
-                }
+                },
+                "p_id": 6,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -3211,7 +3267,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 7,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".125",
@@ -3321,7 +3379,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 7,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".125",
@@ -3431,7 +3491,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 7,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".125",
@@ -3543,7 +3605,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 8,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -3653,7 +3717,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 8,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -3763,7 +3829,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 8,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -3873,7 +3941,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 8,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -3985,7 +4055,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 9,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".400",
@@ -4095,7 +4167,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 9,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".400",
@@ -4205,7 +4279,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 9,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".400",
@@ -4315,7 +4391,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 9,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".400",
@@ -4427,7 +4505,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 10,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -4537,7 +4617,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 10,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -4647,7 +4729,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 10,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".167",
@@ -4759,7 +4843,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 11,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -4869,7 +4955,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 11,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -4979,7 +5067,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 11,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".167",
@@ -5089,7 +5179,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 11,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".167",
@@ -5199,7 +5291,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 11,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".167",
@@ -5311,7 +5405,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".133",
@@ -5421,7 +5517,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".133",
@@ -5531,7 +5629,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".133",
@@ -5641,7 +5741,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".133",
@@ -5751,7 +5853,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".133",
@@ -5861,7 +5965,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 12,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".133",
@@ -5973,7 +6079,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 13,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".071",
@@ -6083,7 +6191,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 13,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".071",
@@ -6193,7 +6303,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 13,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".071",
@@ -6303,7 +6415,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 13,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".071",
@@ -6415,7 +6529,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 14,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".222",
@@ -6525,7 +6641,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 14,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".222",
@@ -6635,7 +6753,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 14,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".222",
@@ -6747,7 +6867,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 15,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".429",
@@ -6857,7 +6979,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 15,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".429",
@@ -6967,7 +7091,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 15,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".429",
@@ -7077,7 +7203,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 15,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".429",
@@ -7189,7 +7317,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 16,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -7299,7 +7429,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 16,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -7409,7 +7541,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 16,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -7521,7 +7655,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 17,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".300",
@@ -7631,7 +7767,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 17,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".300",
@@ -7741,7 +7879,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 17,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".300",
@@ -7853,7 +7993,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -7963,7 +8105,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -8073,7 +8217,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -8183,7 +8329,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -8293,7 +8441,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".500",
@@ -8403,7 +8553,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 18,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".500",
@@ -8515,7 +8667,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -8625,7 +8779,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -8735,7 +8891,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -8845,7 +9003,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -8955,7 +9115,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -9065,7 +9227,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".000",
@@ -9175,7 +9339,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 19,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".000",
@@ -9287,7 +9453,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 20,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -9397,7 +9565,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 20,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -9509,7 +9679,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 21,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".273",
@@ -9619,7 +9791,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 21,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".273",
@@ -9729,7 +9903,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 21,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".273",
@@ -9839,7 +10015,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 21,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".273",
@@ -9951,7 +10129,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".182",
@@ -10061,7 +10241,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".182",
@@ -10171,7 +10353,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".182",
@@ -10281,7 +10465,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".182",
@@ -10391,7 +10577,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".182",
@@ -10501,7 +10689,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 22,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".182",
@@ -10613,7 +10803,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 23,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -10723,7 +10915,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 23,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -10833,7 +11027,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 23,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -10945,7 +11141,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 24,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".400",
@@ -11055,7 +11253,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 24,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".400",
@@ -11165,7 +11365,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 24,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".400",
@@ -11275,7 +11477,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 24,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".400",
@@ -11387,7 +11591,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 25,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -11499,7 +11705,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 26,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -11609,7 +11817,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 26,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".167",
@@ -11719,7 +11929,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 26,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".167",
@@ -11829,7 +12041,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 26,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".167",
@@ -11941,7 +12155,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 27,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".375",
@@ -12051,7 +12267,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 27,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".375",
@@ -12163,7 +12381,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 28,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -12273,7 +12493,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 28,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -12383,7 +12605,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 28,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -12493,7 +12717,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 28,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -12605,7 +12831,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 29,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".125",
@@ -12715,7 +12943,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 29,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".125",
@@ -12825,7 +13055,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 29,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".125",
@@ -12935,7 +13167,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 29,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".125",
@@ -13045,7 +13279,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 29,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".125",
@@ -13157,7 +13393,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".429",
@@ -13267,7 +13505,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".429",
@@ -13377,7 +13617,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".429",
@@ -13487,7 +13729,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".429",
@@ -13597,7 +13841,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".429",
@@ -13707,7 +13953,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 30,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".429",
@@ -13819,7 +14067,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -13929,7 +14179,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -14039,7 +14291,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -14149,7 +14403,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -14259,7 +14515,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".250",
@@ -14369,7 +14627,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 31,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".250",
@@ -14481,7 +14741,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".300",
@@ -14591,7 +14853,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".300",
@@ -14701,7 +14965,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".300",
@@ -14811,7 +15077,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".300",
@@ -14921,7 +15189,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".300",
@@ -15031,7 +15301,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 32,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".300",
@@ -15143,7 +15415,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 33,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -15253,7 +15527,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 33,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -15363,7 +15639,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 33,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -15473,7 +15751,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 33,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -15583,7 +15863,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 33,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".500",
@@ -15695,7 +15977,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".133",
@@ -15805,7 +16089,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".133",
@@ -15915,7 +16201,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".133",
@@ -16025,7 +16313,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".133",
@@ -16135,7 +16425,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".133",
@@ -16245,7 +16537,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 34,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".133",
@@ -16357,7 +16651,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 35,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".071",
@@ -16467,7 +16763,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 35,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".071",
@@ -16577,7 +16875,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 35,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".071",
@@ -16687,7 +16987,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 35,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".071",
@@ -16797,7 +17099,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 35,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".071",
@@ -16909,7 +17213,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 36,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".222",
@@ -17019,7 +17325,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 36,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".222",
@@ -17129,7 +17437,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 36,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".222",
@@ -17239,7 +17549,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 36,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".222",
@@ -17349,7 +17661,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 36,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".222",
@@ -17461,7 +17775,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 37,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".273",
@@ -17579,7 +17895,9 @@
                             "full_name": "Tommy Edman"
                         }
                     }
-                }
+                },
+                "p_id": 37,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".273",
@@ -17699,7 +18017,9 @@
                             "full_name": "Teoscar Hernández"
                         }
                     }
-                }
+                },
+                "p_id": 38,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".182",
@@ -17809,7 +18129,9 @@
                             "full_name": "Teoscar Hernández"
                         }
                     }
-                }
+                },
+                "p_id": 38,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".182",
@@ -17921,7 +18243,9 @@
                             "full_name": "Teoscar Hernández"
                         }
                     }
-                }
+                },
+                "p_id": 39,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -18031,7 +18355,9 @@
                             "full_name": "Teoscar Hernández"
                         }
                     }
-                }
+                },
+                "p_id": 39,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -18141,7 +18467,9 @@
                             "full_name": "Teoscar Hernández"
                         }
                     }
-                }
+                },
+                "p_id": 39,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -18253,7 +18581,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 40,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -18363,7 +18693,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 40,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -18473,7 +18805,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 40,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -18583,7 +18917,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 40,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -18693,7 +19029,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 40,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".000",
@@ -18805,7 +19143,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 41,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -18915,7 +19255,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 41,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -19025,7 +19367,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 41,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -19135,7 +19479,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 41,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -19247,7 +19593,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 42,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".400",
@@ -19359,7 +19707,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 43,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".375",
@@ -19469,7 +19819,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 43,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".375",
@@ -19579,7 +19931,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 43,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".375",
@@ -19689,7 +20043,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 43,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".375",
@@ -19801,7 +20157,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 44,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -19913,7 +20271,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 45,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".125",
@@ -20025,7 +20385,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".133",
@@ -20135,7 +20497,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".133",
@@ -20245,7 +20609,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".133",
@@ -20355,7 +20721,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".133",
@@ -20465,7 +20833,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".133",
@@ -20575,7 +20945,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".133",
@@ -20685,7 +21057,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 46,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".133",
@@ -20797,7 +21171,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 47,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".071",
@@ -20907,7 +21283,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 47,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".071",
@@ -21017,7 +21395,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 47,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".071",
@@ -21127,7 +21507,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 47,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".071",
@@ -21239,7 +21621,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 48,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -21349,7 +21733,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 48,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".167",
@@ -21461,7 +21847,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 49,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -21571,7 +21959,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 49,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -21681,7 +22071,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 49,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".167",
@@ -21791,7 +22183,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 49,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".167",
@@ -21901,7 +22295,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 49,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".167",
@@ -22013,7 +22409,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -22123,7 +22521,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -22233,7 +22633,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -22343,7 +22745,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -22453,7 +22857,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -22563,7 +22969,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 50,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".000",
@@ -22675,7 +23083,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 51,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".222",
@@ -22785,7 +23195,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 51,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".222",
@@ -22895,7 +23307,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 51,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".222",
@@ -23005,7 +23419,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 51,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".222",
@@ -23115,7 +23531,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 51,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".222",
@@ -23227,7 +23645,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 52,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".273",
@@ -23337,7 +23757,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 52,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".273",
@@ -23449,7 +23871,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 53,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".182",
@@ -23559,7 +23983,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 53,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".182",
@@ -23669,7 +24095,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 53,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".182",
@@ -23779,7 +24207,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 53,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".182",
@@ -23889,7 +24319,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 53,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".182",
@@ -24001,7 +24433,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 54,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".600",
@@ -24111,7 +24545,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 54,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".600",
@@ -24221,7 +24657,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 54,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".600",
@@ -24333,7 +24771,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 55,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".300",
@@ -24443,7 +24883,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 55,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".300",
@@ -24553,7 +24995,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 55,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".300",
@@ -24665,7 +25109,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 56,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -24775,7 +25221,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 56,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -24885,7 +25333,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 56,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -24997,7 +25447,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -25107,7 +25559,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -25217,7 +25671,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -25327,7 +25783,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".000",
@@ -25437,7 +25895,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".000",
@@ -25547,7 +26007,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 8
             },
             "stats": {
                 "season_avg": ".000",
@@ -25657,7 +26119,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 57,
+                "e_id": 9
             },
             "stats": {
                 "season_avg": ".000",
@@ -25769,7 +26233,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -25879,7 +26345,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -25989,7 +26457,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -26099,7 +26569,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -26209,7 +26681,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".250",
@@ -26319,7 +26793,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".250",
@@ -26429,7 +26905,9 @@
                             "full_name": "Spencer Torkelson"
                         }
                     }
-                }
+                },
+                "p_id": 58,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".250",
@@ -26541,7 +27019,9 @@
                             "full_name": "Spencer Torkelson"
                         }
                     }
-                }
+                },
+                "p_id": 59,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".400",
@@ -26651,7 +27131,9 @@
                             "full_name": "Spencer Torkelson"
                         }
                     }
-                }
+                },
+                "p_id": 59,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".400",
@@ -26761,7 +27243,9 @@
                             "full_name": "Spencer Torkelson"
                         }
                     }
-                }
+                },
+                "p_id": 59,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".400",
@@ -26873,7 +27357,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".000",
@@ -26983,7 +27469,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".000",
@@ -27093,7 +27581,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".000",
@@ -27203,7 +27693,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".000",
@@ -27313,7 +27805,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 8
             },
             "stats": {
                 "season_avg": ".000",
@@ -27423,7 +27917,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 60,
+                "e_id": 9
             },
             "stats": {
                 "season_avg": ".000",
@@ -27535,7 +28031,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".375",
@@ -27645,7 +28143,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".375",
@@ -27755,7 +28255,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".375",
@@ -27865,7 +28367,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".375",
@@ -27975,7 +28479,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".375",
@@ -28085,7 +28591,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".375",
@@ -28195,7 +28703,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 61,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".375",
@@ -28307,7 +28817,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 62,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -28419,7 +28931,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 63,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".125",
@@ -28529,7 +29043,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 63,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".125",
@@ -28641,7 +29157,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 64,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -28753,7 +29271,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 65,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -28871,7 +29391,9 @@
                             "full_name": "Trey Sweeney"
                         }
                     }
-                }
+                },
+                "p_id": 65,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -28991,7 +29513,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 66,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -29101,7 +29625,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 66,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -29211,7 +29737,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 66,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -29323,7 +29851,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 67,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".600",
@@ -29433,7 +29963,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 67,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".600",
@@ -29545,7 +30077,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 68,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".300",
@@ -29655,7 +30189,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 68,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".300",
@@ -29765,7 +30301,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 68,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".300",
@@ -29883,7 +30421,9 @@
                             "full_name": "Manuel Margot"
                         }
                     }
-                }
+                },
+                "p_id": 68,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".300",
@@ -29995,7 +30535,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".133",
@@ -30105,7 +30647,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".133",
@@ -30215,7 +30759,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".133",
@@ -30325,7 +30871,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".133",
@@ -30435,7 +30983,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".133",
@@ -30545,7 +31095,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 69,
+                "e_id": 8
             },
             "stats": {
                 "season_avg": ".133",
@@ -30657,7 +31209,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 70,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".071",
@@ -30767,7 +31321,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 70,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".071",
@@ -30877,7 +31433,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 70,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".071",
@@ -30989,7 +31547,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 71,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".222",
@@ -31099,7 +31659,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 71,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".222",
@@ -31211,7 +31773,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 72,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -31321,7 +31885,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 72,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -31431,7 +31997,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 72,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".500",
@@ -31541,7 +32109,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 72,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".500",
@@ -31651,7 +32221,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 72,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".500",
@@ -31763,7 +32335,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 73,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".000",
@@ -31873,7 +32447,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 73,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".000",
@@ -31983,7 +32559,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 73,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".000",
@@ -32095,7 +32673,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 74,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".250",
@@ -32205,7 +32785,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 74,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".250",
@@ -32315,7 +32897,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 74,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".250",
@@ -32425,7 +33009,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 74,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".250",
@@ -32537,7 +33123,9 @@
                             "full_name": "Dillon Dingler"
                         }
                     }
-                }
+                },
+                "p_id": 75,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".400",
@@ -32649,7 +33237,9 @@
                             "full_name": "Dillon Dingler"
                         }
                     }
-                }
+                },
+                "p_id": 76,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".167",
@@ -32759,7 +33349,9 @@
                             "full_name": "Dillon Dingler"
                         }
                     }
-                }
+                },
+                "p_id": 76,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".167",
@@ -32869,7 +33461,9 @@
                             "full_name": "Dillon Dingler"
                         }
                     }
-                }
+                },
+                "p_id": 76,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".167",
@@ -32981,7 +33575,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".273",
@@ -33091,7 +33687,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".273",
@@ -33201,7 +33799,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".273",
@@ -33311,7 +33911,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".273",
@@ -33421,7 +34023,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".273",
@@ -33531,7 +34135,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 77,
+                "e_id": 8
             },
             "stats": {
                 "season_avg": ".273",
@@ -33643,7 +34249,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 78,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".182",
@@ -33753,7 +34361,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 78,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".182",
@@ -33865,7 +34475,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 79,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -33975,7 +34587,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 79,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -34085,7 +34699,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 79,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".500",
@@ -34197,7 +34813,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 80,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".375",
@@ -34307,7 +34925,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 80,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".375",
@@ -34419,7 +35039,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 0
             },
             "stats": {
                 "season_avg": ".500",
@@ -34529,7 +35151,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 1
             },
             "stats": {
                 "season_avg": ".500",
@@ -34639,7 +35263,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 2
             },
             "stats": {
                 "season_avg": ".500",
@@ -34749,7 +35375,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 3
             },
             "stats": {
                 "season_avg": ".500",
@@ -34859,7 +35487,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 4
             },
             "stats": {
                 "season_avg": ".500",
@@ -34969,7 +35599,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 5
             },
             "stats": {
                 "season_avg": ".500",
@@ -35079,7 +35711,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 6
             },
             "stats": {
                 "season_avg": ".500",
@@ -35189,7 +35823,9 @@
                             "full_name": "Will Smith"
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 7
             },
             "stats": {
                 "season_avg": ".500",
@@ -35299,7 +35935,9 @@
                             "full_name": null
                         }
                     }
-                }
+                },
+                "p_id": 81,
+                "e_id": 8
             },
             "stats": {
                 "season_avg": ".500",

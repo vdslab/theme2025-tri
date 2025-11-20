@@ -73,6 +73,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 0,
+          "e_id": 3
         }
       }
     ],
@@ -146,6 +189,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 1,
+          "e_id": 0
         }
       }
     ],
@@ -219,6 +305,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 1,
+          "e_id": 2
         }
       }
     ],
@@ -292,6 +421,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 1,
+          "e_id": 5
         }
       }
     ],
@@ -365,6 +537,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "single",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 2,
+          "e_id": 1
         }
       }
     ],
@@ -438,6 +653,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 3,
+          "e_id": 1
         }
       }
     ],
@@ -511,6 +769,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Will Smith",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 4,
+          "e_id": 0
         }
       }
     ],
@@ -584,6 +885,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": true,
+          "batter": "Will Smith",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "single",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669257,
+                "full_name": "Will Smith"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 4,
+          "e_id": 3
         }
       }
     ],
@@ -657,6 +1001,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 6,
+          "e_id": 0
         }
       }
     ],
@@ -730,6 +1117,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 6,
+          "e_id": 3
         }
       }
     ],
@@ -803,6 +1233,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 7,
+          "e_id": 1
         }
       }
     ],
@@ -876,6 +1349,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 8,
+          "e_id": 0
         }
       }
     ],
@@ -949,6 +1465,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 8,
+          "e_id": 3
         }
       }
     ],
@@ -1022,6 +1581,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 8,
+          "e_id": 6
         }
       }
     ],
@@ -1095,6 +1697,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 9,
+          "e_id": 0
         }
       }
     ],
@@ -1168,6 +1813,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 1,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 9,
+          "e_id": 3
         }
       }
     ],
@@ -1241,6 +1929,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 10,
+          "e_id": 0
         }
       }
     ],
@@ -1314,6 +2045,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 10,
+          "e_id": 2
         }
       }
     ],
@@ -1387,6 +2161,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 11,
+          "e_id": 0
         }
       }
     ],
@@ -1460,6 +2277,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 12,
+          "e_id": 0
         }
       }
     ],
@@ -1533,6 +2393,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 13,
+          "e_id": 0
         }
       }
     ],
@@ -1606,6 +2509,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 13,
+          "e_id": 2
         }
       }
     ],
@@ -1679,6 +2625,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 14,
+          "e_id": 0
         }
       }
     ],
@@ -1752,6 +2741,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 14,
+          "e_id": 3
         }
       }
     ],
@@ -1825,6 +2857,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 15,
+          "e_id": 0
         }
       }
     ],
@@ -1898,6 +2973,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 15,
+          "e_id": 4
         }
       }
     ],
@@ -1971,6 +3089,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 16,
+          "e_id": 0
         }
       }
     ],
@@ -2044,6 +3205,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 2,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 16,
+          "e_id": 2
         }
       }
     ],
@@ -2117,6 +3321,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 17,
+          "e_id": 0
         }
       }
     ],
@@ -2190,6 +3437,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 17,
+          "e_id": 3
         }
       }
     ],
@@ -2263,6 +3553,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 18,
+          "e_id": 0
         }
       }
     ],
@@ -2336,6 +3669,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 1,
+            "strikes": 3,
+            "outs": 1
+          },
+          "event": "strikeout",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 18,
+          "e_id": 3
         }
       }
     ],
@@ -2409,6 +3785,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 19,
+          "e_id": 3
         }
       }
     ],
@@ -2482,6 +3901,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 19,
+          "e_id": 5
         }
       }
     ],
@@ -2555,6 +4017,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 20,
+          "e_id": 0
         }
       }
     ],
@@ -2628,6 +4133,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 20,
+          "e_id": 3
         }
       }
     ],
@@ -2701,6 +4249,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 21,
+          "e_id": 1
         }
       }
     ],
@@ -2774,6 +4365,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 21,
+          "e_id": 4
         }
       }
     ],
@@ -2847,6 +4481,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 4,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "walk",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 21,
+          "e_id": 7
         }
       }
     ],
@@ -2920,6 +4597,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 22,
+          "e_id": 1
         }
       }
     ],
@@ -2993,6 +4713,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Ball In Dirt",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 22,
+          "e_id": 4
         }
       }
     ],
@@ -3066,6 +4829,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "single",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              }
+            }
+          },
+          "p_id": 23,
+          "e_id": 2
         }
       }
     ],
@@ -3139,6 +4945,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "single",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              }
+            }
+          },
+          "p_id": 23,
+          "e_id": 2
         }
       }
     ],
@@ -3212,6 +5061,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              },
+              "3B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              }
+            }
+          },
+          "p_id": 24,
+          "e_id": 0
         }
       }
     ],
@@ -3285,6 +5177,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              }
+            }
+          },
+          "p_id": 24,
+          "e_id": 4
         }
       }
     ],
@@ -3358,6 +5293,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 4,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "walk",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              }
+            }
+          },
+          "p_id": 24,
+          "e_id": 6
         }
       }
     ],
@@ -3431,6 +5409,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "home_run",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": 607208,
+                "full_name": "Trea Turner"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 25,
+          "e_id": 3
         }
       }
     ],
@@ -3504,6 +5525,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 26,
+          "e_id": 0
         }
       }
     ],
@@ -3577,6 +5641,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 26,
+          "e_id": 2
         }
       }
     ],
@@ -3650,6 +5757,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 26,
+          "e_id": 6
         }
       }
     ],
@@ -3723,6 +5873,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 27,
+          "e_id": 0
         }
       }
     ],
@@ -3796,6 +5989,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Foul Bunt",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 28,
+          "e_id": 0
         }
       }
     ],
@@ -3869,6 +6105,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 28,
+          "e_id": 3
         }
       }
     ],
@@ -3942,6 +6221,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 29,
+          "e_id": 0
         }
       }
     ],
@@ -4015,6 +6337,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 3,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 29,
+          "e_id": 4
         }
       }
     ],
@@ -4088,6 +6453,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 30,
+          "e_id": 0
         }
       }
     ],
@@ -4161,6 +6569,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "home_run",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 30,
+          "e_id": 3
         }
       }
     ],
@@ -4234,6 +6685,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Will Smith",
+          "count": {
+            "balls": 0,
+            "strikes": 3,
+            "outs": 0
+          },
+          "event": "strikeout",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 31,
+          "e_id": 2
         }
       }
     ],
@@ -4307,6 +6801,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 33,
+          "e_id": 0
         }
       }
     ],
@@ -4380,6 +6917,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 33,
+          "e_id": 2
         }
       }
     ],
@@ -4453,6 +7033,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball In Dirt",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 34,
+          "e_id": 0
         }
       }
     ],
@@ -4526,6 +7149,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 34,
+          "e_id": 2
         }
       }
     ],
@@ -4599,6 +7265,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 4,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "walk",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 571771,
+                "full_name": "Enrique Hernández"
+              },
+              "2B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 34,
+          "e_id": 5
         }
       }
     ],
@@ -4672,6 +7381,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 571771,
+                "full_name": "Enrique Hernández"
+              },
+              "2B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 571771,
+                "full_name": "Enrique Hernández"
+              },
+              "2B": {
+                "id": 624424,
+                "full_name": "Michael Conforto"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 35,
+          "e_id": 2
         }
       }
     ],
@@ -4745,6 +7497,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 36,
+          "e_id": 1
         }
       }
     ],
@@ -4818,6 +7613,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 36,
+          "e_id": 2
         }
       }
     ],
@@ -4891,6 +7729,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 37,
+          "e_id": 0
         }
       }
     ],
@@ -4964,6 +7845,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 38,
+          "e_id": 0
         }
       }
     ],
@@ -5037,6 +7961,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 4,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 3,
+            "outs": 2
+          },
+          "event": "strikeout",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 38,
+          "e_id": 3
         }
       }
     ],
@@ -5110,6 +8077,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 39,
+          "e_id": 0
         }
       }
     ],
@@ -5183,6 +8193,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 39,
+          "e_id": 4
         }
       }
     ],
@@ -5256,6 +8309,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 41,
+          "e_id": 0
         }
       }
     ],
@@ -5329,6 +8425,53 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              },
+              "null": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 42,
+          "e_id": 0
         }
       }
     ],
@@ -5402,6 +8545,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "double",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 669242,
+                "full_name": "Tommy Edman"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 606192,
+                "full_name": "Teoscar Hernández"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 42,
+          "e_id": 3
         }
       }
     ],
@@ -5475,6 +8661,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": true,
+          "batter": "Will Smith",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 606192,
+                "full_name": "Teoscar Hernández"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 606192,
+                "full_name": "Teoscar Hernández"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 43,
+          "e_id": 0
         }
       }
     ],
@@ -5548,6 +8777,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 44,
+          "e_id": 0
         }
       }
     ],
@@ -5621,6 +8893,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 45,
+          "e_id": 0
         }
       }
     ],
@@ -5694,6 +9009,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 45,
+          "e_id": 2
         }
       }
     ],
@@ -5767,6 +9125,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 5,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 46,
+          "e_id": 0
         }
       }
     ],
@@ -5840,6 +9241,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Michael Conforto",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 47,
+          "e_id": 0
         }
       }
     ],
@@ -5913,6 +9357,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Michael Conforto",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 47,
+          "e_id": 0
         }
       }
     ],
@@ -5986,6 +9473,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Michael Conforto",
+          "count": {
+            "balls": 2,
+            "strikes": 3,
+            "outs": 0
+          },
+          "event": "strikeout",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 47,
+          "e_id": 5
         }
       }
     ],
@@ -6059,6 +9589,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 48,
+          "e_id": 1
         }
       }
     ],
@@ -6132,6 +9705,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 49,
+          "e_id": 2
         }
       }
     ],
@@ -6205,6 +9821,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 49,
+          "e_id": 3
         }
       }
     ],
@@ -6278,6 +9937,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 49,
+          "e_id": 6
         }
       }
     ],
@@ -6351,6 +10053,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 50,
+          "e_id": 0
         }
       }
     ],
@@ -6424,6 +10169,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 50,
+          "e_id": 1
         }
       }
     ],
@@ -6497,6 +10285,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 50,
+          "e_id": 4
         }
       }
     ],
@@ -6570,6 +10401,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 51,
+          "e_id": 0
         }
       }
     ],
@@ -6643,6 +10517,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 51,
+          "e_id": 3
         }
       }
     ],
@@ -6716,6 +10633,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 4,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "walk",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 51,
+          "e_id": 6
         }
       }
     ],
@@ -6789,6 +10749,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 3,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 52,
+          "e_id": 2
         }
       }
     ],
@@ -6862,6 +10865,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 53,
+          "e_id": 2
         }
       }
     ],
@@ -6935,6 +10981,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 53,
+          "e_id": 3
         }
       }
     ],
@@ -7008,6 +11097,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              }
+            }
+          },
+          "p_id": 53,
+          "e_id": 7
         }
       }
     ],
@@ -7081,6 +11213,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 6,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 3,
+            "strikes": 3,
+            "outs": 1
+          },
+          "event": "strikeout",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": 669016,
+                "full_name": "Brandon Marsh"
+              }
+            }
+          },
+          "p_id": 53,
+          "e_id": 10
         }
       }
     ],
@@ -7154,6 +11329,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 55,
+          "e_id": 1
         }
       }
     ],
@@ -7227,6 +11445,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 55,
+          "e_id": 3
         }
       }
     ],
@@ -7300,6 +11561,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 56,
+          "e_id": 1
         }
       }
     ],
@@ -7373,6 +11677,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 56,
+          "e_id": 4
         }
       }
     ],
@@ -7446,6 +11793,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              },
+              "2B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              },
+              "2B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 57,
+          "e_id": 1
         }
       }
     ],
@@ -7519,6 +11909,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "double",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              },
+              "2B": {
+                "id": 681624,
+                "full_name": "Andy Pages"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            }
+          },
+          "p_id": 57,
+          "e_id": 3
         }
       }
     ],
@@ -7592,6 +12025,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            }
+          },
+          "p_id": 58,
+          "e_id": 2
         }
       }
     ],
@@ -7665,6 +12141,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Tommy Edman",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            }
+          },
+          "p_id": 58,
+          "e_id": 3
         }
       }
     ],
@@ -7738,6 +12257,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            }
+          },
+          "p_id": 59,
+          "e_id": 1
         }
       }
     ],
@@ -7811,6 +12373,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Teoscar Hernández",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "sac_fly",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              },
+              "3B": {
+                "id": 660271,
+                "full_name": "Shohei Ohtani"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              }
+            }
+          },
+          "p_id": 59,
+          "e_id": 4
         }
       }
     ],
@@ -7884,6 +12489,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Will Smith",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "double",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 605141,
+                "full_name": "Mookie Betts"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 669257,
+                "full_name": "Will Smith"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 60,
+          "e_id": 2
         }
       }
     ],
@@ -7957,6 +12605,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": true,
+          "batter": "Michael Conforto",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 669257,
+                "full_name": "Will Smith"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 669257,
+                "full_name": "Will Smith"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 61,
+          "e_id": 1
         }
       }
     ],
@@ -8030,6 +12721,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Swinging Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 62,
+          "e_id": 1
         }
       }
     ],
@@ -8103,6 +12837,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 2,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 62,
+          "e_id": 3
         }
       }
     ],
@@ -8176,6 +12953,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 63,
+          "e_id": 0
         }
       }
     ],
@@ -8249,6 +13069,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 4,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "walk",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 63,
+          "e_id": 3
         }
       }
     ],
@@ -8322,6 +13185,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 64,
+          "e_id": 1
         }
       }
     ],
@@ -8395,6 +13301,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Nick Castellanos",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 64,
+          "e_id": 3
         }
       }
     ],
@@ -8468,6 +13417,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Bryson Stott",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              },
+              "2B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 65,
+          "e_id": 0
         }
       }
     ],
@@ -8541,6 +13533,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            }
+          },
+          "p_id": 66,
+          "e_id": 0
         }
       }
     ],
@@ -8614,6 +13649,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            }
+          },
+          "p_id": 66,
+          "e_id": 2
         }
       }
     ],
@@ -8687,6 +13765,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Edmundo Sosa",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": 596146,
+                "full_name": "Max Kepler"
+              }
+            }
+          },
+          "p_id": 66,
+          "e_id": 5
         }
       }
     ],
@@ -8760,6 +13881,53 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "Pickoff Attempt 1B",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              },
+              "null": {
+                "id": 681082,
+                "full_name": "Bryson Stott"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 67,
+          "e_id": 0
         }
       }
     ],
@@ -8833,6 +14001,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 7,
+          "inning_top": false,
+          "batter": "Brandon Marsh",
+          "count": {
+            "balls": 0,
+            "strikes": 0,
+            "outs": 2
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 624641,
+                "full_name": "Edmundo Sosa"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 67,
+          "e_id": 2
         }
       }
     ],
@@ -8906,6 +14117,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 68,
+          "e_id": 1
         }
       }
     ],
@@ -8979,6 +14233,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Max Muncy",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 68,
+          "e_id": 2
         }
       }
     ],
@@ -9052,6 +14349,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Enrique Hernández",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 69,
+          "e_id": 1
         }
       }
     ],
@@ -9125,6 +14465,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 2
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 70,
+          "e_id": 0
         }
       }
     ],
@@ -9198,6 +14581,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 70,
+          "e_id": 3
         }
       }
     ],
@@ -9271,6 +14697,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": true,
+          "batter": "Andy Pages",
+          "count": {
+            "balls": 0,
+            "strikes": 2,
+            "outs": 2
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 70,
+          "e_id": 5
         }
       }
     ],
@@ -9344,6 +14813,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 71,
+          "e_id": 1
         }
       }
     ],
@@ -9417,6 +14929,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Rafael Marchán",
+          "count": {
+            "balls": 3,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 71,
+          "e_id": 4
         }
       }
     ],
@@ -9490,6 +15045,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Ball In Dirt",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 72,
+          "e_id": 1
         }
       }
     ],
@@ -9563,6 +15161,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Kyle Schwarber",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 72,
+          "e_id": 3
         }
       }
     ],
@@ -9636,6 +15277,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 1,
+            "strikes": 0,
+            "outs": 0
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 73,
+          "e_id": 0
         }
       }
     ],
@@ -9709,6 +15393,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Trea Turner",
+          "count": {
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 73,
+          "e_id": 2
         }
       }
     ],
@@ -9782,6 +15509,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Bryce Harper",
+          "count": {
+            "balls": 2,
+            "strikes": 0,
+            "outs": 1
+          },
+          "event": "Ball",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "2B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 74,
+          "e_id": 1
         }
       }
     ],
@@ -9855,6 +15625,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Swinging Strike (Blocked)",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            }
+          },
+          "p_id": 75,
+          "e_id": 1
         }
       }
     ],
@@ -9928,6 +15741,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Swinging Strike (Blocked)",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            }
+          },
+          "p_id": 75,
+          "e_id": 1
         }
       }
     ],
@@ -10001,6 +15857,53 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 8,
+          "inning_top": false,
+          "batter": "Max Kepler",
+          "count": {
+            "balls": 1,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "grounded_into_double_play",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": 547180,
+                "full_name": "Bryce Harper"
+              },
+              "2B": {
+                "id": 656941,
+                "full_name": "Kyle Schwarber"
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              },
+              "null": {
+                "id": 665561,
+                "full_name": "Rafael Marchán"
+              }
+            }
+          },
+          "p_id": 75,
+          "e_id": 4
         }
       }
     ],
@@ -10074,6 +15977,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 9,
+          "inning_top": true,
+          "batter": "Shohei Ohtani",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 0
+          },
+          "event": "Foul",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 76,
+          "e_id": 1
         }
       }
     ],
@@ -10147,6 +16093,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 9,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 0,
+            "strikes": 1,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 77,
+          "e_id": 0
         }
       }
     ],
@@ -10220,6 +16209,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 9,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 2,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "Called Strike",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 77,
+          "e_id": 3
         }
       }
     ],
@@ -10293,6 +16325,49 @@
             "middle": false,
             "low": true
           }
+        },
+        "detail": {
+          "inning": 9,
+          "inning_top": true,
+          "batter": "Mookie Betts",
+          "count": {
+            "balls": 3,
+            "strikes": 2,
+            "outs": 1
+          },
+          "event": "field_out",
+          "runner_state": {
+            "pre_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            },
+            "pos_runner_state": {
+              "1B": {
+                "id": null,
+                "full_name": null
+              },
+              "2B": {
+                "id": null,
+                "full_name": null
+              },
+              "3B": {
+                "id": null,
+                "full_name": null
+              }
+            }
+          },
+          "p_id": 77,
+          "e_id": 6
         }
       }
     ]
