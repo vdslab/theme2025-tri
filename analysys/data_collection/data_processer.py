@@ -22,7 +22,7 @@ def get_scores(processed_data):
             e_score = {}
             play_features = {}
             situation_features = {}
-
+            
             # 特徴量エンジニアリング関数を呼び出す
             get_play_score(event, play_features)
             get_situation_score(event, situation_features) # ★★★ ここが更新対象 ★★★
@@ -264,7 +264,7 @@ def get_situation_score(event, situation_features):
 
 def output_data(scores_data, gamepk):
 
-    output_path = f"data/test_processed_for_ra/{gamepk}_processed_for_ra_data.json"
+    output_path = f"data/test_processed_for_ra/test_{gamepk}_processed_for_ra_data.json"
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(scores_data, f, ensure_ascii=False, indent=4)
@@ -301,7 +301,7 @@ if __name__ == "__main__":
         "778163",
         "777505",
     ]:
-        input_path = f"data/processed/{gamepk}_processed_data.json"
+        input_path = f"data/processed/test_{gamepk}_preprocessed_data.json"
         print(f"Processing gamepk: {gamepk}")
         with open(input_path, "r", encoding="utf-8") as f:
             processed_data = json.load(f)

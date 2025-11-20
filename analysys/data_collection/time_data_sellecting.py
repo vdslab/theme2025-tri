@@ -9,6 +9,25 @@ sys.path.append(
     os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 )
 
+# いじっていいところ
+# ================================
+
+# 出力先のディレクトリテンプレート
+# web上のパスに合わせて変更して
+OUTPUT_DIR = "data/test_molded_data/"
+
+# 出力ファイル名のテンプレート
+#web上のパスに合わせて変更して
+OUTPUT_FILENAME_TEMPLATE = "{gamepk}_test2_molded_data.json"
+
+# インプット元のディレクトリとファイル名のテンプレート
+# web上のパスに合わせて変更して
+# 統一するなら使わんかも、知らんけど。
+INPUT_DIR_FILE = "data/test_processed_for_ra/test_{gamepk}_processed_for_ra_data.json"
+
+# ================================
+# いじっていいところ終わり
+
 
 def parse_time(t):
     """ISO 8601形式の時刻文字列をdatetimeオブジェクトに変換"""
@@ -97,11 +116,11 @@ def time_data_sellecting(gamepk, match_data):
                 continue  # 範囲外の場合はスキップ
 
             if minute_data[minute] is None:
-                # --- A. その分で最初のイベント ---
+                # --- その分で最初のイベント ---
                 # situation と play の両方を、このイベントのもので設定
                 minute_data[minute] = event_features
             else:
-                # --- B. その分で2番目以降のイベント ---
+                # --- その分で2番目以降のイベント ---
                 # situation (状況) は、分で最初のイベントのものを維持
                 # play (結果) は、マージ(OR)して「最大興奮」を反映
                 existing_features = minute_data[minute]
@@ -120,27 +139,15 @@ def time_data_sellecting(gamepk, match_data):
 
     for minute, features in minute_data.items():
         if features is None:
-            # イベントがなかった分は、空の特徴量セット（あるいは前の分のコピー）を挿入
-            # ここでは簡単のため、空の特徴量セットを挿入 (モデル側で window=1 が NaN で埋めてくれる)
-            # ※ 本来は直前の特徴量で埋める（ffill）のが望ましい
-            # print(f"[{gamepk}] minute {minute} has no events.")
-
-            # all_plays[0] から特徴量パスを抽出するロジックのため、
-            # 構造体(空のbool)は維持する必要がある。
-            # ただし、モデル側の`dropna()`で結局削除される。
-            # 堅牢なのは、`rf_gridsearch.py`側で`all_plays[0]`の代わりに
-            # 予め定義したパスリストを使うこと。
-
-            # → `all_plays` には None が入らないようにする
             continue
 
         output["minutes"][str(minute)] = [
             features
-        ]  # ★ 1分に1つの集約済み特徴量をリストに入れる
+        ]  # 1分に1つの集約済み特徴量をリストに入れる
         # `all_plays`のロジックを動かすため
 
     # --- 4. 保存 ---
-    output_filename = f"data/test_molded_data/{gamepk}_test_molded_data.json"
+    output_filename = OUTPUT_DIR + OUTPUT_FILENAME_TEMPLATE.format(gamepk=gamepk)
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
@@ -177,7 +184,7 @@ if __name__ == "__main__":
     for gamepk in pk_list:
         print(f"--- Processing molded data for gamepk: {gamepk} ---")
         input_filename = (
-            f"data/processed_for_ra/{gamepk}_processed_for_ra_data.json"
+            INPUT_DIR_FILE.format(gamepk=gamepk)
         )
 
         if not os.path.exists(input_filename):

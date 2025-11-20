@@ -8,6 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from preprocess.calculate.measure_time import calc_time_diff
 
+
 def data_download(gamepk):
     url = f"https://statsapi.mlb.com/api/v1.1/game/{gamepk}/feed/live"
     resp = requests.get(url)
@@ -16,87 +17,115 @@ def data_download(gamepk):
     else:
         return None
 
+
 def process_data(data):
     boxscore = data["liveData"]["boxscore"]
     allPlays = data["liveData"]["plays"]["allPlays"]
     event_lookup = {}
     isInningTop_ = False
     pre_runner_state = {}
-    pre_home_score,pre_away_score,pos_home_score,pos_away_score = 0,0,0,0
+    pre_home_score, pre_away_score, pos_home_score, pos_away_score = 0, 0, 0, 0
     last_inning = max(play["about"]["inning"] for play in allPlays)
     for p_idx, play in enumerate(allPlays):
         playEvents = play["playEvents"]
         isInningTop = play["about"]["isTopInning"]
-        
+
         event_lookup[p_idx] = {}
         for e_idx, event in enumerate(playEvents):
             # NOTE:周辺イベントの排除(ウォーミングアップやタイム)
             if event["type"] == "action" and event.get("isBaseRunningPlay") == None:
                 continue
-            
+
             is_inning_first = isInningTop_ != isInningTop
             if is_inning_first:
                 isInningTop_ = not isInningTop_
-            
-            isLast = e_idx == len(play["playEvents"])-1
+
+            isLast = e_idx == len(play["playEvents"]) - 1
             isPlayFirst = p_idx == 0
-            
-            event_lookup[p_idx][e_idx], pre_runner_state,pre_away_score,pre_home_score = process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,boxscore)
-                
+
+            (
+                event_lookup[p_idx][e_idx],
+                pre_runner_state,
+                pre_away_score,
+                pre_home_score,
+            ) = process_event(
+                play,
+                event,
+                is_inning_first,
+                isPlayFirst,
+                isLast,
+                pre_runner_state,
+                p_idx,
+                e_idx,
+                pre_home_score,
+                pre_away_score,
+                pos_home_score,
+                pos_away_score,
+                last_inning,
+                boxscore,
+            )
+
     return event_lookup
-    
-def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state,p_idx,e_idx,pre_home_score,pre_away_score,pos_home_score,pos_away_score,last_inning,boxscore):
+
+
+def process_event(
+    play,
+    event,
+    is_inning_first,
+    isPlayFirst,
+    isLast,
+    pre_runner_state,
+    p_idx,
+    e_idx,
+    pre_home_score,
+    pre_away_score,
+    pos_home_score,
+    pos_away_score,
+    last_inning,
+    boxscore,
+):
     processed_event = {}
-    
+
     # is away
     is_away = None
     if play["about"]["isTopInning"] == True:
         is_away = True
     else:
         is_away = False
-    
+
     # inning
     inning = play["about"]["inning"]
-    
+
     # event type
     event_type = event["type"]
     description = event["details"].get("description")
     pe_type = play["result"]["eventType"]
-    
+
     if isLast:
         description = pe_type
         event_type = pe_type
 
     # is base running play
     is_base_running_play = event.get("isBaseRunningPlay", "null")
-        
+
     # batter
     batter = {
-        "id":play["matchup"]["batter"]["id"],
-        "full_name":play["matchup"]["batter"]["fullName"],
+        "id": play["matchup"]["batter"]["id"],
+        "full_name": play["matchup"]["batter"]["fullName"],
     }
-    
+
     # runner state
     runner_state = {}
     pos_runner_state = {}
     if is_inning_first:
         pre_runner_state = {
-            "1B": {
-                "id":None,
-                "full_name":None
-            },
-            "2B": {
-                "id":None,
-                "full_name":None
-            },
-            "3B": {
-                "id":None,
-                "full_name":None
-            },
+            "1B": {"id": None, "full_name": None},
+            "2B": {"id": None, "full_name": None},
+            "3B": {"id": None, "full_name": None},
         }
 
     base_movements = {}
-    
+
     runners = play["runners"]
     start_ = None
     for runner in runners:
@@ -111,15 +140,15 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
                 start_ = start
             else:
                 base_movements[start_] = end
-    
+
     pos_runner_state = {
         "1B": {"id": None, "full_name": None},
         "2B": {"id": None, "full_name": None},
         "3B": {"id": None, "full_name": None},
     }
 
-    state = {"1B":False,"2B":False,"3B":False}
-    for k,v in base_movements.items():
+    state = {"1B": False, "2B": False, "3B": False}
+    for k, v in base_movements.items():
         state[k] = True
         if not (v == "score"):
             if k == None:
@@ -127,28 +156,28 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
                     pos_runner_state[v] = batter
             else:
                 pos_runner_state[v] = pre_runner_state[k]
-    for sk,sv in state.items():
+    for sk, sv in state.items():
         if sv == False and pre_runner_state[sk]["id"] != None:
             pos_runner_state[sk] = pre_runner_state[sk]
-    
+
     # runner count
     runner_count = {}
     pre_runner_count = 0
     for v in pre_runner_state.values():
         if v["id"] != None:
             pre_runner_count += 1
-    
+
     pos_runner_count = 0
     for v in pos_runner_state.values():
         if v["id"] != None:
             pos_runner_count += 1
-            
+
     # score from event
     score_from_event = 0
     for v in base_movements.values():
         if v == "score":
             score_from_event += 1
-            
+
     # team score
     team_score = {}
     away = {}
@@ -159,47 +188,53 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     else:
         pos_away_score = pre_away_score
         pos_home_score = pre_home_score + score_from_event
-        
+
     # rbi
     rbi = 0
     if isLast:
         rbi = play["result"]["rbi"]
-    
-    # is_last_inning    
-    is_last_inning =  is_away == False and inning == last_inning
-    
+
+    # is_last_inning
+    is_last_inning = is_away == False and inning == last_inning
+
     # time
     time = {}
-    start_time = event.get("startTime",{})
-    end_time = event.get("endTime",{})
-    diff_time = calc_time_diff(start_time,end_time)
-    
+    start_time = event.get("startTime", {})
+    end_time = event.get("endTime", {})
+    diff_time = calc_time_diff(start_time, end_time)
+
     # detail
     detail = {}
     detail["inning"] = inning
     detail["inning_top"] = is_away
     detail["batter"] = batter["full_name"]
-    detail["count"] = event.get("count",{})
+    detail["count"] = event.get("count", {})
     detail["event"] = description
     detail["runner_state"] = runner_state
-    
+
     # stats(11/5 追加)
     # NOTE: シーズン打率、ホームラン数、 ops、 本試合のヒット回数 を取得
-    if(is_away):
+    if is_away:
         team = boxscore["teams"]["away"]
     else:
         team = boxscore["teams"]["home"]
-    
+
     stats = {}
     batter_id = batter["id"]
-    
+
     print(team["players"])
-    stats["season_avg"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["avg"]
-    stats["season_home_runs"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["homeRuns"]
-    stats["season_ops"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"]["ops"]
+    stats["season_avg"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"][
+        "avg"
+    ]
+    stats["season_home_runs"] = team["players"][f"ID{batter_id}"]["seasonStats"][
+        "batting"
+    ]["homeRuns"]
+    stats["season_ops"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"][
+        "ops"
+    ]
     # NOTE: 一旦コメントアウト
-    # stats["today_hits"] = team["players"][f"ID{batter_id}"]["stats"]["batting"]["hits"]
-    
+    stats["today_hits"] = team["players"][f"ID{batter_id}"]["stats"]["batting"]["hits"]
+
     processed_event["is_away"] = is_away
     processed_event["is_inning_first"] = is_inning_first
     processed_event["inning"] = inning
@@ -229,21 +264,46 @@ def process_event(play,event,is_inning_first,isPlayFirst,isLast,pre_runner_state
     time["diff_time"] = diff_time
     processed_event["detail"] = detail
     processed_event["stats"] = stats
-    
-    return processed_event, pre_runner_state,pos_away_score,pos_home_score
 
-def output_data(processed_data,gamepk):
-    output_path = f"data/processed/{gamepk}_processed_data.json"
+    return processed_event, pre_runner_state, pos_away_score, pos_home_score
+
+
+def output_data(processed_data, gamepk):
+    output_path = f"data/processed/test_{gamepk}_preprocessed_data.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(processed_data, f, ensure_ascii=False, indent=4)
+
 
 def data_process(gamepk):
     raw_data = data_download(gamepk)
     processed_data = process_data(raw_data)
-    output_data(processed_data,gamepk)
-    
-    return raw_data,processed_data
+    output_data(processed_data, gamepk)
+
+    return raw_data, processed_data
+
 
 # NOTE: テストに使って
-# if __name__ == "__main__":
-#     data_process("778199")
+if __name__ == "__main__":
+    pklist = {
+        "778199",
+        "777579",
+        "777863",
+        "777940",
+        "777571",
+        "777988",
+        "778062",
+        "778434",
+        "777701",
+        "778444",
+        "777649",
+        "778220",
+        "778406",
+        "778544",
+        "777726",
+        "778285",
+        "778262",
+        "778163",
+        "777505",
+    }
+    for gamepk in pklist:
+        data_process(gamepk)
