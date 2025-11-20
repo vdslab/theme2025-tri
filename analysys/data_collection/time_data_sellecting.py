@@ -83,6 +83,7 @@ def time_data_sellecting(gamepk, match_data):
                     "end": end,
                     "play_features": event["play_features"],
                     "situation_features": event["situation_features"],
+                    "detail": event["detail"]
                 }
             )
 
@@ -109,6 +110,7 @@ def time_data_sellecting(gamepk, match_data):
         event_features = {
             "play_features": event["play_features"],
             "situation_features": event["situation_features"],
+            "detail": event["detail"]
         }
 
         for minute in range(start_minute, end_minute + 1):

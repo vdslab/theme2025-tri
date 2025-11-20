@@ -211,6 +211,8 @@ def process_event(
     detail["count"] = event.get("count", {})
     detail["event"] = description
     detail["runner_state"] = runner_state
+    detail["p_id"] = p_idx
+    detail["e_id"] = e_idx
 
     # stats(11/5 追加)
     # NOTE: シーズン打率、ホームラン数、 ops、 本試合のヒット回数 を取得
