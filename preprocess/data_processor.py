@@ -224,7 +224,6 @@ def process_event(
     stats = {}
     batter_id = batter["id"]
 
-    print(team["players"])
     stats["season_avg"] = team["players"][f"ID{batter_id}"]["seasonStats"]["batting"][
         "avg"
     ]
