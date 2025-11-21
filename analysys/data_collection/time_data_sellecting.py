@@ -53,7 +53,7 @@ def merge_play_features(existing_play, new_play):
                 ] = True  # 既存の特徴をTrueで上書き
 
 
-def time_data_sellecting(gamepk, match_data):
+def time_data_sellecting(match_data, gamepk):
     """
     イベント単位のデータを「1分単位」に集約（Aggregate）する。
     """
@@ -196,4 +196,4 @@ if __name__ == "__main__":
         with open(input_filename, encoding="utf-8") as f:
             match_data = json.load(f)
 
-        time_data = time_data_sellecting(gamepk, match_data)
+        time_data = time_data_sellecting(match_data, gamepk)

@@ -20,7 +20,7 @@ def main():
     
     match_data = data_process_for_ra(processed_data,gamepk)
         
-    molded_data = time_data_sellecting(gamepk,match_data)
+    molded_data = time_data_sellecting(match_data,gamepk)
 
     Logistic_regression_analysis(gamepk,molded_data)
 
