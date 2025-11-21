@@ -124,7 +124,8 @@ def load_and_preprocess(pk_list, annotation_df, window):
             continue
 
         # 推論対象試合のall_playsを保存
-        inference_plays = all_plays
+        if gamepk == PK_INFERENCE_TARGET:
+            inference_plays = all_plays
 
         # --- ラベルの存在をチェック ---
         has_annotation = gamepk_str in annotation_df.columns
