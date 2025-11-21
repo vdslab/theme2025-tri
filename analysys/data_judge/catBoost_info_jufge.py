@@ -104,7 +104,7 @@ def build_feature_df_with_context(data, group_paths, window=1):
 
 
 # --- データ読み込みと前処理 ---
-def load_and_preprocess(pk_list, annotation_df, window):
+def load_and_preprocess(pk_list, annotation_df, window ,target_molded_data):
     all_features_list, all_labels_list = [], []
     inference_plays = None
     
@@ -112,12 +112,15 @@ def load_and_preprocess(pk_list, annotation_df, window):
         gamepk_str = str(gamepk)
         molded_path = molded_path_template.format(gamepk=gamepk_str)
 
-        try:
-            with open(molded_path, encoding="utf-8") as f:
-                data = json.load(f)
-        except FileNotFoundError:
-            print(f"[{gamepk_str}] [SKIP] molded_data not found.")
-            continue
+        if(gamepk != PK_INFERENCE_TARGET or target_molded_data is None):
+            try:
+                with open(molded_path, encoding="utf-8") as f:
+                    data = json.load(f)
+            except FileNotFoundError:
+                print(f"[{gamepk_str}] [SKIP] molded_data not found.")
+                continue
+        else:
+            data = target_molded_data
 
         all_plays = [play for minute in data["minutes"].values() for play in minute]
         if not all_plays:
@@ -182,7 +185,7 @@ def load_and_preprocess(pk_list, annotation_df, window):
 
 
 # --- メイン処理 ---
-def main():
+def catBoost_info_jufge(target_molded_data):
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
@@ -198,7 +201,7 @@ def main():
         return
 
     # 訓練用試合と推論用試合を読み込み、前処理
-    X_full, y_full, inference_plays = load_and_preprocess(PK_LIST_ALL, annotation_df, TARGET_WINDOW)
+    X_full, y_full, inference_plays = load_and_preprocess(PK_LIST_ALL, annotation_df, TARGET_WINDOW ,target_molded_data)
 
     if X_full is None:
         print("[STOP] No processable data found.")
@@ -280,7 +283,10 @@ def main():
         print(
             f"   - [ERROR] Inference data for gamepk {PK_INFERENCE_TARGET} was empty."
         )
+        
+    return pk_results
 
 
 if __name__ == "__main__":
-    main()
+    target_molded_data = None
+    catBoost_info_jufge(target_molded_data)
