@@ -18,7 +18,7 @@ OUTPUT_DIR = "data/test_molded_data/"
 
 # 出力ファイル名のテンプレート
 #web上のパスに合わせて変更して
-OUTPUT_FILENAME_TEMPLATE = "{gamepk}_test2_molded_data.json"
+OUTPUT_FILENAME_TEMPLATE = "{gamepk}_test3_molded_data.json"
 
 # インプット元のディレクトリとファイル名のテンプレート
 # web上のパスに合わせて変更して
@@ -142,7 +142,16 @@ def time_data_sellecting(match_data, gamepk):
     for minute, features in minute_data.items():
         if features is None:
             continue
+        
+        # === 経過時間（分）の特徴量を追加 ===
+        
+        # 新しい特徴量グループ "time_features" を追加
+        features["time_features"] = {
+            # 試合開始からの経過時間（分）。0から始まる数値特徴量。
+            "elapsed_minute": minute  
+        }
 
+        # === ここまで ===
         output["minutes"][str(minute)] = [
             features
         ]  # 1分に1つの集約済み特徴量をリストに入れる
