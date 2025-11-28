@@ -48,6 +48,13 @@ molded_path_template = "data/test_molded_data/{gamepk}_test2_molded_data.json"
 # web上のパスに合わせて変更して
 output_filename_template = "prob_{gamepk}.json"
 
+# アノテーションデータが格納されているのパスのテンプレートとファイル名の指定
+# web上のパスに合わせて変更して
+
+annotation_directory = "data/anotation_data/"
+annotation_filename_template = "cluster_3.csv"
+
+
 # ===================================================================
 # いじっていい場所終わり
 
@@ -104,15 +111,15 @@ def build_feature_df_with_context(data, group_paths, window=1):
 
 
 # --- データ読み込みと前処理 ---
-def load_and_preprocess(pk_list, annotation_df, window ,target_molded_data):
+def load_and_preprocess(pk_list, annotation_df, window, target_molded_data):
     all_features_list, all_labels_list = [], []
     inference_plays = None
-    
+
     for gamepk in pk_list:
         gamepk_str = str(gamepk)
         molded_path = molded_path_template.format(gamepk=gamepk_str)
 
-        if(gamepk != PK_INFERENCE_TARGET or target_molded_data is None):
+        if gamepk != PK_INFERENCE_TARGET or target_molded_data is None:
             try:
                 with open(molded_path, encoding="utf-8") as f:
                     data = json.load(f)
@@ -193,7 +200,7 @@ def catBoost_info_jufge(target_molded_data):
         f"=== CatBoost Model: Training on {len(PK_TRAIN)} Fixed Games, Inferring on {PK_INFERENCE_TARGET} ==="
     )
 
-    annotation_path = "data/anotation_data/cluster_3.csv"
+    annotation_path = annotation_directory + annotation_filename_template
     try:
         annotation_df = pd.read_csv(annotation_path)
     except FileNotFoundError:
@@ -201,13 +208,15 @@ def catBoost_info_jufge(target_molded_data):
         return
 
     # 訓練用試合と推論用試合を読み込み、前処理
-    X_full, y_full, inference_plays = load_and_preprocess(PK_LIST_ALL, annotation_df, TARGET_WINDOW ,target_molded_data)
+    X_full, y_full, inference_plays = load_and_preprocess(
+        PK_LIST_ALL, annotation_df, TARGET_WINDOW, target_molded_data
+    )
 
     if X_full is None:
         print("[STOP] No processable data found.")
         return
 
-    # 訓練セットを抽出 
+    # 訓練セットを抽出
     train_mask = X_full["gamepk"].isin(PK_TRAIN)
     X_train = X_full[train_mask].drop(columns=["gamepk"])
     y_train = y_full[train_mask].astype(int)
@@ -266,14 +275,16 @@ def catBoost_info_jufge(target_molded_data):
                 "e_id": inference_plays[idx]["detail"]["e_id"],
                 "p_id": inference_plays[idx]["detail"]["p_id"],
                 "inning": inference_plays[idx]["detail"]["inning"],
-                "inning_top": inference_plays[idx]["detail"]["inning_top"]
+                "inning_top": inference_plays[idx]["detail"]["inning_top"],
             }
             for i, (idx, prob) in enumerate(prob_df["prob_exciting"].items())
-        ]
+        ],
     }
 
     if pk_results:
-        output_filename = os.path.join(OUTPUT_DIR, output_filename_template.format(gamepk=PK_INFERENCE_TARGET))
+        output_filename = os.path.join(
+            OUTPUT_DIR, output_filename_template.format(gamepk=PK_INFERENCE_TARGET)
+        )
         with open(output_filename, "w", encoding="utf-8") as f:
             json.dump(pk_results, f, ensure_ascii=False, indent=4)
         print(
@@ -283,7 +294,7 @@ def catBoost_info_jufge(target_molded_data):
         print(
             f"   - [ERROR] Inference data for gamepk {PK_INFERENCE_TARGET} was empty."
         )
-        
+
     return pk_results
 
 
