@@ -39,21 +39,20 @@ PK_INFERENCE_TARGET = 778062
 # データベースに格納するときはここを適宜変更して
 OUTPUT_DIR = "data/catboost_predictions/"
 
+# 推論結果の出力時のファイル名テンプレート
+# web上のパスに合わせて変更して
+output_filename_template = "prob_{gamepk}.json"
+
 # molded_dataのパスのテンプレート
 # web上のパスに合わせて変更して
 # 今はtest2って名前にしてる、testと混同するから変えて(懇願)
 molded_path_template = "data/test_molded_data/{gamepk}_test2_molded_data.json"
-
-# 推論結果の出力時のファイル名テンプレート
-# web上のパスに合わせて変更して
-output_filename_template = "prob_{gamepk}.json"
 
 # アノテーションデータが格納されているのパスのテンプレートとファイル名の指定
 # web上のパスに合わせて変更して
 
 annotation_directory = "data/anotation_data/"
 annotation_filename_template = "cluster_3.csv"
-
 
 # ===================================================================
 # いじっていい場所終わり
