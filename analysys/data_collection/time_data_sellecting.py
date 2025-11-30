@@ -14,7 +14,7 @@ sys.path.append(
 
 # 出力先のディレクトリテンプレート
 # web上のパスに合わせて変更して
-OUTPUT_DIR = "data/test_molded_data/"
+OUTPUT_DIR = "data/anotation_data/annotation_molded_data/"
 
 # 出力ファイル名のテンプレート
 #web上のパスに合わせて変更して
@@ -158,8 +158,8 @@ def time_data_sellecting(match_data, gamepk):
         # `all_plays`のロジックを動かすため
 
     # --- 4. 保存 ---
-    output_filename = OUTPUT_DIR + OUTPUT_FILENAME_TEMPLATE.format(gamepk=gamepk)
-    with open(output_filename, "w", encoding="utf-8") as f:
+    output_filename = OUTPUT_FILENAME_TEMPLATE.format(gamepk=gamepk)
+    with open(OUTPUT_DIR + output_filename, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"保存完了：{output_filename}")
@@ -167,26 +167,49 @@ def time_data_sellecting(match_data, gamepk):
 
 
 if __name__ == "__main__":
+    # pk_list = [
+    #     "778199",
+    #     "777579",
+    #     "777863",
+    #     "777940",
+    #     "777571",
+    #     "777988",
+    #     "778062",
+    #     "778434",
+    #     "777701",
+    #     "778444",
+    #     "777649",
+    #     "778220",
+    #     "778406",
+    #     "778544",
+    #     "777726",
+    #     "778285",
+    #     "778262",
+    #     "778163",
+    #     "777505",
+    # ]
     pk_list = [
         "778199",
         "777579",
         "777863",
-        "777940",
-        "777571",
-        "777988",
-        "778062",
-        "778434",
-        "777701",
-        "778444",
-        "777649",
-        "778220",
-        "778406",
-        "778544",
-        "777726",
-        "778285",
-        "778262",
-        "778163",
-        "777505",
+        "777674",
+        "777553",
+        "777815",
+        "777703",
+        "777987",
+        "778320",
+        "777589",
+        "777585",
+        "777826",
+        "777525",
+        "777502",
+        "777491",
+        "777536",
+        "777511",
+        "777763",
+        "777521",
+        "777508",
+        "777630"
     ]
 
     # テスト用に 1試合だけ実行
