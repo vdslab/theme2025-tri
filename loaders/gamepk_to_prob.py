@@ -19,6 +19,8 @@ def get_data(gamepk):
     
     molded_data = time_data_sellecting(processed_data_ra,gamepk)
     
+    # molded_dataだけを吐き出すためにコメントアウト中
+    
     # analysis_data = catBoost_info_jufge(molded_data)
     
     #return analysis_data
